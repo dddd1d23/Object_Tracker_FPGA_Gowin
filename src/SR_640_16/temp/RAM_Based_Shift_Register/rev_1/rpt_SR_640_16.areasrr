@@ -1,0 +1,81 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW2AR_18ELQFP144-8 (GoWin)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   SR_640_16   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     10                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block SR_640_16:	10 (18.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          28                 100 %                
+MUX2_LUT5     1                  100 %                
+ALU           10                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block SR_640_16:	39 (70.91 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  100 %                
+============================================================
+Total MEMORY ELEMENTS in the block SR_640_16:	1 (1.82 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~RAM_based_shift_reg\.SR_640_16\    ########
+Instance path:   SR_640_16.\\\~RAM_based_shift_reg\.SR_640_16\                            
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     10                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block SR_640_16.\\\~RAM_based_shift_reg\.SR_640_16\ :	10 (18.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          28                 100 %                
+MUX2_LUT5     1                  100 %                
+ALU           10                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block SR_640_16.\\\~RAM_based_shift_reg\.SR_640_16\ :	39 (70.91 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  100 %                
+============================================================
+Total MEMORY ELEMENTS in the block SR_640_16.\\\~RAM_based_shift_reg\.SR_640_16\ :	1 (1.82 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

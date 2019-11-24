@@ -1,0 +1,83 @@
+i clk
+m 0 0
+u 8 27
+p {p:clk}{t:u_psram_top.clk}{p:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_0 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_0 {p:clk} Unconstrained_port Inferred clock from port
+i u_psram_top.ENCNET0
+m 0 0
+u 214 1081
+n ckid0_1 {t:ENCRYPTED} Black box on clock path
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_2 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_1,ckid0_2 {t:ENCRYPTED} CLKDIV Black box on clock path
+i u_psram_top.ENCNET5
+m 0 0
+u 38 38
+n ckid0_3 {t:ENCRYPTED} Black box on clock path
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_3 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_3 {t:ENCRYPTED} DHCEN Black box on clock path
+i u_psram_top.ENCNET1
+m 0 0
+u 2 2
+n ckid0_4 {t:ENCRYPTED} Derived clock on input (not legal for GCC)
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_4 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_5 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET3
+m 0 0
+u 8 8
+n ckid0_6 {t:ENCRYPTED} Derived clock on input (not legal for GCC)
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_6 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_7 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET4
+m 0 0
+u 8 8
+n ckid0_8 {t:ENCRYPTED} Derived clock on input (not legal for GCC)
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_8 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_9 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET7
+m 0 0
+u 0 0
+d ckid0_10 {t:ENCRYPTED} dffre Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET8
+m 0 0
+u 0 0
+d ckid0_11 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET35
+m 0 0
+u 0 0
+d ckid0_12 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET36
+m 0 0
+u 0 0
+d ckid0_13 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET37
+m 0 0
+u 0 0
+d ckid0_14 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET38
+m 0 0
+u 0 0
+d ckid0_15 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET39
+m 0 0
+u 0 0
+d ckid0_16 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET40
+m 0 0
+u 0 0
+d ckid0_17 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET41
+m 0 0
+u 0 0
+d ckid0_18 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_psram_top.ENCNET42
+m 0 0
+u 0 0
+d ckid0_19 {t:ENCRYPTED} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

@@ -1,0 +1,43 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d0.
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d1.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d0.
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d0.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d1.
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d1.
+@N: FX493 |Applying initial value "0" on instance vin_vs_n_falling_r.
+@N: FX493 |Applying initial value "0" on instance vout_vs_n_falling_r.
+@N: FX493 |Applying initial value "1" on instance vin_vs_n_sync3.
+@N: FX493 |Applying initial value "1" on instance vout_vs_n_sync3.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":260:0:260:5|Removing sequential instance hist_equalized_dout_vld (in view: work.histogram_equalized(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance r[31:0] (in view: work.div223_1(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance done (in view: work.div223_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance r[31:0] (in view: work.div223_0(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance done (in view: work.div223_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":77:0:77:5|Removing sequential instance o_vaild (in view: work.sqrt_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":77:0:77:5|Removing sequential instance data_r[11:0] (in view: work.sqrt_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":173:14:173:29|Removing instance threshold_set_u0 (in view: work.myproj_top(verilog)) of type view:work.threshold_set(verilog) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\cmos_capture_rgb565.v":150:1:150:6|Removing sequential instance cmos_fps_rate[7:0] (in view: work.CMOS_Capture_RGB565_10_0_800_0_600_48000000s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Removing sequential instance pre_img_r_CR23[23:0] (in view: work.rgb2hsv_top(verilog)) of type view:PrimLib.ram2(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c0[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c1[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c2[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c3[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c4[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c5[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Removing sequential instance pre_img_r\[1\][23:0] (in view: work.rgb2hsv_top(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c0_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c1_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c2_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c3_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c4_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c5_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance state[10:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN115 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":12:13:12:27|Removing instance uart_byte_rx_u0 (in view: work.threshold_set(verilog)) of type view:work.uart_byte_rx(verilog) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":124:1:124:6|Removing sequential instance data_byte[7:0] (in view: work.uart_byte_rx(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO225 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v":62:0:62:5|There are no possible illegal states for state machine state[3:0] (in view: work.ir_decoder(verilog)); safe FSM implementation is not required.
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor.sap.

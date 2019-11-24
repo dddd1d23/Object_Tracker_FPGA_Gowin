@@ -1,0 +1,71 @@
+#--  Synopsys, Inc.
+#--  Version P-2019.03G-Beta4
+#--  Project file E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\run_options.txt
+#--  Written on Thu Nov  7 22:20:05 2019
+
+
+#project files
+add_file -verilog "E:/Gowin/Gowin_V1.9.2Beta/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg_top.v"
+add_file -verilog "E:/Gowin/Gowin_V1.9.2Beta/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg.v"
+
+
+
+#implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -project_relative_includes 1
+set_option -include_path {E:/gowin_projects/myproj/img_processor_800_600/src/SR_800_1/temp/RAM_Based_Shift_Register;E:/Gowin/Gowin_V1.9.2Beta/IDE/ipcore/RAMBasedShiftRegister/data}
+
+#device options
+set_option -technology GOWIN-GW2AR
+set_option -part GW2AR_18
+set_option -package eLQFP144
+set_option -speed_grade -8
+set_option -part_companion ""
+
+#compilation/mapping options
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# GOWIN-GW2AR
+set_option -maxfan 10000
+set_option -rw_check_on_ram 1
+set_option -disable_io_insertion 1
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -run_prop_extract 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "rev_1/SR_800_1.vm"
+impl -active "rev_1"

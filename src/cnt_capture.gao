@@ -1,0 +1,98 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" device="" sample_clock="cmos_pclk" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" trigger_pos="0">
+        <SignalList>
+            <Bus name="wwcnt[20:0]">
+                <Signal>wwcnt[20]</Signal>
+                <Signal>wwcnt[19]</Signal>
+                <Signal>wwcnt[18]</Signal>
+                <Signal>wwcnt[17]</Signal>
+                <Signal>wwcnt[16]</Signal>
+                <Signal>wwcnt[15]</Signal>
+                <Signal>wwcnt[14]</Signal>
+                <Signal>wwcnt[13]</Signal>
+                <Signal>wwcnt[12]</Signal>
+                <Signal>wwcnt[11]</Signal>
+                <Signal>wwcnt[10]</Signal>
+                <Signal>wwcnt[9]</Signal>
+                <Signal>wwcnt[8]</Signal>
+                <Signal>wwcnt[7]</Signal>
+                <Signal>wwcnt[6]</Signal>
+                <Signal>wwcnt[5]</Signal>
+                <Signal>wwcnt[4]</Signal>
+                <Signal>wwcnt[3]</Signal>
+                <Signal>wwcnt[2]</Signal>
+                <Signal>wwcnt[1]</Signal>
+                <Signal>wwcnt[0]</Signal>
+            </Bus>
+            <Bus name="frame_cnt[20:0]">
+                <Signal>frame_cnt[20]</Signal>
+                <Signal>frame_cnt[19]</Signal>
+                <Signal>frame_cnt[18]</Signal>
+                <Signal>frame_cnt[17]</Signal>
+                <Signal>frame_cnt[16]</Signal>
+                <Signal>frame_cnt[15]</Signal>
+                <Signal>frame_cnt[14]</Signal>
+                <Signal>frame_cnt[13]</Signal>
+                <Signal>frame_cnt[12]</Signal>
+                <Signal>frame_cnt[11]</Signal>
+                <Signal>frame_cnt[10]</Signal>
+                <Signal>frame_cnt[9]</Signal>
+                <Signal>frame_cnt[8]</Signal>
+                <Signal>frame_cnt[7]</Signal>
+                <Signal>frame_cnt[6]</Signal>
+                <Signal>frame_cnt[5]</Signal>
+                <Signal>frame_cnt[4]</Signal>
+                <Signal>frame_cnt[3]</Signal>
+                <Signal>frame_cnt[2]</Signal>
+                <Signal>frame_cnt[1]</Signal>
+                <Signal>frame_cnt[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>I_rst_n</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions>
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+</GAO_CONFIG>

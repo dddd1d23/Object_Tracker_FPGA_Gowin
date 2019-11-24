@@ -1,0 +1,54 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+Modified Files: 13
+FID:  path (prevtimestamp, timestamp)
+0        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v (N/A, 2019-08-30 13:57:30)
+1        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v (N/A, 2019-08-30 13:57:30)
+2        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v (N/A, 2019-08-30 13:57:30)
+3        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v (N/A, 2019-08-30 13:57:30)
+4        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v (N/A, 2019-08-30 13:57:30)
+5        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v (N/A, 2019-08-03 01:46:04)
+6        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2019-08-03 00:54:14)
+7        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2019-08-03 00:54:14)
+8        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2019-08-03 00:54:14)
+9        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2019-08-03 00:54:14)
+10       E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_expression.v (N/A, 2019-11-17 13:24:32)
+11       E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v (N/A, 2019-11-17 13:24:32)
+12       E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_top_define.v (N/A, 2019-11-17 13:24:32)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 4
+MID:  lib.cell.view
+0        work.ao_crc32_0.verilog may have changed because the following files changed:
+                        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v (N/A, 2019-08-30 13:57:30) <-- (module definition)
+                        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v (N/A, 2019-08-30 13:57:30) <-- (may instantiate this module)
+1        work.ao_match_0.verilog may have changed because the following files changed:
+                        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v (N/A, 2019-08-30 13:57:30) <-- (module definition)
+                        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v (N/A, 2019-08-30 13:57:30) <-- (may instantiate this module)
+2        work.ao_mem_ctrl_0.verilog may have changed because the following files changed:
+                        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v (N/A, 2019-08-30 13:57:30) <-- (module definition)
+                        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v (N/A, 2019-08-30 13:57:30) <-- (may instantiate this module)
+3        work.ao_top_0.verilog may have changed because the following files changed:
+                        E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v (N/A, 2019-08-30 13:57:30) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

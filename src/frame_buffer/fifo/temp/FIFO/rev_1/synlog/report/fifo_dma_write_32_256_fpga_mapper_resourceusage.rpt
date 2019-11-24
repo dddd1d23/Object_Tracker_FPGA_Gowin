@@ -1,0 +1,29 @@
+---------------------------------------
+Resource Usage Report for fifo_dma_write_32_256 
+
+Mapping to part: gw2a_18pbga256-8
+Cell usage:
+ALU             39 uses
+DFFC            88 uses
+DFFE            8 uses
+DFFNP           4 uses
+DFFP            1 use
+GSR             1 use
+INV             9 uses
+MUX2_LUT5       3 uses
+MUX2_LUT6       1 use
+SDPX9           32 uses
+LUT2            31 uses
+LUT3            9 uses
+LUT4            32 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   101 of 15552 (0%)
+
+RAM/ROM usage summary
+Block Rams : 32 of 46 (69%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 72 (0%)
+

@@ -1,0 +1,23 @@
+---------------------------------------
+Resource Usage Report for SR_800_16 
+
+Mapping to part: gw2ar_18elqfp144-8
+Cell usage:
+ALU             10 uses
+DFFC            10 uses
+GSR             1 use
+SP              1 use
+LUT2            17 uses
+LUT3            1 use
+LUT4            8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   10 of 15552 (0%)
+
+RAM/ROM usage summary
+Block Rams : 1 of 46 (2%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 26 (0%)
+

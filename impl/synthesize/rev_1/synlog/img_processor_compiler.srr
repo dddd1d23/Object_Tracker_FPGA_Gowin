@@ -1,0 +1,1213 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\datatest.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_debounce.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\led_test.v" (library work)
+@I:"E:\gowin_projects\myproj\myproj_blue2_ircon\src\led_test.v":"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vfb_defines.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\testpattern.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\testpattern.v":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_16b_32b.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_16b_32b.v":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_24b_32b.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_24b_32b.v":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_16b.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_16b.v":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_24b.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_24b.v":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_defines.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_top.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v" (library work)
+@W: CG1337 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":59:8:59:21|Net cmos_vsync_end is not declared.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_RGB565_Config.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\psram_memory_interface\psram_memory_interface.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\gw_pll.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\gw_pll.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\pix_pll.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\pix_pll.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_75m\pll_75m.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_75m\pll_75m.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_100M\pll_100M.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_100M\pll_100M.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_24M\pll_24M.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_24M\pll_24M.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_25m\pll_25m.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_25m\pll_25m.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\syn_code\syn_gen.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\syn_code\syn_gen.v":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_bus_arbiter.vp" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_bus_arbiter.vp":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_buffer.vp" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_buffer.vp":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_ctrl.vp" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_ctrl.vp":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_read_ctrl.vp" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_read_ctrl.vp":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_write_ctrl.vp" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_write_ctrl.vp":2:8:2:11|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vfb_test.v" (library work)
+@W: CG1337 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vfb_test.v":53:7:53:14|Net row_flag is not declared.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\fifo\fifo_dma_read_64_32.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\fifo\fifo_dma_write_32_64.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pix2_pll\pix2_pll.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pix2_pll\pix2_pll.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_640_16\SR_640_16.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_5_5_16.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_1280_L5.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SR_1280_16.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb565_888.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb888_565.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v" (library work)
+@W: CG1337 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v":34:7:34:14|Net row_flag is not declared.
+@W: CG1337 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v":61:7:61:13|Net in_line is not declared.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v" (library work)
+@W: CG1337 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":193:7:193:10|Net pick is not declared.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_16.v" (library work)
+@W: CG289 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_16.v":6:24:6:31|Specified digits overflow the number's size
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_1280_L3.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_matrix_median_3_3.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\median_filter_3_3.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_36m\pll_36m.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_36m\pll_36m.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\RGB565_YCbCr_gray.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb16_24.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb24_16.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_1\SR_800_1.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SHIFT_RAM_1Bit_1280.v" (library work)
+@W: CG1337 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SHIFT_RAM_1Bit_1280.v":10:7:10:10|Net clkw is not declared.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_1.v" (library work)
+@W: CG289 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_1.v":7:23:7:30|Specified digits overflow the number's size
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_dilation.v" (library work)
+@W: CG289 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_dilation.v":7:23:7:30|Specified digits overflow the number's size
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_erosion.v" (library work)
+@W: CG289 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_erosion.v":7:23:7:30|Specified digits overflow the number's size
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v" (library work)
+@W: CG1337 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v":35:7:35:14|Net row_flag is not declared.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_ctrl.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp00\sdp00.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp00\sdp00.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp01\sdp01.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp01\sdp01.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp_256_8\sdp_256_8.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp_256_8\sdp_256_8.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\dp_256_32\dp_256_32.v" (library work)
+@W: CS141 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\dp_256_32\dp_256_32.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_16\SR_800_16.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_800_L5.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_filter.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_to_sw.v" (library work)
+Verilog syntax check successful!
+File E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v changed - recompiling
+File E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_RGB565_Config.v changed - recompiling
+Selecting top level module myproj_top
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v":10:7:10:16|Synthesizing module ir_decoder in library work.
+Running optimization stage 1 on ir_decoder .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_to_sw.v":1:7:1:14|Synthesizing module ir_to_sw in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_to_sw.v":23:21:23:22|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_to_sw.v":24:20:24:21|Removing redundant assignment.
+Running optimization stage 1 on ir_to_sw .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_filter.v":1:7:1:16|Synthesizing module key_filter in library work.
+Running optimization stage 1 on key_filter .......
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_filter.v":54:0:54:5|Feedback mux created for signal cnt_en. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v":1:7:1:20|Synthesizing module I2C_Controller in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v":81:16:81:25|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v":295:16:295:24|Removing redundant assignment.
+Running optimization stage 1 on I2C_Controller .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_RGB565_Config.v":1:7:1:30|Synthesizing module I2C_OV5640_RGB565_Config in library work.
+Running optimization stage 1 on I2C_OV5640_RGB565_Config .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":30:7:30:28|Synthesizing module I2C_OV5640_Init_RGB565 in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":158:17:158:25|Removing redundant assignment.
+Running optimization stage 1 on I2C_OV5640_Init_RGB565 .......
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Feedback mux created for signal i2c_data[39:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[24] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[25] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[26] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[27] is always 1.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[28] is always 1.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[29] is always 1.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[30] is always 1.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[31] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[33] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[34] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Register bit i2c_data[39] is always 0.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Pruning register bit 39 of i2c_data[39:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Pruning register bits 34 to 33 of i2c_data[39:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Pruning register bits 31 to 24 of i2c_data[39:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_debounce.v":26:7:26:18|Synthesizing module key_debounce in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_debounce.v":73:17:73:21|Removing redundant assignment.
+Running optimization stage 1 on key_debounce .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":1:7:1:18|Synthesizing module uart_byte_rx in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":105:13:105:19|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":177:18:177:26|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":178:23:178:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":179:23:179:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":180:23:180:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":181:23:181:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":182:23:182:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":183:23:183:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":184:23:184:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":185:23:185:37|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":186:17:186:24|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":199:16:199:25|Removing redundant assignment.
+Running optimization stage 1 on uart_byte_rx .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":138:1:138:6|Pruning unused register STOP_BIT[2:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":1:7:1:19|Synthesizing module threshold_set in library work.
+Running optimization stage 1 on threshold_set .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v":1:7:1:16|Synthesizing module power_ctrl in library work.
+Running optimization stage 1 on power_ctrl .......
+@N: CG364 :"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v":1843:7:1843:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_100M\pll_100M.v":8:7:8:14|Synthesizing module pll_100M in library work.
+Running optimization stage 1 on pll_100M .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_36m\pll_36m.v":8:7:8:13|Synthesizing module pll_36m in library work.
+Running optimization stage 1 on pll_36m .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_24M\pll_24M.v":8:7:8:13|Synthesizing module pll_24M in library work.
+Running optimization stage 1 on pll_24M .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":2:7:2:25|Synthesizing module CMOS_Capture_RGB565 in library work.
+
+	CMOS_FRAME_WAITCNT=4'b1010
+	OUTIMG_HSTART=12'b000000000000
+	OUTIMG_HSTOP=12'b001100100000
+	OUTIMG_VSTART=12'b000000000000
+	OUTIMG_VSTOP=12'b001001011000
+	DELAY_TOP=32'b00000010110111000110110000000000
+   Generated name = CMOS_Capture_RGB565_10_0_800_0_600_48000000s
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":69:58:69:69|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":83:21:83:35|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":103:24:103:40|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":108:23:108:39|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":156:59:156:71|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":157:19:157:31|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":182:10:182:13|Removing redundant assignment.
+Running optimization stage 1 on CMOS_Capture_RGB565_10_0_800_0_600_48000000s .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\datatest.v":1:7:1:14|Synthesizing module datatest in library work.
+Running optimization stage 1 on datatest .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v":1:7:1:18|Synthesizing module uart_byte_tx in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v":44:16:44:25|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v":52:17:52:27|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v":99:13:99:19|Removing redundant assignment.
+Running optimization stage 1 on uart_byte_tx .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":1:7:1:22|Synthesizing module esp8266_send_top in library work.
+Running optimization stage 1 on esp8266_send_top .......
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Feedback mux created for signal s_xor[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Feedback mux created for signal s_en. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Feedback mux created for signal s_data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Feedback mux created for signal s_d4[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Feedback mux created for signal s_d3[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Feedback mux created for signal s_d2[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Feedback mux created for signal s_d1[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":1:7:1:14|Synthesizing module pwm_out2 in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":37:60:37:69|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":57:21:57:27|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":70:23:70:27|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":80:21:80:27|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":93:34:93:40|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":97:34:97:40|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":102:22:102:28|Removing redundant assignment.
+Running optimization stage 1 on pwm_out2 .......
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":43:0:43:5|Feedback mux created for signal wait1_cnt[5:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":43:0:43:5|Feedback mux created for signal wait0_cnt[5:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":43:0:43:5|Feedback mux created for signal val_max[19:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":43:0:43:5|Feedback mux created for signal pwm_find[18:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_ctrl.v":1:7:1:14|Synthesizing module pwm_ctrl in library work.
+Running optimization stage 1 on pwm_ctrl .......
+Running optimization stage 1 on dma_16b_32b .......
+Running optimization stage 1 on GSR .......
+Running optimization stage 1 on INV .......
+Running optimization stage 1 on LUT4 .......
+Running optimization stage 1 on LUT3 .......
+Running optimization stage 1 on LUT2 .......
+Running optimization stage 1 on MUX2_LUT5 .......
+Running optimization stage 1 on DFFP .......
+Running optimization stage 1 on DFFC .......
+Running optimization stage 1 on DFFCE .......
+Running optimization stage 1 on DFFNP .......
+Running optimization stage 1 on SDPX9 .......
+Running optimization stage 1 on ALU .......
+Running optimization stage 1 on GND .......
+Running optimization stage 1 on VCC .......
+Running optimization stage 1 on \~fifo.fifo_dma_write_32_64_  .......
+Running optimization stage 1 on fifo_dma_write_32_64 .......
+Running optimization stage 1 on dma_write_ctrl_256s_21s_64s_16s_32s_32s_5s_7s_2s .......
+Running optimization stage 1 on dma_32b_16b .......
+Running optimization stage 1 on MUX2_LUT6 .......
+Running optimization stage 1 on \~fifo.fifo_dma_read_64_32_  .......
+Running optimization stage 1 on fifo_dma_read_64_32 .......
+Running optimization stage 1 on dma_read_ctrl_256s_21s_64s_16s_32s_64s_5s_2s .......
+Running optimization stage 1 on dma_frame_ctrl_1048576_21s .......
+Running optimization stage 1 on dma_frame_buffer_1048576_256s_256s_21s_64s_16s .......
+Running optimization stage 1 on dma_bus_arbiter_21s_64s_1_2_4_8 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_top.v":26:7:26:13|Synthesizing module vfb_top in library work.
+
+	IMAGE_SIZE=24'b000100000000000000000000
+	BURST_WRITE_LENGTH=32'b00000000000000000000000100000000
+	BURST_READ_LENGTH=32'b00000000000000000000000100000000
+	ADDR_WIDTH=32'b00000000000000000000000000010101
+	DATA_WIDTH=32'b00000000000000000000000001000000
+	VIDEO_WIDTH=32'b00000000000000000000000000010000
+   Generated name = vfb_top_1048576_256s_256s_21s_64s_16s
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_top.v":129:21:129:35|Port-width mismatch for port dma_base_addr_i. The port definition is 21 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on vfb_top_1048576_256s_256s_21s_64s_16s .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\gw_pll.v":8:7:8:12|Synthesizing module gw_pll in library work.
+Running optimization stage 1 on gw_pll .......
+Running optimization stage 1 on CLKDIV .......
+Running optimization stage 1 on DHCEN .......
+Running optimization stage 1 on DLL .......
+Running optimization stage 1 on OBUF .......
+Running optimization stage 1 on IOBUF .......
+Running optimization stage 1 on ELVDS_OBUF .......
+Running optimization stage 1 on IODELAY .......
+Running optimization stage 1 on OSER4 .......
+Running optimization stage 1 on IDES4 .......
+Running optimization stage 1 on \~psram_lane.PSRAM_Memory_Interface_Top__Z2  .......
+Running optimization stage 1 on \~psram_lane.PSRAM_Memory_Interface_Top__Z1  .......
+Running optimization stage 1 on \~psram_wd.PSRAM_Memory_Interface_Top_  .......
+Running optimization stage 1 on \~psram_init.PSRAM_Memory_Interface_Top_  .......
+Running optimization stage 1 on DFFPE .......
+Running optimization stage 1 on \~psram_sync.PSRAM_Memory_Interface_Top_  .......
+Running optimization stage 1 on \~psram_top.PSRAM_Memory_Interface_Top_  .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\psram_memory_interface\psram_memory_interface.v":13845:7:13845:32|Synthesizing module PSRAM_Memory_Interface_Top in library work.
+Running optimization stage 1 on PSRAM_Memory_Interface_Top .......
+@W: CL168 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\psram_memory_interface\psram_memory_interface.v":13942:6:13942:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\syn_code\syn_gen.v":13:7:13:13|Synthesizing module syn_gen in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\syn_code\syn_gen.v":66:13:66:17|Removing redundant assignment.
+Running optimization stage 1 on syn_gen .......
+Running optimization stage 1 on SP .......
+Running optimization stage 1 on \~RAM_based_shift_reg.SR_800_16_  .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_16\SR_800_16.v":459:7:459:15|Synthesizing module SR_800_16 in library work.
+Running optimization stage 1 on SR_800_16 .......
+@W: CL168 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_16\SR_800_16.v":492:6:492:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_800_L5.v":1:7:1:28|Synthesizing module Shift_RAM_16Bit_800_L5 in library work.
+Running optimization stage 1 on Shift_RAM_16Bit_800_L5 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_5_5_16.v":4:7:4:23|Synthesizing module img_matrix_5_5_16 in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_5_5_16.v":38:18:38:26|Removing redundant assignment.
+Running optimization stage 1 on img_matrix_5_5_16 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb565_888.v":1:7:1:16|Synthesizing module rgb565_888 in library work.
+Running optimization stage 1 on rgb565_888 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb888_565.v":1:7:1:16|Synthesizing module rgb888_565 in library work.
+Running optimization stage 1 on rgb888_565 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":1:7:1:22|Synthesizing module gauss_filter_5_5 in library work.
+Running optimization stage 1 on gauss_filter_5_5 .......
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":196:0:196:5|Pruning unused bits 21 to 16 of r_s[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":196:0:196:5|Pruning unused bits 7 to 0 of r_s[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":196:0:196:5|Pruning unused bits 21 to 16 of g_s[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":196:0:196:5|Pruning unused bits 7 to 0 of g_s[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":196:0:196:5|Pruning unused bits 21 to 16 of b_s[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":196:0:196:5|Pruning unused bits 7 to 0 of b_s[21:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb16_24.v":1:7:1:14|Synthesizing module rgb16_24 in library work.
+Running optimization stage 1 on rgb16_24 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":2:7:2:12|Synthesizing module div222 in library work.
+Running optimization stage 1 on div222 .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning unused register temp_b[16][31:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[1][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[2][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[3][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[4][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[5][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[6][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[7][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[8][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[9][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[10][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[11][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[12][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[13][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[14][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Removing unused bit 31 of temp_a[15][31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Removing unused bit 31 of temp_a[0][31:0]. Either assign all bits or reduce the width of the signal.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][15] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][14] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][13] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][12] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][11] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][10] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][9] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][8] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][7] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][6] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][5] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][4] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][3] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][2] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][1] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_b[0][0] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][30] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][29] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][28] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][27] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][26] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][25] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][24] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][23] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][22] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][21] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][20] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][19] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][18] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][17] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Register bit temp_a[0][16] is always 0.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Pruning register bits 15 to 0 of temp_b[0][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":15:0:15:5|Pruning register bits 30 to 16 of temp_a[0][30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":3:7:3:17|Synthesizing module rgb2hsv_top in library work.
+@W: CG134 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":82:11:82:16|No assignment to bit 18 of sign_f
+Running optimization stage 1 on rgb2hsv_top .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":166:0:166:5|Pruning unused register v[17][7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":166:0:166:5|Pruning unused register h_add[17][8:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":166:0:166:5|Removing unused bit 17 of sign_f_56[17:1]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Removing unused bit 0 of pre_vs_r[18:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Removing unused bit 0 of pre_hs_r[18:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Removing unused bit 0 of pre_clken_r[18:0]. Either assign all bits or reduce the width of the signal.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Feedback mux created for signal pre_img_r[1][23:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Optimizing register bit h_add[0][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Optimizing register bit h_add[0][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Optimizing register bit h_add[0][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Optimizing register bit h_dividend[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Optimizing register bit h_dividend[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Pruning register bits 1 to 0 of h_dividend[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Pruning register bits 2 to 0 of h_add[0][8:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":1:7:1:12|Synthesizing module div227 in library work.
+Running optimization stage 1 on div227 .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning unused register temp_b[30][59:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[1][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[2][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[3][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[4][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[5][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[6][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[7][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[8][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[9][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[10][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[11][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[12][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[13][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[14][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[15][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[16][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[17][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[18][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[19][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[20][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[21][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[22][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[23][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[24][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[25][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[26][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[27][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[28][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Removing unused bit 59 of temp_a[29][59:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Removing unused bit 59 of temp_a[0][59:0]. Either assign all bits or reduce the width of the signal.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][29] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][28] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][27] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][26] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][25] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][24] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][23] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][22] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][21] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][20] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][19] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][18] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][17] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][16] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][15] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][14] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][13] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][12] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][11] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][10] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][9] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][8] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][7] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][6] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][5] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][4] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][3] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][2] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][1] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_b[0][0] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][58] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][57] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][56] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][55] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][54] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][53] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][52] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][51] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][50] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][49] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][48] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][47] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][46] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][45] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][44] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][43] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][42] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][41] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][40] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][39] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][38] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][37] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][36] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][35] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][34] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][33] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][32] is always 0.
+@N: CL189 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Register bit temp_a[0][31] is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synlog\img_processor_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Pruning register bits 29 to 0 of temp_b[0][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Pruning register bits 58 to 30 of temp_a[0][58:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v":809:7:809:9|Synthesizing module SDP in library work.
+Running optimization stage 1 on SDP .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp00\sdp00.v":8:7:8:11|Synthesizing module sdp00 in library work.
+Running optimization stage 1 on sdp00 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp_256_8\sdp_256_8.v":8:7:8:15|Synthesizing module sdp_256_8 in library work.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp_256_8\sdp_256_8.v":41:8:41:16|Port-width mismatch for port DI. The port definition is 32 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp_256_8\sdp_256_8.v":29:8:29:17|Port-width mismatch for port DO. The port definition is 32 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on sdp_256_8 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":1:8:1:26|Synthesizing module histogram_equalized in library work.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":43:32:43:39|Object mul_tmp0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":44:32:44:39|Object mul_tmp1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":45:32:45:39|Object mul_tmp2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":46:32:46:43|Object address_b_r1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":47:32:47:43|Object address_b_r2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":48:32:48:43|Object address_b_r3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":56:32:56:34|Removing wire q_a, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":67:32:67:39|Removing wire hist_q_a, as there is no assignment to it.
+Running optimization stage 1 on histogram_equalized .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":229:0:229:5|Pruning unused register address_b_r[32][7:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":229:0:229:5|Removing unused bit 32 of dout_vld_r[32:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v":1:8:1:30|Synthesizing module histogram_equalized_top in library work.
+@N: CG793 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v":79:25:79:32|Ignoring system task $display
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v":70:33:70:36|Port-width mismatch for port dout. The port definition is 32 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v":21:32:21:54|Removing wire hist_equalized_dout_vld, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v":22:32:22:50|Removing wire hist_equalized_dout, as there is no assignment to it.
+Running optimization stage 1 on histogram_equalized_top .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":1:7:1:12|Synthesizing module div225 in library work.
+Running optimization stage 1 on div225 .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning unused register temp_b[24][47:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[1][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[2][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[3][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[4][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[5][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[6][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[7][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[8][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[9][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[10][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[11][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[12][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[13][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[14][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[15][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[16][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[17][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[18][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[19][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[20][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[21][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[22][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Removing unused bit 47 of temp_a[23][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":14:0:14:5|Removing unused bit 47 of temp_a[0][47:0]. Either assign all bits or reduce the width of the signal.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":14:0:14:5|Pruning register bits 23 to 0 of temp_b[0][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":14:0:14:5|Pruning register bits 46 to 24 of temp_a[0][46:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":3:7:3:13|Synthesizing module hsv2rgb in library work.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":19:19:19:20|Object I3 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on hsv2rgb .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|Pruning unused register v2[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|Pruning unused register s2[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|Pruning unused register f2[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|Pruning unused register I2[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":57:0:57:5|Pruning unused register v1[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":57:0:57:5|Pruning unused register s1[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":57:0:57:5|Pruning unused register I1[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register hsv_r[29][23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register hsv_r[30][23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register hsv_r[31][23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register hsv_r[32][23:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register I_r[27][3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register I_r[28][3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register I_r[29][3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register I_r[30][3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register I_r[31][3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused register I_r[32][3:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused bits 32 to 29 of clken_r[32:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused bits 32 to 29 of hs_r[32:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Pruning unused bits 32 to 29 of vs_r[32:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 0 of v0s060[23:0] assign 0, register removed by optimization.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 1 of v0s060[23:0] assign 0, register removed by optimization.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 22 of v0s060[23:0] assign 0, register removed by optimization.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 23 of v0s060[23:0] assign 0, register removed by optimization.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 0 of v025560[23:0] assign 0, register removed by optimization.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 1 of v025560[23:0] assign 0, register removed by optimization.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 22 of v025560[23:0] assign 0, register removed by optimization.
+@W: CL208 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":69:0:69:5|All reachable assignments to bit 23 of v025560[23:0] assign 0, register removed by optimization.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":24:0:24:5|Optimizing register bit I0[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":24:0:24:5|Pruning register bit 3 of I0[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v":1:7:1:12|Synthesizing module hist_v in library work.
+@W: CG781 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v":12:12:12:25|Input c0 on instance rgb2hsv_top_u0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v":12:12:12:25|Input c1 on instance rgb2hsv_top_u0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v":12:12:12:25|Input c2 on instance rgb2hsv_top_u0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v":12:12:12:25|Input c3 on instance rgb2hsv_top_u0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v":12:12:12:25|Input c4 on instance rgb2hsv_top_u0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v":12:12:12:25|Input c5 on instance rgb2hsv_top_u0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on hist_v .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb24_16.v":1:7:1:14|Synthesizing module rgb24_16 in library work.
+Running optimization stage 1 on rgb24_16 .......
+Running optimization stage 1 on \~RAM_based_shift_reg.SR_800_1_  .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_1\SR_800_1.v":354:7:354:14|Synthesizing module SR_800_1 in library work.
+Running optimization stage 1 on SR_800_1 .......
+@W: CL168 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_1\SR_800_1.v":387:6:387:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SHIFT_RAM_1Bit_1280.v":1:7:1:24|Synthesizing module Shift_RAM_1Bit_800 in library work.
+Running optimization stage 1 on Shift_RAM_1Bit_800 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_1.v":4:7:4:22|Synthesizing module img_matrix_3_3_1 in library work.
+
+	IMG_H=10'b1111000100
+	IMG_V=10'b0110100100
+   Generated name = img_matrix_3_3_1_964_420
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_1.v":37:18:37:26|Removing redundant assignment.
+Running optimization stage 1 on img_matrix_3_3_1_964_420 .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_erosion.v":4:7:4:17|Synthesizing module img_erosion in library work.
+Running optimization stage 1 on img_erosion .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_dilation.v":4:7:4:18|Synthesizing module img_dilation in library work.
+Running optimization stage 1 on img_dilation .......
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_dilation.v":89:0:89:5|Feedback mux created for signal pre_img_data_r[1][15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_dilation.v":89:0:89:5|Feedback mux created for signal pre_img_data_r[0][15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":1:7:1:18|Synthesizing module erode_dilate in library work.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":18:5:18:12|Removing wire post_hs1, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":18:14:18:21|Removing wire post_vs1, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":18:23:18:33|Removing wire post_clken1, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":18:35:18:46|Removing wire post_imgbit1, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":19:5:19:12|Removing wire post_hs2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":19:14:19:21|Removing wire post_vs2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":19:23:19:33|Removing wire post_clken2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":19:35:19:46|Removing wire post_imgbit2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":20:5:20:12|Removing wire post_hs3, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":20:14:20:21|Removing wire post_vs3, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":20:23:20:33|Removing wire post_clken3, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":20:35:20:46|Removing wire post_imgbit3, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":21:12:21:24|Removing wire post_imgdata1, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v":21:26:21:38|Removing wire post_imgdata2, as there is no assignment to it.
+Running optimization stage 1 on erode_dilate .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":1:7:1:12|Synthesizing module div223 in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":85:14:85:19|Removing redundant assignment.
+Running optimization stage 1 on div223 .......
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Feedback mux created for signal temp_b[63:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Feedback mux created for signal temp_a[63:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Pruning register bits 31 to 0 of temp_b[63:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":1:7:1:12|Synthesizing module sqrt_1 in library work.
+@W: CG390 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":58:42:58:45|Repeat multiplier in concatenation evaluates to 0
+@W: CG390 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":62:42:62:45|Repeat multiplier in concatenation evaluates to 0
+Running optimization stage 1 on sqrt_1 .......
+@W: CL207 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":20:0:20:5|All reachable assignments to Q_q[11][10:0] assign 0, register removed by optimization.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[2].Q_z[2][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[3].Q_z[3][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[3].Q_z[3][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[4].Q_z[4][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[4].Q_z[4][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[4].Q_z[4][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[5].Q_z[5][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[5].Q_z[5][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[5].Q_z[5][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[5].Q_z[5][3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[6].Q_z[6][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[6].Q_z[6][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[6].Q_z[6][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[6].Q_z[6][3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[6].Q_z[6][4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[7].Q_z[7][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[7].Q_z[7][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[7].Q_z[7][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[7].Q_z[7][3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[7].Q_z[7][4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[7].Q_z[7][5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[8].Q_z[8][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[8].Q_z[8][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[8].Q_z[8][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[8].Q_z[8][3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[8].Q_z[8][4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[8].Q_z[8][5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[8].Q_z[8][6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_z[9][7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_z[10][8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bit 0 of U[2].Q_z[2][10:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 1 to 0 of U[3].Q_z[3][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 2 to 0 of U[4].Q_z[4][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 3 to 0 of U[5].Q_z[5][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 4 to 0 of U[6].Q_z[6][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 5 to 0 of U[7].Q_z[7][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 6 to 0 of U[8].Q_z[8][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 7 to 0 of U[9].Q_z[9][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 8 to 0 of U[10].Q_z[10][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v":1:7:1:20|Synthesizing module box_calculator in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v":33:16:33:20|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v":45:16:45:20|Removing redundant assignment.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v":70:74:70:75|Port-width mismatch for port q. The port definition is 32 bits, but the actual port connection bit width is 11. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v":71:74:71:75|Port-width mismatch for port q. The port definition is 32 bits, but the actual port connection bit width is 11. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on box_calculator .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v":1:7:1:18|Synthesizing module vga_mark_out in library work.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v":32:16:32:20|Removing redundant assignment.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v":44:16:44:20|Removing redundant assignment.
+Running optimization stage 1 on vga_mark_out .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v":1:7:1:22|Synthesizing module vga_mark_out_top in library work.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v":29:5:29:6|Port-width mismatch for port px. The port definition is 11 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v":29:13:29:14|Port-width mismatch for port py. The port definition is 11 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v":29:20:29:20|Port-width mismatch for port a. The port definition is 11 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v":34:5:34:6|Port-width mismatch for port px. The port definition is 11 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v":34:13:34:14|Port-width mismatch for port py. The port definition is 11 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v":34:20:34:20|Port-width mismatch for port a. The port definition is 11 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on vga_mark_out_top .......
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":3:7:3:20|Synthesizing module img_processor2 in library work.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":20:5:20:12|Removing wire post_hs2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":20:14:20:21|Removing wire post_vs2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":20:23:20:33|Removing wire post_clken2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":46:12:46:15|Removing wire tmp0, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":46:17:46:20|Removing wire tmp1, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":46:22:46:25|Removing wire tmp2, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":46:27:46:40|Removing wire pre_imgdata_24, as there is no assignment to it.
+Running optimization stage 1 on img_processor2 .......
+
+Only the first 100 messages of id 'CG364' are reported. To see all messages use 'report_messages -log E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synlog\img_processor_compiler.srr -id CG364' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG364} -count unlimited' in the Tcl shell.
+@N: CG179 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":315:20:315:28|Removing redundant assignment.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":40:11:40:15|Removing wire vga_r, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":40:17:40:21|Removing wire vga_g, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":40:23:40:27|Removing wire vga_b, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":116:12:116:20|Removing wire ch0_vs_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":117:12:117:20|Removing wire ch0_hs_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":118:12:118:20|Removing wire ch0_de_in, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":119:12:119:21|Removing wire ch0_data_r, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":120:12:120:21|Removing wire ch0_data_g, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":121:12:121:21|Removing wire ch0_data_b, as there is no assignment to it.
+@W: CG360 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":261:12:261:18|Removing wire rgb_out, as there is no assignment to it.
+Running optimization stage 1 on myproj_top .......
+@W: CL168 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":266:9:266:11|Removing instance dt0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":80:11:80:23|Removing instance key_filter_u0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":317:0:317:5|Pruning unused register sw00. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":311:0:311:5|Pruning unused register frame_cnt. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":300:0:300:5|Pruning unused register cmos_frame_vsync_r. Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on myproj_top .......
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":8:10:8:13|Input key2 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":9:10:9:16|Input H_B_IO7 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":10:10:10:16|Input H_B_IO0 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":10:18:10:24|Input H_B_IO1 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":10:26:10:32|Input H_B_IO2 is unused.
+Running optimization stage 2 on img_processor2 .......
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":7:16:7:17|Input c0 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":7:19:7:20|Input c1 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":7:22:7:23|Input c2 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":7:25:7:26|Input c3 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":7:28:7:29|Input c4 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v":7:31:7:32|Input c5 is unused.
+Running optimization stage 2 on vga_mark_out_top .......
+Running optimization stage 2 on vga_mark_out .......
+@W: CL247 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v":8:17:8:17|Input port bit 10 of a[10:0] is unused
+
+@W: CL247 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v":8:17:8:17|Input port bit 0 of a[10:0] is unused
+
+Running optimization stage 2 on box_calculator .......
+Running optimization stage 2 on sqrt_1 .......
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":20:0:20:5|Pruning register bits 9 to 1 of Q_z[11][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[2].ivalid_t[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[3].ivalid_t[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[4].ivalid_t[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[5].ivalid_t[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[6].ivalid_t[6]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[7].ivalid_t[7]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[8].ivalid_t[8]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[9].ivalid_t[9]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[10].ivalid_t[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[1].ivalid_t[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 1 of U[1].Q_z[1][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 2 of U[2].Q_z[2][10:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 3 of U[3].Q_z[3][10:2]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 4 of U[4].Q_z[4][10:3]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 5 of U[5].Q_z[5][10:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 6 of U[6].Q_z[6][10:5]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 7 of U[7].Q_z[7][10:6]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 8 of U[8].Q_z[8][10:7]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 10 to 9 of U[9].Q_z[9][10:8]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":20:0:20:5|Pruning unused register Q_z[11][0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":20:0:20:5|Pruning unused register Q_z[11][10]. Make sure that there are no unused intermediate registers.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 9 to 1 of U[10].Q_q[10][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[10].Q_q[10][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 8 to 1 of U[9].Q_q[9][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning unused register U[10].Q_q[10][0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[9].Q_q[9][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 7 to 1 of U[8].Q_q[8][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning unused register U[9].Q_q[9][0]. Make sure that there are no unused intermediate registers.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 6 to 1 of U[7].Q_q[7][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sharing sequential element U[10].Q_q[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Optimizing register bit U[7].Q_q[7][0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning register bits 4 to 1 of U[6].Q_q[6][10:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning unused register U[7].Q_q[7][0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Pruning unused register U[8].Q_q[8][0]. Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on div223 .......
+@N: CL201 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Trying to extract state machine for register status.
+Extracted state machine for register status
+State machine has 5 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000100
+   001000
+Running optimization stage 2 on erode_dilate .......
+Running optimization stage 2 on img_dilation .......
+Running optimization stage 2 on img_erosion .......
+Running optimization stage 2 on img_matrix_3_3_1_964_420 .......
+Running optimization stage 2 on Shift_RAM_1Bit_800 .......
+Running optimization stage 2 on SR_800_1 .......
+Running optimization stage 2 on \~RAM_based_shift_reg.SR_800_1_  .......
+Running optimization stage 2 on rgb24_16 .......
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb24_16.v":2:14:2:14|Input port bits 18 to 16 of i[23:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb24_16.v":2:14:2:14|Input port bits 9 to 8 of i[23:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb24_16.v":2:14:2:14|Input port bits 2 to 0 of i[23:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on hist_v .......
+Running optimization stage 2 on hsv2rgb .......
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Found sequential shift I_r with address depth of 27 words and data bit width of 4.
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":41:0:41:5|Found sequential shift hsv_r with address depth of 28 words and data bit width of 24.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v":78:0:78:5|Pruning register bits 23 to 17 of p_0[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on div225 .......
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 46 to 26 of temp_a[1][46:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[1][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bit 25 of temp_a[1][25:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 46 to 27 of temp_a[2][46:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[2][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bit 26 of temp_a[2][26:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[3][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 46 to 28 of temp_a[3][46:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[4][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[5][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[6][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[7][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[8][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[9][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[10][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[11][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[12][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[13][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[14][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[15][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[16][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[17][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[18][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[19][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[20][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[21][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[22][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bits 23 to 1 of temp_b[23][47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":20:0:20:5|Pruning register bit 27 of temp_a[3][27:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on histogram_equalized_top .......
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v":35:0:35:5|Optimizing register bit cnt[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v":35:0:35:5|Pruning register bit 9 of cnt[9:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on histogram_equalized .......
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":229:0:229:5|Found sequential shift address_b_r with address depth of 31 words and data bit width of 8.
+Running optimization stage 2 on sdp_256_8 .......
+Running optimization stage 2 on sdp00 .......
+Running optimization stage 2 on SDP .......
+Running optimization stage 2 on div227 .......
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 58 to 32 of temp_a[1][58:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[1][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bit 31 of temp_a[1][31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 58 to 33 of temp_a[2][58:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[2][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bit 32 of temp_a[2][32:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[3][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 58 to 34 of temp_a[3][58:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[4][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[5][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[6][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[7][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[8][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[9][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[10][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[11][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[12][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[13][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[14][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[15][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[16][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[17][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[18][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[19][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[20][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[21][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[22][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[23][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[24][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[25][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[26][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[27][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[28][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bits 29 to 1 of temp_b[29][59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":20:0:20:5|Pruning register bit 33 of temp_a[3][33:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on rgb2hsv_top .......
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":166:0:166:5|Found sequential shift h_add with address depth of 16 words and data bit width of 9.
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Found sequential shift pre_img_r with address depth of 17 words and data bit width of 24.
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":180:0:180:5|Found sequential shift v0 with address depth of 17 words and data bit width of 8.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Pruning register bit 6 of h_add[0][8:3]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Pruning register bit 15 of h_dividend[15:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":84:0:84:5|Pruning register bit 14 of h_dividend[14:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":10:16:10:17|Input c0 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":10:19:10:20|Input c1 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":10:22:10:23|Input c2 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":10:25:10:26|Input c3 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":10:28:10:29|Input c4 is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":10:31:10:32|Input c5 is unused.
+Running optimization stage 2 on div222 .......
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bits 30 to 18 of temp_a[1][30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bits 15 to 1 of temp_b[1][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bit 17 of temp_a[1][17:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bits 30 to 19 of temp_a[2][30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bits 15 to 1 of temp_b[2][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bit 18 of temp_a[2][18:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bits 15 to 1 of temp_b[3][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bits 30 to 20 of temp_a[3][30:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bits 15 to 1 of temp_b[4][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+Only the first 100 messages of id 'CL279' are reported. To see all messages use 'report_messages -log E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synlog\img_processor_compiler.srr -id CL279' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL279} -count unlimited' in the Tcl shell.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v":21:0:21:5|Pruning register bit 19 of temp_a[3][19:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on rgb16_24 .......
+Running optimization stage 2 on gauss_filter_5_5 .......
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l2_b[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l2_g[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l2_r[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l3_b[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l3_g[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l3_r[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l4_b[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l4_g[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Optimizing register bit l4_r[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l1_b[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l1_g[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l1_r[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l2_b[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l2_g[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l2_r[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l3_b[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l3_g[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l3_r[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l4_b[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l4_g[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l4_r[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l5_b[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l5_g[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 15 of l5_r[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 14 of l1_b[14:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 14 of l1_g[14:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 14 of l1_r[14:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 14 of l5_b[14:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 14 of l5_g[14:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v":169:0:169:5|Pruning register bit 14 of l5_r[14:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on rgb888_565 .......
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb888_565.v":2:17:2:17|Input port bits 2 to 0 of b[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb888_565.v":2:15:2:15|Input port bits 1 to 0 of g[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb888_565.v":2:13:2:13|Input port bits 2 to 0 of r[7:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on rgb565_888 .......
+Running optimization stage 2 on img_matrix_5_5_16 .......
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_5_5_16.v":61:0:61:5|Found sequential shift pre_img_data_r with address depth of 4 words and data bit width of 16.
+Running optimization stage 2 on Shift_RAM_16Bit_800_L5 .......
+Running optimization stage 2 on SR_800_16 .......
+Running optimization stage 2 on \~RAM_based_shift_reg.SR_800_16_  .......
+Running optimization stage 2 on SP .......
+Running optimization stage 2 on syn_gen .......
+Running optimization stage 2 on PSRAM_Memory_Interface_Top .......
+Running optimization stage 2 on \~psram_top.PSRAM_Memory_Interface_Top_  .......
+Running optimization stage 2 on \~psram_sync.PSRAM_Memory_Interface_Top_  .......
+Running optimization stage 2 on DFFPE .......
+Running optimization stage 2 on \~psram_init.PSRAM_Memory_Interface_Top_  .......
+Running optimization stage 2 on \~psram_wd.PSRAM_Memory_Interface_Top_  .......
+Running optimization stage 2 on \~psram_lane.PSRAM_Memory_Interface_Top__Z1  .......
+Running optimization stage 2 on \~psram_lane.PSRAM_Memory_Interface_Top__Z2  .......
+Running optimization stage 2 on IDES4 .......
+Running optimization stage 2 on OSER4 .......
+Running optimization stage 2 on IODELAY .......
+Running optimization stage 2 on ELVDS_OBUF .......
+Running optimization stage 2 on IOBUF .......
+Running optimization stage 2 on OBUF .......
+Running optimization stage 2 on DLL .......
+Running optimization stage 2 on DHCEN .......
+Running optimization stage 2 on CLKDIV .......
+Running optimization stage 2 on gw_pll .......
+Running optimization stage 2 on vfb_top_1048576_256s_256s_21s_64s_16s .......
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_top.v":38:27:38:35|Input port bits 3 to 1 of I_wr_halt[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_top.v":39:27:39:35|Input port bits 3 to 1 of I_rd_halt[3:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on dma_bus_arbiter_21s_64s_1_2_4_8 .......
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+Running optimization stage 2 on dma_frame_buffer_1048576_256s_256s_21s_64s_16s .......
+Running optimization stage 2 on dma_frame_ctrl_1048576_21s .......
+Extracted state machine for register rd_ptr
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Extracted state machine for register wr_ptr
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on dma_read_ctrl_256s_21s_64s_16s_32s_64s_5s_2s .......
+Running optimization stage 2 on fifo_dma_read_64_32 .......
+Running optimization stage 2 on \~fifo.fifo_dma_read_64_32_  .......
+Running optimization stage 2 on MUX2_LUT6 .......
+Running optimization stage 2 on dma_32b_16b .......
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_16b.v":20:23:20:31|Input dma_rst_i is unused.
+Running optimization stage 2 on dma_write_ctrl_256s_21s_64s_16s_32s_32s_5s_7s_2s .......
+Running optimization stage 2 on fifo_dma_write_32_64 .......
+Running optimization stage 2 on \~fifo.fifo_dma_write_32_64_  .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on ALU .......
+Running optimization stage 2 on SDPX9 .......
+Running optimization stage 2 on DFFNP .......
+Running optimization stage 2 on DFFCE .......
+Running optimization stage 2 on DFFC .......
+Running optimization stage 2 on DFFP .......
+Running optimization stage 2 on MUX2_LUT5 .......
+Running optimization stage 2 on LUT2 .......
+Running optimization stage 2 on LUT3 .......
+Running optimization stage 2 on LUT4 .......
+Running optimization stage 2 on INV .......
+Running optimization stage 2 on GSR .......
+Running optimization stage 2 on dma_16b_32b .......
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_16b_32b.v":20:23:20:31|Input dma_rst_i is unused.
+Running optimization stage 2 on pwm_ctrl .......
+Running optimization stage 2 on pwm_out2 .......
+@N: CL201 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":43:0:43:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@W: CL247 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":6:16:6:19|Input port bit 0 of I_sw[1:0] is unused
+
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v":4:17:4:18|Input py is unused.
+Running optimization stage 2 on esp8266_send_top .......
+@N: CL201 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v":22:0:22:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 10 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+Running optimization stage 2 on uart_byte_tx .......
+@W: CL260 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v":54:1:54:6|Pruning register bit 0 of bps_DR[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on datatest .......
+Running optimization stage 2 on CMOS_Capture_RGB565_10_0_800_0_600_48000000s .......
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":136:1:136:6|Optimizing register bit delay_cnt[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v":136:1:136:6|Optimizing register bit delay_cnt[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Running optimization stage 2 on pll_24M .......
+Running optimization stage 2 on pll_36m .......
+Running optimization stage 2 on pll_100M .......
+Running optimization stage 2 on PLL .......
+Running optimization stage 2 on power_ctrl .......
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v":10:0:10:5|Optimizing register bit cnt_6ms[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v":10:0:10:5|Optimizing register bit cnt_6ms[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v":14:0:14:5|Optimizing register bit cnt_2ms[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v":14:0:14:5|Optimizing register bit cnt_2ms[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v":14:0:14:5|Optimizing register bit cnt_2ms[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v":14:0:14:5|Optimizing register bit cnt_2ms[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Running optimization stage 2 on threshold_set .......
+@N: CL201 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+Running optimization stage 2 on uart_byte_rx .......
+Running optimization stage 2 on key_debounce .......
+Running optimization stage 2 on I2C_OV5640_Init_RGB565 .......
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":51:0:51:5|Optimizing register bit i2c_clk_div[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":51:0:51:5|Optimizing register bit i2c_clk_div[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":51:0:51:5|Optimizing register bit i2c_clk_div[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":51:0:51:5|Optimizing register bit i2c_clk_div[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":51:0:51:5|Optimizing register bit i2c_clk_div[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":51:0:51:5|Optimizing register bit i2c_clk_div[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":51:0:51:5|Optimizing register bit i2c_clk_div[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: CL201 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v":102:0:102:5|Trying to extract state machine for register setup_state.
+Extracted state machine for register setup_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on I2C_OV5640_RGB565_Config .......
+Running optimization stage 2 on I2C_Controller .......
+Running optimization stage 2 on key_filter .......
+@N: CL135 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_filter.v":25:0:25:5|Found sequential shift key_tmp_a with address depth of 3 words and data bit width of 1.
+@N: CL201 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_filter.v":54:0:54:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Running optimization stage 2 on ir_to_sw .......
+Running optimization stage 2 on ir_decoder .......
+@N: CL201 :"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v":62:0:62:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:56s; Memory used current: 146MB peak: 163MB)
+
+Process took 0h:00m:58s realtime, 0h:00m:56s cputime
+
+Process completed successfully.
+# Fri Nov 22 14:17:39 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 108MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Nov 22 14:17:39 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synwork\img_processor_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:59s; CPU Time elapsed 0h:00m:57s; Memory used current: 19MB peak: 19MB)
+
+Process took 0h:00m:59s realtime, 0h:00m:57s cputime
+
+Process completed successfully.
+# Fri Nov 22 14:17:39 2019
+
+###########################################################]

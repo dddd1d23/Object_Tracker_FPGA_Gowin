@@ -1,0 +1,105 @@
+i I_clk_50m
+m 0 0
+u 115 492
+p {p:I_clk_50m}{t:inst0.clk}{p:inst0.clk}{t:inst0.setup_state[1].C}
+e ckid0_0 {t:inst0.setup_state[1].C} dffre
+c ckid0_0 {p:I_clk_50m} port Unsupported/too complex instance on clock path
+i pll_36m_u0.clkout_i
+m 0 0
+u 669 11863
+n ckid0_1 {t:img_processor_u0.vga_mark_out_top_u0.vga_mark_out_u0.pre_y[10:0].C} Black box on clock path
+p {t:pll_36m_u0.pll_inst.CLKOUT}{t:pll_36m_u0.clkout_inferred_clock.I[0]}{t:pll_36m_u0.clkout_inferred_clock.OUT[0]}{p:pll_36m_u0.clkout}{t:pll_36m_u0.clkout}{t:syn_gen_inst.I_pxl_clk}{p:syn_gen_inst.I_pxl_clk}{t:syn_gen_inst.V_cnt[15:0].C}
+e ckid0_2 {t:syn_gen_inst.V_cnt[15:0].C} dffr
+d ckid0_1,ckid0_2 {t:pll_36m_u0.pll_inst.CLKOUT} PLL Black box on clock path
+i img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.clkw_uclk
+m 0 0
+u 33 33
+n ckid0_3 {t:ENCRYPTED} Black box on clock path
+p {t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT}{t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.line2.clkw_uclk}{p:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.line2.clkw_uclk}{t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.line2.u_RAM_based_shift_reg.clkw_uclk}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_3 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_3 {t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT} and Black box on clock path
+i img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.clkw_uclk
+m 0 0
+u 33 33
+n ckid0_4 {t:ENCRYPTED} Black box on clock path
+p {t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT}{t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.line2.clkw_uclk}{p:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.line2.clkw_uclk}{t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.line2.u_RAM_based_shift_reg.clkw_uclk}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_4 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_4 {t:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT} and Black box on clock path
+i img_processor_u0.gauss_filter_5_5_u0.ut01.u010.clkw_uclk
+m 0 0
+u 55 55
+n ckid0_5 {t:ENCRYPTED} Black box on clock path
+p {t:img_processor_u0.gauss_filter_5_5_u0.ut01.u010.uclk_clkw.OUT}{t:img_processor_u0.gauss_filter_5_5_u0.ut01.u010.line4.clkw_uclk}{p:img_processor_u0.gauss_filter_5_5_u0.ut01.u010.line4.clkw_uclk}{t:img_processor_u0.gauss_filter_5_5_u0.ut01.u010.line4.u_RAM_based_shift_reg.clkw_uclk}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_5 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_5 {t:img_processor_u0.gauss_filter_5_5_u0.ut01.u010.uclk_clkw.OUT} and Black box on clock path
+i PSRAM_Memory_Interface_Top_inst.u_psram_top.ENCNET0
+m 0 0
+u 637 728
+n ckid0_6 {t:ENCRYPTED} Black box on clock path
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_7 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_6,ckid0_7 {t:ENCRYPTED} CLKDIV Black box on clock path
+i PSRAM_Memory_Interface_Top_inst.u_psram_top.ENCNET1
+m 0 0
+u 38 38
+n ckid0_8 {t:ENCRYPTED} Black box on clock path
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_8 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_8 {t:ENCRYPTED} DHCEN Black box on clock path
+i PSRAM_Memory_Interface_Top_inst.u_psram_top.ENCNET2
+m 0 0
+u 8 8
+n ckid0_9 {t:ENCRYPTED} Derived clock on input (not legal for GCC)
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_9 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_10 {t:ENCRYPTED} DFFC Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i PSRAM_Memory_Interface_Top_inst.u_psram_top.ENCNET4
+m 0 0
+u 8 8
+n ckid0_11 {t:ENCRYPTED} Derived clock on input (not legal for GCC)
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_11 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_12 {t:ENCRYPTED} DFFC Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i PSRAM_Memory_Interface_Top_inst.u_psram_top.ENCNET5
+m 0 0
+u 2 2
+n ckid0_13 {t:ENCRYPTED} Derived clock on input (not legal for GCC)
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_13 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_14 {t:ENCRYPTED} DFFCE Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cmos_pclk2_i
+m 0 0
+u 67 136
+n ckid0_15 {t:vfb_top_inst.u0_dma_frame_buffer.u_dma_write_ctrl.u_dma_16b_32b.allian_cnt[1:0].C} Derived clock on input (not legal for GCC)
+p {t:cmos_pclk2.Q[0]}{t:cmos_pclk2_derived_clock.I[0]}{t:cmos_pclk2_derived_clock.OUT[0]}{t:vfb_top_inst.I_vin0_clk}{p:vfb_top_inst.I_vin0_clk}{t:vfb_top_inst.u0_dma_frame_buffer.vin_clk_i}{p:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{p:vfb_top_inst.u0_dma_frame_buffer.ENCINST0.sys_clk}{t:vfb_top_inst.u0_dma_frame_buffer.u_dma_write_ctrl.u_dma_16b_32b.allian_cnt[1:0].C}
+e ckid0_15 {t:vfb_top_inst.u0_dma_frame_buffer.u_dma_write_ctrl.u_dma_16b_32b.allian_cnt[1:0].C} dffr
+d ckid0_16 {t:cmos_pclk2.Q[0]} dffs Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i cmos_pclk0
+m 0 0
+u 12 61
+p {p:cmos_pclk0}{t:cmos_pclk.I[0]}{t:cmos_pclk.OUT[0]}{t:cmos_pclk2.C}
+e ckid0_17 {t:cmos_pclk2.C} dffs
+c ckid0_17 {p:cmos_pclk0} port Unsupported/too complex instance on clock path
+i pll_36m_u0.clkoutd3_o
+m 0 0
+u 0 0
+i pll_36m_u0.clkoutd_o
+m 0 0
+u 0 0
+i pll_36m_u0.clkoutp_o
+m 0 0
+u 0 0
+i pll_36m_u0.lock
+m 0 0
+u 0 0
+i img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.pre_clken_r[1]
+m 0 0
+u 0 0
+i img_processor_u0.hist_v_u0.hsv2rgb_u0.clken_r[28]
+m 0 0
+u 0 0
+i syn_gen_inst.O_de
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

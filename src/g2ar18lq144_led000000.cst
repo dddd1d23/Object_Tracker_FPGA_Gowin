@@ -1,0 +1,100 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.1Beta
+//Part Number: GW2AR-LV18LQ144C8/I7
+//Created Time: Sat Jul 06 11:21:12 2019
+
+//////////////////////////////////////////
+IO_LOC "I_clk_50m" 6;
+IO_PORT "I_clk_50m"  IO_TYPE=LVCMOS33;
+
+//////////////////////////////////////////
+IO_LOC "I_rst_n" 129;
+IO_PORT "I_rst_n"  IO_TYPE=LVCMOS33;
+
+//////////////////////////////////////////
+IO_LOC "I_sw[0]" 141;
+IO_LOC "I_sw[1]" 136;
+IO_PORT "I_sw[0]"  IO_TYPE=LVCMOS33;
+IO_PORT "I_sw[1]"  IO_TYPE=LVCMOS33;
+
+//////////////////////////////////////////
+IO_LOC "O_led[0]" 124;
+IO_LOC "O_led[1]" 125;
+IO_LOC "O_led[2]" 126;
+IO_LOC "O_led[3]" 128;
+IO_PORT "O_led[0]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_led[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_led[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_led[3]"  IO_TYPE=LVCMOS33;
+
+//////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+//J15
+IO_LOC "O_hs"         123; //J15_8
+IO_LOC "O_vs"         90 ; //J15_7
+IO_LOC "O_clk"        87 ; //J15_9
+IO_LOC "O_blank_n"    88 ; //J15_12
+IO_LOC "O_sync_n"     85 ; //J15_11
+
+IO_LOC "O_data_b[7]"  86 ; //J15_14
+IO_LOC "O_data_b[6]"  83 ; //J15_13
+IO_LOC "O_data_b[5]"  84 ; //J15_16
+IO_LOC "O_data_b[4]"  80 ; //J15_15
+IO_LOC "O_data_b[3]"  82 ; //J15_18
+IO_LOC "O_data_b[2]"  78 ; //J15_17
+IO_LOC "O_data_b[1]"  79 ; //J15_20
+IO_LOC "O_data_b[0]"  76 ; //J15_19
+
+IO_LOC "O_data_g[7]"  25 ; //J14_12
+IO_LOC "O_data_g[6]"  28 ; //J14_11
+IO_LOC "O_data_g[5]"  27 ; //J14_14
+IO_LOC "O_data_g[4]"  30 ; //J14_13
+IO_LOC "O_data_g[3]"  29 ; //J14_16
+IO_LOC "O_data_g[2]"  33 ; //J14_15
+IO_LOC "O_data_g[1]"  32 ; //J14_18
+IO_LOC "O_data_g[0]"  35 ; //J14_17
+                          
+IO_LOC "O_data_r[7]"  34 ; //J14_20
+IO_LOC "O_data_r[6]"  39 ; //J14_19
+IO_LOC "O_data_r[5]"  38 ; //J14_22
+IO_LOC "O_data_r[4]"  41 ; //J14_21
+IO_LOC "O_data_r[3]"  40 ; //J14_24
+IO_LOC "O_data_r[2]"  43 ; //J14_23
+IO_LOC "O_data_r[1]"  42 ; //J14_26
+IO_LOC "O_data_r[0]"  44 ; //J14_25
+
+
+IO_PORT "O_vs"        IO_TYPE=LVCMOS33;
+IO_PORT "O_hs"        IO_TYPE=LVCMOS33;
+IO_PORT "O_clk"       IO_TYPE=LVCMOS33;
+IO_PORT "O_sync_n"    IO_TYPE=LVCMOS33;
+IO_PORT "O_blank_n"   IO_TYPE=LVCMOS33;
+
+IO_PORT "O_data_b[7]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_b[6]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_b[5]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_b[4]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_b[3]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_b[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_b[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_b[0]"  IO_TYPE=LVCMOS33;
+                     
+IO_PORT "O_data_g[7]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_g[6]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_g[5]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_g[4]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_g[3]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_g[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_g[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_g[0]"  IO_TYPE=LVCMOS33;
+                     
+IO_PORT "O_data_r[7]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_r[6]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_r[5]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_r[4]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_r[3]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_r[2]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_r[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "O_data_r[0]"  IO_TYPE=LVCMOS33;

@@ -1,0 +1,7 @@
+E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  E:\gowin_projects\myproj\myproj_blue\src\SR_800_16\temp\RAM_Based_Shift_Register\rev_1\synwork\SR_800_16_comp.srs  -osyn  E:\gowin_projects\myproj\myproj_blue\src\SR_800_16\temp\RAM_Based_Shift_Register\rev_1\synwork\SR_800_16_mult.srs  -log  E:\gowin_projects\myproj\myproj_blue\src\SR_800_16\temp\RAM_Based_Shift_Register\rev_1\synlog\SR_800_16_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.2Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\SR_800_16_comp.srs -osyn ..\synwork\SR_800_16_mult.srs -log ..\synlog\SR_800_16_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\SR_800_16_comp.srs|io:i|time:1573896668|size:9251|exec:0|csum:128A4D0EDCA4A6C0DE9A190574C56FEE
+file:..\synwork\SR_800_16_mult.srs|io:o|time:1573896670|size:2060|exec:0|csum:
+file:..\synlog\SR_800_16_multi_srs_gen.srr|io:o|time:1573896670|size:1403|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.2Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1564765422|size:8840192|exec:1|csum:3679135E094FDC1A8D56C913E5E7F562

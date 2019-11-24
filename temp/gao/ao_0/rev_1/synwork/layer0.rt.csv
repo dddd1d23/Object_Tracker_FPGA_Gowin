@@ -1,0 +1,6 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, ao_match_0_0s_1s_81s_0_1_0_1_2_3_4, 0h:00m:00s,     95 MB
+work, ao_top_0, 0h:00m:00s,    111 MB
+work, ao_crc32_0, 0h:00m:00s,    111 MB
+work, ao_mem_ctrl_0_1024s_81s_10s, 0h:00m:00s,    111 MB
+work, work_E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v_unit, 0h:00m:00s,      0 MB

@@ -1,0 +1,28 @@
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v":1:0:1:8|Synthesizing module work_E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v_unit in library work.
+Selecting top level module ao_top_0
+Running optimization stage 1 on ao_mem_ctrl_0_1024s_81s_10s .......
+Running optimization stage 1 on ao_crc32_0 .......
+Running optimization stage 1 on ao_match_0_0s_1s_81s_0_1_0_1_2_3_4 .......
+Running optimization stage 1 on ao_top_0 .......
+Running optimization stage 2 on ao_match_0_0s_1s_81s_0_1_0_1_2_3_4 .......
+Running optimization stage 2 on ao_top_0 .......
+Extracted state machine for register module_state
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1001
+   1010
+   1011
+Running optimization stage 2 on ao_crc32_0 .......
+Running optimization stage 2 on ao_mem_ctrl_0_1024s_81s_10s .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\rev_1\synwork\layer0.rt.csv
+

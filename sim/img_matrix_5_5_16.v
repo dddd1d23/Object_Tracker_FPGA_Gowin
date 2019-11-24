@@ -1,0 +1,127 @@
+//Author:dhy0077
+//Email:851856050@qq.com
+`timescale 1ns/1ns
+module img_matrix_5_5_16
+#(
+	parameter [9:0]	IMG_H=10'd800,	//800*600
+	parameter [9:0]	IMG_V=10'd600
+)
+(
+	input clk,
+	input rst_n,
+	input [15:0] pre_img_data,
+	input pre_vs,
+	input pre_hs,
+	input pre_clken,
+	//input pre_imgbit,
+	output matrix_vs,
+	output matrix_hs,
+	output matrix_clken,	
+	output reg [15:0] matrix_p11, matrix_p12, matrix_p13, matrix_p14, matrix_p15,
+	output reg [15:0] matrix_p21, matrix_p22, matrix_p23, matrix_p24, matrix_p25,
+	output reg [15:0] matrix_p31, matrix_p32, matrix_p33, matrix_p34, matrix_p35,
+	output reg [15:0] matrix_p41, matrix_p42, matrix_p43, matrix_p44, matrix_p45,
+	output reg [15:0] matrix_p51, matrix_p52, matrix_p53, matrix_p54, matrix_p55,
+	output [15:0] matrix_img_data
+);
+//Generate 5*5 matrix 
+//sync row3_data with pre_clken & row1_data & raw2_data
+wire [15:0] row1_data,row2_data,row3_data,row4_data;
+reg [15:0] row5_data;
+always@(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		row5_data<=0;
+	else 
+	begin
+		if(pre_clken) row5_data<=pre_img_data;
+		else row5_data<=row5_data;
+	end	
+end
+//module of shift ram for raw data
+wire shift_clk_en = pre_clken;
+Shift_RAM_16Bit_800_L5 u010(
+	.clk(clk),
+	.clken(shift_clk_en),	//pixel enable clock
+//	.aclr(1'b0),
+	.rst(1'b0),
+	.shiftin(row5_data),	//Current data input
+	.taps0x(row4_data),	//Last row data
+	.taps1x(row3_data),	//Up a row data
+	.taps2x(row2_data),
+	.taps3x(row1_data),
+	.shiftout()
+);
+//------------------------------------------
+//sync:lag 4 clocks
+reg	[3:0] pre_vs_r;
+reg	[3:0] pre_hs_r;	
+reg	[3:0] pre_clken_r;
+reg [15:0] pre_img_data_r[0:3];
+always@(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+	begin
+		pre_vs_r<=0;
+		pre_hs_r<=0;
+		pre_clken_r<=0;
+		pre_img_data_r[3]<=16'b0;
+		pre_img_data_r[2]<=16'b0;
+		pre_img_data_r[1]<=16'b0;
+		pre_img_data_r[0]<=16'b0;
+	end
+	else begin
+		pre_vs_r<={pre_vs_r[2:0],pre_vs};
+		pre_hs_r<={pre_hs_r[2:0],pre_hs};
+		pre_clken_r<={pre_clken_r[2:0],pre_clken};
+		pre_img_data_r[3]<=pre_img_data_r[2];
+		pre_img_data_r[2]<=pre_img_data_r[1];
+		pre_img_data_r[1]<=pre_img_data_r[0];
+		pre_img_data_r[0]<=pre_img_data;
+	end
+end
+wire read_frame_href=pre_hs_r[0];	//RAM read href sync signal
+wire read_frame_clken=pre_clken_r[0];	//RAM read enable
+assign matrix_vs=pre_vs_r[3];
+assign matrix_hs=pre_hs_r[3];
+assign matrix_clken=pre_clken_r[3];
+assign matrix_img_data=pre_img_data_r[3];
+//-----------------------------------------------
+always@(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+	begin
+		{matrix_p11,matrix_p12,matrix_p13,matrix_p14,matrix_p15}<=5'b0;
+		{matrix_p21,matrix_p22,matrix_p23,matrix_p24,matrix_p25}<=5'b0;
+		{matrix_p31,matrix_p32,matrix_p33,matrix_p34,matrix_p35}<=5'b0;
+		{matrix_p41,matrix_p42,matrix_p43,matrix_p44,matrix_p45}<=5'b0;
+		{matrix_p51,matrix_p52,matrix_p53,matrix_p54,matrix_p55}<=5'b0;
+	end
+	else if(read_frame_href)
+	begin
+		if(read_frame_clken)	//shift ram data read clock enable
+		begin
+			{matrix_p11,matrix_p12,matrix_p13,matrix_p14,matrix_p15}<={matrix_p12,matrix_p13,matrix_p14,matrix_p15,row1_data};	//1th shift input
+			{matrix_p21,matrix_p22,matrix_p23,matrix_p24,matrix_p25}<={matrix_p22,matrix_p23,matrix_p24,matrix_p25,row2_data};	//2nd shift input
+			{matrix_p31,matrix_p32,matrix_p33,matrix_p34,matrix_p35}<={matrix_p32,matrix_p33,matrix_p34,matrix_p35,row3_data};	//3rd shift input
+			{matrix_p41,matrix_p42,matrix_p43,matrix_p44,matrix_p45}<={matrix_p42,matrix_p43,matrix_p44,matrix_p45,row4_data};	//4th shift input
+			{matrix_p51,matrix_p52,matrix_p53,matrix_p54,matrix_p55}<={matrix_p52,matrix_p53,matrix_p54,matrix_p55,row5_data};	//5th shift input
+		end else
+		begin
+			{matrix_p11,matrix_p12,matrix_p13,matrix_p14,matrix_p15}<={matrix_p11,matrix_p12,matrix_p13,matrix_p14,matrix_p15};
+			{matrix_p21,matrix_p22,matrix_p23,matrix_p24,matrix_p25}<={matrix_p21,matrix_p22,matrix_p23,matrix_p24,matrix_p25};
+			{matrix_p31,matrix_p32,matrix_p33,matrix_p34,matrix_p35}<={matrix_p31,matrix_p32,matrix_p33,matrix_p34,matrix_p35};
+			{matrix_p41,matrix_p42,matrix_p43,matrix_p44,matrix_p45}<={matrix_p41,matrix_p42,matrix_p43,matrix_p44,matrix_p45};
+			{matrix_p51,matrix_p52,matrix_p53,matrix_p54,matrix_p55}<={matrix_p51,matrix_p52,matrix_p53,matrix_p54,matrix_p55};
+		end	
+	end else
+	begin
+		{matrix_p11,matrix_p12,matrix_p13,matrix_p14,matrix_p15}<=5'b0;
+		{matrix_p21,matrix_p22,matrix_p23,matrix_p24,matrix_p25}<=5'b0;
+		{matrix_p31,matrix_p32,matrix_p33,matrix_p34,matrix_p35}<=5'b0;
+		{matrix_p41,matrix_p42,matrix_p43,matrix_p44,matrix_p45}<=5'b0;
+		{matrix_p51,matrix_p52,matrix_p53,matrix_p54,matrix_p55}<=5'b0;
+	end
+end
+
+endmodule

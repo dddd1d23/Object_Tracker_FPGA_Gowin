@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\rev_1\synlog\ao_control_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>gw_con_top|tck_i</data>
+<data>605.2 MHz</data>
+<data>257.2 MHz</data>
+<data>-1.118</data>
+</row>
+<row>
+<data>System</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

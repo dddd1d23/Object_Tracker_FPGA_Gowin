@@ -1,0 +1,65 @@
+---------------------------------------
+Resource Usage Report for myproj_top 
+
+Mapping to part: gw2ar_18elqfp144-8
+Cell usage:
+ALU             4400 uses
+CLKDIV          1 use
+DFF             3130 uses
+DFFC            2083 uses
+DFFCE           1351 uses
+DFFE            277 uses
+DFFN            1 use
+DFFNC           30 uses
+DFFNCE          29 uses
+DFFNP           9 uses
+DFFP            27 uses
+DFFPE           24 uses
+DFFR            217 uses
+DFFRE           51 uses
+DFFS            34 uses
+DHCEN           1 use
+DLL             1 use
+GSR             14 uses
+IDES4           16 uses
+INV             124 uses
+IODELAY         18 uses
+MUX2_LUT5       129 uses
+MUX2_LUT6       27 uses
+MUX2_LUT7       3 uses
+OSER4           22 uses
+PLL             4 uses
+RAM16S4         2 uses
+RAM16SDP4       8 uses
+SDP             2 uses
+SDPX9           14 uses
+SP              8 uses
+rSDP            1 use
+LUT1            68 uses
+LUT2            1958 uses
+LUT3            2607 uses
+LUT4            2446 uses
+MULT9X9        9 uses
+MULT18X18      5 uses
+MULTALU36X18   1 use
+MULTADDALU18X18 1 use
+
+I/O ports: 80
+I/O primitives: 71
+ELVDS_OBUF     2 uses
+IBUF           15 uses
+IOBUF          19 uses
+OBUF           35 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   7263 of 15552 (46%)
+
+RAM/ROM usage summary
+Block Rams : 25 of 46 (54%)
+
+
+Block Multipliers: 8 of 24 (33%)
+
+@S |Mapping Summary:
+Total  LUTs: 7079 (34%)
+

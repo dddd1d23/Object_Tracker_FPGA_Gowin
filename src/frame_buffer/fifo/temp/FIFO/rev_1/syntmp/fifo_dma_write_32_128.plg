@@ -1,0 +1,22 @@
+@P:  Worst Slack : -0.917
+@P:  fifo_dma_write_32_128|RdClk - Estimated Frequency : 164.0 MHz
+@P:  fifo_dma_write_32_128|RdClk - Requested Frequency : 192.9 MHz
+@P:  fifo_dma_write_32_128|RdClk - Estimated Period : 6.099
+@P:  fifo_dma_write_32_128|RdClk - Requested Period : 5.184
+@P:  fifo_dma_write_32_128|RdClk - Slack : -0.915
+@P:  fifo_dma_write_32_128|WrClk - Estimated Frequency : 163.6 MHz
+@P:  fifo_dma_write_32_128|WrClk - Requested Frequency : 192.5 MHz
+@P:  fifo_dma_write_32_128|WrClk - Estimated Period : 6.113
+@P:  fifo_dma_write_32_128|WrClk - Requested Period : 5.196
+@P:  fifo_dma_write_32_128|WrClk - Slack : -0.917
+@P:  System - Estimated Frequency : 185.7 MHz
+@P:  System - Requested Frequency : 150.0 MHz
+@P:  System - Estimated Period : 5.385
+@P:  System - Requested Period : 6.667
+@P:  System - Slack : 1.281
+@P: fifo_dma_write_32_128 Part : gw2a_18pbga256-8
+@P: fifo_dma_write_32_128 I/O Register bits : 0
+@P: fifo_dma_write_32_128 Register bits (Non I/O) : 105 (0%)
+@P: fifo_dma_write_32_128 Block Rams : 16 of 46 (34%)
+@P: fifo_dma_write_32_128 Total Luts : 81 of 800 (0%)
+@P:  CPU Time : 0h:00m:09s

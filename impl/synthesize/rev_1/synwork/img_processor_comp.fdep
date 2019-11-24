@@ -1,0 +1,448 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\impl\\synthesize\\rev_1\\synwork\\img_processor_comp.srs|-top|myproj_top|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-nram|-divnmod|-nostructver|-gowin|-infer_seqShift|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-I|E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer|-I|E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\impl\\synthesize\\|-I|E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib|-sysv|-devicelib|E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\generic\\gw2a.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\bin64\\c_ver.exe":1564765222
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\generic\\gw2a.v":1564767964
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\hypermods.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\umr_capim.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1564764854
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\datatest.v":1571151617
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\key_debounce.v":1561624754
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\led_test.v":1571835507
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\vfb_defines.v":1568088250
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\testpattern.v":1562386508
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_16b_32b.v":1559175745
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_24b_32b.v":1558939272
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_32b_16b.v":1559175752
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_32b_24b.v":1558939243
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\vfb_defines.v":1568088250
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\vfb_top.v":1571750559
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\vfb_defines.v":1568088250
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\cmos_capture\\CMOS_Capture_RGB565.v":1572947699
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\sccb\\I2C_Controller.v":1574403351
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\sccb\\I2C_OV5640_Init_RGB565.v":1572144773
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\sccb\\I2C_OV5640_RGB565_Config.v":1574403363
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\psram_memory_interface\\psram_memory_interface.v":1568100305
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\esp8266_send\\esp8266_send_top.v":1572094398
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\esp8266_send\\uart_byte_tx.v":1570979409
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\gw_pll\\gw_pll.v":1568100272
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\gw_pll\\pix_pll.v":1562575573
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\pll_75m\\pll_75m.v":1571919114
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\pll_100M\\pll_100M.v":1571377120
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\pll_24M\\pll_24M.v":1570926607
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\pll_25m\\pll_25m.v":1571377951
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\syn_code\\syn_gen.v":1563346866
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_bus_arbiter.vp":1569227143
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_frame_buffer.vp":1569227143
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_frame_ctrl.vp":1569227143
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_read_ctrl.vp":1569227143
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\vfb_defines.v":1568088250
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\dma_write_ctrl.vp":1569227143
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\vfb_defines.v":1568088250
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\vfb_test.v":1573526403
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\fifo\\fifo_dma_read_64_32.v":1564542914
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\frame_buffer\\fifo\\fifo_dma_write_32_64.v":1564542418
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\pix2_pll\\pix2_pll.v":1570890590
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\myproj_top.v":1574138248
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\vfb_defines.v":1568088250
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_processor2.v":1573901440
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\SR_640_16\\SR_640_16.v":1572166400
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\img_matrix_5_5_16.v":1573894318
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\Shift_RAM_16Bit_1280_L5.v":1572170120
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\SR_1280_16.v":1572170378
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\gauss_filter_5_5.v":1573897273
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\rgb565_888.v":1571571648
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\rgb888_565.v":1571576127
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\vga_out\\vga_mark_out.v":1573916725
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\div222.v":1570329205
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\rgb2hsv_top.v":1573780786
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\uart_threshold_set\\threshold_set.v":1572311810
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\uart_threshold_set\\uart_byte_rx.v":1572363145
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\img_matrix_3_3_16.v":1572599347
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\Shift_RAM_16Bit_1280_L3.v":1572598979
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\img_matrix_median_3_3.v":1572602027
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\median_filter_3_3.v":1572600843
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\cmos_capture\\power_ctrl.v":1572662536
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\pll_36m\\pll_36m.v":1572947095
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\RGB565_YCbCr_gray.v":1573466089
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\rgb16_24.v":1572928978
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\rgb24_16.v":1572933105
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\SR_800_1\\SR_800_1.v":1573136423
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\SHIFT_RAM_1Bit_1280.v":1573136447
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\img_matrix_3_3_1.v":1573136524
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\img_dilation.v":1570796133
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\img_erosion.v":1570796209
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\box_calculator.v":1573137461
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\math_module\\div223.v":1572921117
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\math_module\\sqrt_1.v":1572924516
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\vga_out\\vga_mark_out_top.v":1573883137
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\erode_dilate.v":1573890233
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\servo\\pwm_ctrl.v":1573463463
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\servo\\pwm_out.v":1573916743
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\sdp00\\sdp00.v":1573633353
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\sdp01\\sdp01.v":1573644499
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\sdp_256_8\\sdp_256_8.v":1573722602
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\dp_256_32\\dp_256_32.v":1573740317
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\math_module\\div225.v":1573559549
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\math_module\\div227.v":1573723528
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\hist_v\\hist_v.v":1573820375
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\hist_v\\histogram_equalized.v":1574401983
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\hist_v\\histogram_equalized_top.v":1574402009
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\img_filter\\hsv2rgb.v":1573778325
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\SR_800_16\\SR_800_16.v":1573896682
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\line_buffer\\Shift_RAM_16Bit_800_L5.v":1571570835
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\key_filter.v":1573959964
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\servo\\pwm_out2.v":1573982631
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\irda\\ir_decoder.v":1574136442
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\src\\irda\\ir_to_sw.v":1574138029
+0			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\datatest.v" verilog
+1			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_debounce.v" verilog
+2			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\led_test.v" verilog
+3		*	"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vfb_defines.v" verilog
+4			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\testpattern.v" verilog
+5			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_16b_32b.v" verilog
+6			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_24b_32b.v" verilog
+7			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_16b.v" verilog
+8			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_24b.v" verilog
+9			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_defines.v" verilog
+10			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_top.v" verilog
+11			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v" verilog
+12			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v" verilog
+13			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v" verilog
+14			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_RGB565_Config.v" verilog
+15			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\psram_memory_interface\psram_memory_interface.v" verilog
+16			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v" verilog
+17			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v" verilog
+18			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\gw_pll.v" verilog
+19			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\pix_pll.v" verilog
+20			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_75m\pll_75m.v" verilog
+21			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_100M\pll_100M.v" verilog
+22			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_24M\pll_24M.v" verilog
+23			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_25m\pll_25m.v" verilog
+24			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\syn_code\syn_gen.v" verilog
+25			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_bus_arbiter.vp" verilog
+26			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_buffer.vp" verilog
+27			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_ctrl.vp" verilog
+28			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_read_ctrl.vp" verilog
+29			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_write_ctrl.vp" verilog
+30			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vfb_test.v" verilog
+31			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\fifo\fifo_dma_read_64_32.v" verilog
+32			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\fifo\fifo_dma_write_32_64.v" verilog
+33			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pix2_pll\pix2_pll.v" verilog
+34			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v" verilog
+35			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v" verilog
+36			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_640_16\SR_640_16.v" verilog
+37			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_5_5_16.v" verilog
+38			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_1280_L5.v" verilog
+39			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SR_1280_16.v" verilog
+40			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v" verilog
+41			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb565_888.v" verilog
+42			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb888_565.v" verilog
+43			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v" verilog
+44			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v" verilog
+45			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v" verilog
+46			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v" verilog
+47			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v" verilog
+48			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_16.v" verilog
+49			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_1280_L3.v" verilog
+50			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_matrix_median_3_3.v" verilog
+51			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\median_filter_3_3.v" verilog
+52			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v" verilog
+53			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_36m\pll_36m.v" verilog
+54			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\RGB565_YCbCr_gray.v" verilog
+55			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb16_24.v" verilog
+56			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb24_16.v" verilog
+57			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_1\SR_800_1.v" verilog
+58			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SHIFT_RAM_1Bit_1280.v" verilog
+59			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_1.v" verilog
+60			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_dilation.v" verilog
+61			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_erosion.v" verilog
+62			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v" verilog
+63			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v" verilog
+64			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v" verilog
+65			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v" verilog
+66			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v" verilog
+67			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_ctrl.v" verilog
+68			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out.v" verilog
+69			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp00\sdp00.v" verilog
+70			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp01\sdp01.v" verilog
+71			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp_256_8\sdp_256_8.v" verilog
+72			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\dp_256_32\dp_256_32.v" verilog
+73			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v" verilog
+74			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v" verilog
+75			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v" verilog
+76			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v" verilog
+77			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v" verilog
+78			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v" verilog
+79			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_16\SR_800_16.v" verilog
+80			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_800_L5.v" verilog
+81			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_filter.v" verilog
+82			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v" verilog
+83			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v" verilog
+84			"E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_to_sw.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 24 15 18 9 10 4 19 1 14 3
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 25 26 9
+11 -1
+12 -1
+13 14 12
+14 -1
+15 -1
+16 17
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 27 28 9 29
+27 -1
+28 31 7 9
+29 32 5 9
+30 -1
+31 -1
+32 -1
+33 -1
+34 0 81 35 24 15 18 9 10 67 82 16 11 22 53 21 52 46 1 13 84 83 3
+35 65 56 75 55 40
+36 -1
+37 80
+38 39
+39 36
+40 42 41 37
+41 -1
+42 -1
+43 -1
+44 -1
+45 44
+46 47
+47 -1
+48 49
+49 39
+50 -1
+51 42 50 41 48
+52 -1
+53 -1
+54 -1
+55 -1
+56 -1
+57 -1
+58 57
+59 58
+60 59
+61 59
+62 64 63
+63 -1
+64 -1
+65 56 43 55 62 66
+66 60 61
+67 -1
+68 -1
+69 -1
+70 -1
+71 -1
+72 -1
+73 -1
+74 -1
+75 78 77 45
+76 71 69 74
+77 76
+78 73
+79 -1
+80 79
+81 -1
+82 -1
+83 -1
+84 -1
+#Dependency Lists(Users Of)
+0 34
+1 34 2
+2 -1
+3 34 2
+4 2
+5 29
+6 -1
+7 28
+8 -1
+9 34 29 28 26 10 2
+10 34 2
+11 34
+12 13
+13 34
+14 13 2
+15 34 2
+16 34
+17 16
+18 34 2
+19 2
+20 -1
+21 34
+22 34
+23 -1
+24 34 2
+25 10
+26 10
+27 26
+28 26
+29 26
+30 -1
+31 28
+32 29
+33 -1
+34 -1
+35 34
+36 39
+37 40
+38 -1
+39 49 38
+40 35
+41 51 40
+42 51 40
+43 65
+44 45
+45 75
+46 34
+47 46
+48 51
+49 48
+50 51
+51 -1
+52 34
+53 34
+54 -1
+55 65 35
+56 65 35
+57 58
+58 59
+59 61 60
+60 66
+61 66
+62 65
+63 62
+64 62
+65 35
+66 65
+67 34
+68 -1
+69 76
+70 -1
+71 76
+72 -1
+73 78
+74 76
+75 35
+76 77
+77 75
+78 75
+79 80
+80 37
+81 34
+82 34
+83 34
+84 34
+#Design Unit to File Association
+module work SR_800_16 79
+module work \~RAM_based_shift_reg.SR_800_16_ 79
+module work histogram_equalized 76
+module work hsv2rgb 78
+module work histogram_equalized_top 77
+module work div227 74
+module work div225 73
+module work dp_256_32 72
+module work sdp_256_8 71
+module work sdp01 70
+module work sdp00 69
+module work pwm_out 68
+module work erode_dilate 66
+module work box_calculator 62
+module work sqrt_1 64
+module work div223 63
+module work img_erosion 61
+module work img_dilation 60
+module work img_matrix_3_3_1 59
+module work Shift_RAM_1Bit_800 58
+module work SR_800_1 57
+module work \~RAM_based_shift_reg.SR_800_1_ 57
+module work RGB565_YCbCr_gray 54
+module work median_filter_3_3 51
+module work img_matrix_median_3_3 50
+module work img_matrix_3_3_16 48
+module work Shift_RAM_16Bit_1280_L3 49
+module work uart_byte_rx 47
+module work rgb2hsv_top 45
+module work div222 44
+module work vga_mark_out 43
+module work rgb888_565 42
+module work rgb565_888 41
+module work Shift_RAM_16Bit_1280_L5 38
+module work SR_1280_16 39
+module work img_matrix_5_5_16 37
+module work Shift_RAM_16Bit_800_L5 80
+module work SR_640_16 36
+module work \~RAM_based_shift_reg.SR_640_16_ 36
+module work vga_mark_out_top 65
+module work rgb24_16 56
+module work hist_v 75
+module work rgb16_24 55
+module work gauss_filter_5_5 40
+module work myproj_top 34
+module work img_processor2 35
+module work pwm_ctrl 67
+module work pwm_out2 82
+module work pll_36m 53
+module work power_ctrl 52
+module work threshold_set 46
+module work key_filter 81
+module work ir_to_sw 84
+module work ir_decoder 83
+module work pix2_pll 33
+module work \~fifo.fifo_dma_write_32_64_ 32
+module work \~fifo.fifo_dma_read_64_32_ 31
+module work vfb_test 30
+module work fifo_dma_write_32_64 32
+module work fifo_dma_read_64_32 31
+module work dma_frame_ctrl 27
+module work dma_read_ctrl 28
+module work dma_write_ctrl 29
+module work pll_25m 23
+module work pll_24M 22
+module work pll_100M 21
+module work pll_75m 20
+module work esp8266_send_top 16
+module work uart_byte_tx 17
+module work \~psram_top.PSRAM_Memory_Interface_Top_ 15
+module work \~psram_sync.PSRAM_Memory_Interface_Top_ 15
+module work \~psram_init.PSRAM_Memory_Interface_Top_ 15
+module work \~psram_wd.PSRAM_Memory_Interface_Top_ 15
+module work \~psram_lane.PSRAM_Memory_Interface_Top__Z1 15
+module work \~psram_lane.PSRAM_Memory_Interface_Top__Z2 15
+module work I2C_OV5640_Init_RGB565 13
+module work I2C_Controller 12
+module work CMOS_Capture_RGB565 11
+module work dma_bus_arbiter 25
+module work dma_frame_buffer 26
+module work dma_32b_24b 8
+module work dma_32b_16b 7
+module work dma_24b_32b 6
+module work dma_16b_32b 5
+module work led_test 2
+module work syn_gen 24
+module work PSRAM_Memory_Interface_Top 15
+module work gw_pll 18
+module work vfb_top 10
+module work testpattern 4
+module work pix_pll 19
+module work I2C_OV5640_RGB565_Config 14
+module work key_debounce 1
+module work datatest 0

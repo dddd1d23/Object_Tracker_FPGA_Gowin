@@ -1,0 +1,7 @@
+D:\Gowin\Gowin_V1.9.0.02Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\proj\gw2a_proj\fifo_test\src\fifo\temp\FIFO\rev_1\synwork\fifo_dma_write_32_256_comp.srs  -osyn  D:\proj\gw2a_proj\fifo_test\src\fifo\temp\FIFO\rev_1\synwork\fifo_dma_write_32_256_mult.srs  -log  D:\proj\gw2a_proj\fifo_test\src\fifo\temp\FIFO\rev_1\synlog\fifo_dma_write_32_256_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.0.02Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\fifo_dma_write_32_256_comp.srs -osyn ..\synwork\fifo_dma_write_32_256_mult.srs -log ..\synlog\fifo_dma_write_32_256_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\fifo_dma_write_32_256_comp.srs|io:i|time:1559184137|size:16627|exec:0|csum:CA6511B98BBF99EF14E55080B699BE6A
+file:..\synwork\fifo_dma_write_32_256_mult.srs|io:o|time:1559184139|size:2494|exec:0|csum:
+file:..\synlog\fifo_dma_write_32_256_multi_srs_gen.srr|io:o|time:1559184139|size:1370|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.0.02Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1552407354|size:8810496|exec:1|csum:F052DADC0B944B3FC13DEB1D4FAB2C93

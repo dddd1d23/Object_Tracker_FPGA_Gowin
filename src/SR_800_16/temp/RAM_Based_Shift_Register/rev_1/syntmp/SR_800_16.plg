@@ -1,0 +1,12 @@
+@P:  Worst Slack : -0.483
+@P:  SR_800_16|clk - Estimated Frequency : 310.4 MHz
+@P:  SR_800_16|clk - Requested Frequency : 365.1 MHz
+@P:  SR_800_16|clk - Estimated Period : 3.222
+@P:  SR_800_16|clk - Requested Period : 2.739
+@P:  SR_800_16|clk - Slack : -0.483
+@P: SR_800_16 Part : gw2ar_18elqfp144-8
+@P: SR_800_16 I/O Register bits : 0
+@P: SR_800_16 Register bits (Non I/O) : 10 (0%)
+@P: SR_800_16 Block Rams : 1 of 46 (2%)
+@P: SR_800_16 Total Luts : 26 of 800 (0%)
+@P:  CPU Time : 0h:00m:06s

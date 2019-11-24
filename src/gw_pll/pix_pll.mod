@@ -1,0 +1,30 @@
+-series GW2AR
+-device GW2AR-18
+-package LQFP144
+-part_number GW2AR-LV18LQ144C8/I7
+
+
+-mod_name pix_pll
+-file_name pix_pll
+-path D:/proj/g2ar18lq144_sdram/src/gw_pll/
+-type PLL
+-file_type vlg
+-dev_type GW2AR-18
+-dyn_idiv_sel false
+-idiv_sel 10
+-dyn_fbdiv_sel false
+-fbdiv_sel 13
+-odiv_sel 16
+-dyn_da_en false
+-rst_sig true
+-rst_sig_p false
+-fclkin 50
+-rst_sig_i false
+-clkfb_sel 0
+-en_lock true
+-clkout_bypass false
+-en_clkoutp false
+-clkoutp_bypass false
+-en_clkoutd false
+-clkoutd_bypass false
+-en_clkoutd3 false

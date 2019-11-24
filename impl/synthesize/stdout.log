@@ -1,0 +1,77 @@
+One matching license found for this product: synplifypro_gowin
+NOTE:  This version of the software is not a production release. No warranty is made as to the general availability of features and functionality included in this version or described in the accompanying documentation. The final contents of a production release and its timing remain at the sole discretion of Synopsys.
+
+Starting:    E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+Hostname:    SKY-20180728DOH
+Date:        Fri Nov 22 14:16:39 2019
+Version:     P-2019.03G-Beta4
+
+Arguments:   -product synplify_pro -batch E:/gowin_projects/myproj/myproj_blue2_ircon/impl/synthesize/img_processor.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+Running in Vendor Mode
+
+log file: "E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor.srr"
+Running: rev_1 in foreground
+
+Running img_processor|rev_1
+
+Running Flow: compile (Compile) on img_processor|rev_1
+# Fri Nov 22 14:16:39 2019
+
+Running Flow: compile_flow (Compile Process) on img_processor|rev_1
+# Fri Nov 22 14:16:39 2019
+
+Running: compiler (Compile Input) on img_processor|rev_1
+# Fri Nov 22 14:16:39 2019
+Copied E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synwork\img_processor_comp.srs to E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor.srs
+
+compiler completed
+# Fri Nov 22 14:17:41 2019
+
+Return Code: 0
+Run Time:00h:01m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on img_processor|rev_1
+# Fri Nov 22 14:17:41 2019
+
+multi_srs_gen completed
+# Fri Nov 22 14:17:42 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synwork\img_processor_mult.srs to E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor.srs
+Complete: Compile Process on img_processor|rev_1
+
+Running: premap (Premap) on img_processor|rev_1
+# Fri Nov 22 14:17:42 2019
+
+premap completed with warnings
+# Fri Nov 22 14:17:51 2019
+
+Return Code: 1
+Run Time:00h:00m:09s
+Complete: Compile on img_processor|rev_1
+
+Running Flow: map (Map) on img_processor|rev_1
+# Fri Nov 22 14:17:51 2019
+
+Running: fpga_mapper (Map & Optimize) on img_processor|rev_1
+# Fri Nov 22 14:17:51 2019
+Copied E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\synwork\img_processor_m.srm to E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor.srm
+
+fpga_mapper completed with warnings
+# Fri Nov 22 14:20:22 2019
+
+Return Code: 1
+Run Time:00h:02m:31s
+Complete: Map on img_processor|rev_1
+Complete: Logic Synthesis on img_processor|rev_1
+exit status=0
+exit status=0
+License checkin: synplifypro_gowin

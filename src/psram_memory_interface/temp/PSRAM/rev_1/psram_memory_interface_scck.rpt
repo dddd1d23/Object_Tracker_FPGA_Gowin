@@ -1,0 +1,65 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+
+# Written on Tue Sep 10 15:24:56 2019
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                                                     Requested     Requested     Clock                                                                             Clock                     Clock
+Level     Clock                                                                                     Frequency     Period        Type                                                                              Group                     Load 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                                    150.0 MHz     6.667         system                                                                            system_clkgroup           0    
+                                                                                                                                                                                                                                                 
+0 -       _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                            187.2 MHz     5.341         inferred                                                                          Autoconstr_clkgroup_0     1165 
+1 .         _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]     187.2 MHz     5.341         derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0     8    
+1 .         _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]     187.2 MHz     5.341         derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0     8    
+1 .         _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0]                            187.2 MHz     5.341         derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0     2    
+                                                                                                                                                                                                                                                 
+0 -       _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock                            150.0 MHz     6.667         inferred                                                                          Autoconstr_clkgroup_2     38   
+                                                                                                                                                                                                                                                 
+0 -       PSRAM_Memory_Interface_Top|clk                                                            302.5 MHz     3.306         inferred                                                                          Autoconstr_clkgroup_1     27   
+=================================================================================================================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                                        Clock     Source                                                                  Clock Pin                                                                    Non-clock Pin                                                                              Non-clock Pin
+Clock                                                                                   Load      Pin                                                                     Seq Example                                                                  Seq Example                                                                                Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                                  0         -                                                                       -                                                                            -                                                                                          -            
+                                                                                                                                                                                                                                                                                                                                                               
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                          1165      u_psram_top.clkdiv.CLKOUT(CLKDIV)                                       u_psram_top.rd_data_valid_d.C                                                u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.iserdes_gen\[6\]\.u_ides4.PCLK     -            
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]     8         u_psram_top.u_psram_init.read_calibration\[0\]\.VALUE[0].Q[0](dffr)     u_psram_top.u_psram_wd.dq_iodelay_gen0\[0\]\.genblk1\[4\]\.iodelay.VALUE     -                                                                                          -            
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]     8         u_psram_top.u_psram_init.read_calibration\[1\]\.VALUE[1].Q[0](dffr)     u_psram_top.u_psram_wd.dq_iodelay_gen0\[1\]\.genblk1\[0\]\.iodelay.VALUE     -                                                                                          -            
+_~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0]                            2         u_psram_top.u_psram_wd.step[8:0].Q[0](dffr)                             u_psram_top.u_psram_wd.ck_delay\[1\]\.iodelay.VALUE                          -                                                                                          -            
+                                                                                                                                                                                                                                                                                                                                                               
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock                          38        u_psram_top.u_dqce_clk_x2p.CLKOUT(DHCEN)                                u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mask_oser4.FCLK      -                                                                                          -            
+                                                                                                                                                                                                                                                                                                                                                               
+PSRAM_Memory_Interface_Top|clk                                                          27        clk(port)                                                               u_psram_top.u_psram_sync.dll_rst.C                                           -                                                                                          -            
+===============================================================================================================================================================================================================================================================================================================================================================

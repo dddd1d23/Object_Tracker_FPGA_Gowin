@@ -1,0 +1,1055 @@
+# Wed May 22 17:17:20 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.0.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw2018q4p1, Build 001R, Built Mar 29 2019 09:46:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 191MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 190MB peak: 194MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 191MB peak: 194MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 191MB peak: 194MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 194MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 194MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 194MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 194MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 194MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		    -2.36ns		 250 /       106
+   2		0h:00m:05s		    -2.36ns		 250 /       106
+
+   3		0h:00m:06s		    -2.34ns		 252 /       106
+
+
+   4		0h:00m:06s		    -2.34ns		 252 /       106
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 193MB peak: 195MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 193MB peak: 195MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 122MB peak: 195MB)
+
+Writing Analyst data base D:\proj\fifo_test\src\fifo\temp\FIFO\rev_1\synwork\fifo_dma_write_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 191MB peak: 195MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 192MB peak: 195MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 191MB peak: 195MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 192MB peak: 195MB)
+
+@W: MT420 |Found inferred clock fifo_dma_write|WrClk with period 5.20ns. Please declare a user-defined clock on port WrClk.
+@W: MT420 |Found inferred clock fifo_dma_write|RdClk with period 5.18ns. Please declare a user-defined clock on port RdClk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed May 22 17:17:30 2019
+#
+
+
+Top view:               fifo_dma_write
+Requested Frequency:    192.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.917
+
+                         Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock           Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------------
+fifo_dma_write|RdClk     192.9 MHz     164.0 MHz     5.184         6.099         -0.915     inferred     Autoconstr_clkgroup_1
+fifo_dma_write|WrClk     192.5 MHz     163.6 MHz     5.196         6.113         -0.917     inferred     Autoconstr_clkgroup_0
+System                   150.0 MHz     185.7 MHz     6.667         5.385         1.281      system       system_clkgroup      
+==============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------
+Starting              Ending                |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------
+System                fifo_dma_write|WrClk  |  5.196       4.562   |  No paths    -      |  No paths    -      |  No paths    -    
+System                fifo_dma_write|RdClk  |  5.184       1.281   |  No paths    -      |  No paths    -      |  No paths    -    
+fifo_dma_write|WrClk  System                |  5.196       4.418   |  No paths    -      |  No paths    -      |  No paths    -    
+fifo_dma_write|WrClk  fifo_dma_write|WrClk  |  5.196       -0.917  |  5.196       4.357  |  No paths    -      |  No paths    -    
+fifo_dma_write|WrClk  fifo_dma_write|RdClk  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+fifo_dma_write|RdClk  System                |  5.184       3.196   |  No paths    -      |  No paths    -      |  No paths    -    
+fifo_dma_write|RdClk  fifo_dma_write|WrClk  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+fifo_dma_write|RdClk  fifo_dma_write|RdClk  |  5.184       -0.915  |  5.184       4.345  |  No paths    -      |  2.592       1.692
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: fifo_dma_write|RdClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                       Arrival           
+Instance                       Reference                Type     Pin     Net                  Time        Slack 
+                               Clock                                                                            
+----------------------------------------------------------------------------------------------------------------
+fifo_inst.Big\.rq2_wptr[6]     fifo_dma_write|RdClk     DFFC     Q       Big\.rq2_wptr[6]     0.243       -0.915
+fifo_inst.Big\.rq2_wptr[5]     fifo_dma_write|RdClk     DFFC     Q       Big\.rq2_wptr[5]     0.243       -0.894
+fifo_inst.Empty                fifo_dma_write|RdClk     DFFP     Q       Empty                0.243       -0.585
+fifo_inst.Big\.rq2_wptr[4]     fifo_dma_write|RdClk     DFFC     Q       Big\.rq2_wptr[4]     0.243       -0.339
+fifo_inst.Big\.rq2_wptr[3]     fifo_dma_write|RdClk     DFFC     Q       Big\.rq2_wptr[3]     0.243       -0.318
+fifo_inst.Big\.rq2_wptr[1]     fifo_dma_write|RdClk     DFFC     Q       Big\.rq2_wptr[1]     0.243       -0.135
+fifo_inst.Big\.rq2_wptr[0]     fifo_dma_write|RdClk     DFFC     Q       Big\.rq2_wptr[0]     0.243       -0.114
+fifo_inst.Big\.rq2_wptr[2]     fifo_dma_write|RdClk     DFFC     Q       Big\.rq2_wptr[2]     0.243       -0.006
+fifo_inst.rbin_num[3]          fifo_dma_write|RdClk     DFFC     Q       rbin_num[3]          0.243       0.099 
+fifo_inst.rbin_num[0]          fifo_dma_write|RdClk     DFFC     Q       rbin_num[0]          0.243       0.373 
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                      Required           
+Instance              Reference                Type     Pin     Net                 Time         Slack 
+                      Clock                                                                            
+-------------------------------------------------------------------------------------------------------
+fifo_inst.Rnum[9]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[9]         5.123        -0.915
+fifo_inst.Rnum[8]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[8]         5.123        -0.880
+fifo_inst.Rnum[7]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[7]         5.123        -0.845
+fifo_inst.Rnum[6]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[6]         5.123        -0.810
+fifo_inst.Rnum[5]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[5]         5.123        -0.775
+fifo_inst.Rnum[4]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[4]         5.123        -0.740
+fifo_inst.Empty       fifo_dma_write|RdClk     DFFP     D       rempty_val_NE_i     5.123        -0.585
+fifo_inst.Rnum[3]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[3]         5.123        -0.270
+fifo_inst.Rnum[2]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[2]         5.123        -0.094
+fifo_inst.Rnum[1]     fifo_dma_write|RdClk     DFFC     D       rcnt_sub[1]         5.123        0.145 
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.184
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.123
+
+    - Propagation time:                      6.038
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.915
+
+    Number of logic level(s):                11
+    Starting point:                          fifo_inst.Big\.rq2_wptr[6] / Q
+    Ending point:                            fifo_inst.Rnum[9] / D
+    The start point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+fifo_inst.Big\.rq2_wptr[6]             DFFC     Q        Out     0.243     0.243       -         
+Big\.rq2_wptr[6]                       Net      -        -       0.535     -           10        
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     I1       In      -         0.778       -         
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     F        Out     0.570     1.348       -         
+rcnt_sub_b_D0_0[5]                     Net      -        -       0.535     -           4         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     I3       In      -         1.883       -         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     F        Out     0.371     2.254       -         
+rcnt_sub_0_axb_3                       Net      -        -       0.401     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     I0       In      -         2.655       -         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     F        Out     0.549     3.204       -         
+rcnt_sub_0_cry_3_0_RNO                 Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      I0       In      -         3.739       -         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      COUT     Out     0.549     4.288       -         
+rcnt_sub_0_cry_3                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      CIN      In      -         4.288       -         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      COUT     Out     0.035     4.323       -         
+rcnt_sub_0_cry_4                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      CIN      In      -         4.323       -         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      COUT     Out     0.035     4.358       -         
+rcnt_sub_0_cry_5                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      CIN      In      -         4.358       -         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      COUT     Out     0.035     4.393       -         
+rcnt_sub_0_cry_6                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      CIN      In      -         4.393       -         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      COUT     Out     0.035     4.428       -         
+rcnt_sub_0_cry_7                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      CIN      In      -         4.428       -         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      COUT     Out     0.035     4.463       -         
+rcnt_sub_0_cry_8                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_s_9_0             ALU      CIN      In      -         4.463       -         
+fifo_inst.rcnt_sub_0_s_9_0             ALU      SUM      Out     0.470     4.933       -         
+rcnt_sub0[9]                           Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_m[9]                LUT4     I1       In      -         5.468       -         
+fifo_inst.rcnt_sub_m[9]                LUT4     F        Out     0.570     6.038       -         
+rcnt_sub[9]                            Net      -        -       0.000     -           1         
+fifo_inst.Rnum[9]                      DFFC     D        In      -         6.038       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 6.099 is 3.558(58.3%) logic and 2.541(41.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.184
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.123
+
+    - Propagation time:                      6.017
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.894
+
+    Number of logic level(s):                11
+    Starting point:                          fifo_inst.Big\.rq2_wptr[5] / Q
+    Ending point:                            fifo_inst.Rnum[9] / D
+    The start point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+fifo_inst.Big\.rq2_wptr[5]             DFFC     Q        Out     0.243     0.243       -         
+Big\.rq2_wptr[5]                       Net      -        -       0.535     -           8         
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     I0       In      -         0.778       -         
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     F        Out     0.549     1.327       -         
+rcnt_sub_b_D0_0[5]                     Net      -        -       0.535     -           4         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     I3       In      -         1.862       -         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     F        Out     0.371     2.233       -         
+rcnt_sub_0_axb_3                       Net      -        -       0.401     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     I0       In      -         2.634       -         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     F        Out     0.549     3.183       -         
+rcnt_sub_0_cry_3_0_RNO                 Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      I0       In      -         3.718       -         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      COUT     Out     0.549     4.267       -         
+rcnt_sub_0_cry_3                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      CIN      In      -         4.267       -         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      COUT     Out     0.035     4.302       -         
+rcnt_sub_0_cry_4                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      CIN      In      -         4.302       -         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      COUT     Out     0.035     4.337       -         
+rcnt_sub_0_cry_5                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      CIN      In      -         4.337       -         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      COUT     Out     0.035     4.372       -         
+rcnt_sub_0_cry_6                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      CIN      In      -         4.372       -         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      COUT     Out     0.035     4.407       -         
+rcnt_sub_0_cry_7                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      CIN      In      -         4.407       -         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      COUT     Out     0.035     4.442       -         
+rcnt_sub_0_cry_8                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_s_9_0             ALU      CIN      In      -         4.442       -         
+fifo_inst.rcnt_sub_0_s_9_0             ALU      SUM      Out     0.470     4.912       -         
+rcnt_sub0[9]                           Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_m[9]                LUT4     I1       In      -         5.447       -         
+fifo_inst.rcnt_sub_m[9]                LUT4     F        Out     0.570     6.017       -         
+rcnt_sub[9]                            Net      -        -       0.000     -           1         
+fifo_inst.Rnum[9]                      DFFC     D        In      -         6.017       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 6.078 is 3.537(58.2%) logic and 2.541(41.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.184
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.123
+
+    - Propagation time:                      6.003
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.880
+
+    Number of logic level(s):                10
+    Starting point:                          fifo_inst.Big\.rq2_wptr[6] / Q
+    Ending point:                            fifo_inst.Rnum[8] / D
+    The start point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+fifo_inst.Big\.rq2_wptr[6]             DFFC     Q        Out     0.243     0.243       -         
+Big\.rq2_wptr[6]                       Net      -        -       0.535     -           10        
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     I1       In      -         0.778       -         
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     F        Out     0.570     1.348       -         
+rcnt_sub_b_D0_0[5]                     Net      -        -       0.535     -           4         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     I3       In      -         1.883       -         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     F        Out     0.371     2.254       -         
+rcnt_sub_0_axb_3                       Net      -        -       0.401     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     I0       In      -         2.655       -         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     F        Out     0.549     3.204       -         
+rcnt_sub_0_cry_3_0_RNO                 Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      I0       In      -         3.739       -         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      COUT     Out     0.549     4.288       -         
+rcnt_sub_0_cry_3                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      CIN      In      -         4.288       -         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      COUT     Out     0.035     4.323       -         
+rcnt_sub_0_cry_4                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      CIN      In      -         4.323       -         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      COUT     Out     0.035     4.358       -         
+rcnt_sub_0_cry_5                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      CIN      In      -         4.358       -         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      COUT     Out     0.035     4.393       -         
+rcnt_sub_0_cry_6                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      CIN      In      -         4.393       -         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      COUT     Out     0.035     4.428       -         
+rcnt_sub_0_cry_7                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      CIN      In      -         4.428       -         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      SUM      Out     0.470     4.898       -         
+rcnt_sub0[8]                           Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_m[8]                LUT4     I1       In      -         5.433       -         
+fifo_inst.rcnt_sub_m[8]                LUT4     F        Out     0.570     6.003       -         
+rcnt_sub[8]                            Net      -        -       0.000     -           1         
+fifo_inst.Rnum[8]                      DFFC     D        In      -         6.003       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 6.064 is 3.523(58.1%) logic and 2.541(41.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.184
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.123
+
+    - Propagation time:                      5.982
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.859
+
+    Number of logic level(s):                10
+    Starting point:                          fifo_inst.Big\.rq2_wptr[5] / Q
+    Ending point:                            fifo_inst.Rnum[8] / D
+    The start point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+fifo_inst.Big\.rq2_wptr[5]             DFFC     Q        Out     0.243     0.243       -         
+Big\.rq2_wptr[5]                       Net      -        -       0.535     -           8         
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     I0       In      -         0.778       -         
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     F        Out     0.549     1.327       -         
+rcnt_sub_b_D0_0[5]                     Net      -        -       0.535     -           4         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     I3       In      -         1.862       -         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     F        Out     0.371     2.233       -         
+rcnt_sub_0_axb_3                       Net      -        -       0.401     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     I0       In      -         2.634       -         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     F        Out     0.549     3.183       -         
+rcnt_sub_0_cry_3_0_RNO                 Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      I0       In      -         3.718       -         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      COUT     Out     0.549     4.267       -         
+rcnt_sub_0_cry_3                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      CIN      In      -         4.267       -         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      COUT     Out     0.035     4.302       -         
+rcnt_sub_0_cry_4                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      CIN      In      -         4.302       -         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      COUT     Out     0.035     4.337       -         
+rcnt_sub_0_cry_5                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      CIN      In      -         4.337       -         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      COUT     Out     0.035     4.372       -         
+rcnt_sub_0_cry_6                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      CIN      In      -         4.372       -         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      COUT     Out     0.035     4.407       -         
+rcnt_sub_0_cry_7                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      CIN      In      -         4.407       -         
+fifo_inst.rcnt_sub_0_cry_8_0           ALU      SUM      Out     0.470     4.877       -         
+rcnt_sub0[8]                           Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_m[8]                LUT4     I1       In      -         5.412       -         
+fifo_inst.rcnt_sub_m[8]                LUT4     F        Out     0.570     5.982       -         
+rcnt_sub[8]                            Net      -        -       0.000     -           1         
+fifo_inst.Rnum[8]                      DFFC     D        In      -         5.982       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 6.043 is 3.502(57.9%) logic and 2.541(42.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.184
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.123
+
+    - Propagation time:                      5.968
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.845
+
+    Number of logic level(s):                9
+    Starting point:                          fifo_inst.Big\.rq2_wptr[6] / Q
+    Ending point:                            fifo_inst.Rnum[7] / D
+    The start point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+fifo_inst.Big\.rq2_wptr[6]             DFFC     Q        Out     0.243     0.243       -         
+Big\.rq2_wptr[6]                       Net      -        -       0.535     -           10        
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     I1       In      -         0.778       -         
+fifo_inst.Big\.rq2_wptr_RNITFE3[5]     LUT2     F        Out     0.570     1.348       -         
+rcnt_sub_b_D0_0[5]                     Net      -        -       0.535     -           4         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     I3       In      -         1.883       -         
+fifo_inst.rcnt_sub_0_axb_3             LUT4     F        Out     0.371     2.254       -         
+rcnt_sub_0_axb_3                       Net      -        -       0.401     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     I0       In      -         2.655       -         
+fifo_inst.rcnt_sub_0_cry_3_0_RNO       LUT2     F        Out     0.549     3.204       -         
+rcnt_sub_0_cry_3_0_RNO                 Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      I0       In      -         3.739       -         
+fifo_inst.rcnt_sub_0_cry_3_0           ALU      COUT     Out     0.549     4.288       -         
+rcnt_sub_0_cry_3                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      CIN      In      -         4.288       -         
+fifo_inst.rcnt_sub_0_cry_4_0           ALU      COUT     Out     0.035     4.323       -         
+rcnt_sub_0_cry_4                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      CIN      In      -         4.323       -         
+fifo_inst.rcnt_sub_0_cry_5_0           ALU      COUT     Out     0.035     4.358       -         
+rcnt_sub_0_cry_5                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      CIN      In      -         4.358       -         
+fifo_inst.rcnt_sub_0_cry_6_0           ALU      COUT     Out     0.035     4.393       -         
+rcnt_sub_0_cry_6                       Net      -        -       0.000     -           1         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      CIN      In      -         4.393       -         
+fifo_inst.rcnt_sub_0_cry_7_0           ALU      SUM      Out     0.470     4.863       -         
+rcnt_sub0[7]                           Net      -        -       0.535     -           1         
+fifo_inst.rcnt_sub_m[7]                LUT4     I1       In      -         5.398       -         
+fifo_inst.rcnt_sub_m[7]                LUT4     F        Out     0.570     5.968       -         
+rcnt_sub[7]                            Net      -        -       0.000     -           1         
+fifo_inst.Rnum[7]                      DFFC     D        In      -         5.968       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 6.029 is 3.488(57.9%) logic and 2.541(42.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: fifo_dma_write|WrClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                   Arrival           
+Instance                   Reference                Type     Pin     Net              Time        Slack 
+                           Clock                                                                        
+--------------------------------------------------------------------------------------------------------
+fifo_inst.Full             fifo_dma_write|WrClk     DFFC     Q       Full             0.243       -0.917
+fifo_inst.Big\.wbin[0]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[0]     0.243       -0.081
+fifo_inst.Big\.wbin[1]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[1]     0.243       -0.046
+fifo_inst.Big\.wbin[2]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[2]     0.243       -0.011
+fifo_inst.Big\.wbin[3]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[3]     0.243       0.024 
+fifo_inst.Big\.wbin[4]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[4]     0.243       0.059 
+fifo_inst.Big\.wbin[5]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[5]     0.243       0.150 
+fifo_inst.Big\.wbin[6]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[6]     0.243       0.258 
+fifo_inst.Big\.wbin[7]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[7]     0.243       0.570 
+fifo_inst.Big\.wbin[8]     fifo_dma_write|WrClk     DFFC     Q       Big\.wbin[8]     0.243       1.040 
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                     Required           
+Instance                   Reference                Type     Pin     Net                Time         Slack 
+                           Clock                                                                           
+-----------------------------------------------------------------------------------------------------------
+fifo_inst.Full             fifo_dma_write|WrClk     DFFC     D       wfull_val_NE_i     5.135        -0.917
+fifo_inst.Big\.wptr[8]     fifo_dma_write|WrClk     DFFC     D       wgraynext[8]       5.135        0.986 
+fifo_inst.Big\.wptr[7]     fifo_dma_write|WrClk     DFFC     D       wgraynext[7]       5.135        1.021 
+fifo_inst.Big\.wptr[6]     fifo_dma_write|WrClk     DFFC     D       wgraynext[6]       5.135        1.056 
+fifo_inst.Big\.wptr[5]     fifo_dma_write|WrClk     DFFC     D       wgraynext[5]       5.135        1.091 
+fifo_inst.Big\.wptr[4]     fifo_dma_write|WrClk     DFFC     D       wgraynext[4]       5.135        1.126 
+fifo_inst.Big\.wptr[3]     fifo_dma_write|WrClk     DFFC     D       wgraynext[3]       5.135        1.161 
+fifo_inst.Big\.wptr[2]     fifo_dma_write|WrClk     DFFC     D       wgraynext[2]       5.135        1.196 
+fifo_inst.Big\.wptr[1]     fifo_dma_write|WrClk     DFFC     D       wgraynext[1]       5.135        1.231 
+fifo_inst.Big\.wptr[0]     fifo_dma_write|WrClk     DFFC     D       wgraynext[0]       5.135        1.266 
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.196
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.135
+
+    - Propagation time:                      6.052
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.917
+
+    Number of logic level(s):                12
+    Starting point:                          fifo_inst.Full / Q
+    Ending point:                            fifo_inst.Full / D
+    The start point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+fifo_inst.Full                      DFFC          Q        Out     0.243     0.243       -         
+Full                                Net           -        -       0.535     -           3         
+fifo_inst.Big\.un1_WrEn             LUT2          I0       In      -         0.778       -         
+fifo_inst.Big\.un1_WrEn             LUT2          F        Out     0.549     1.327       -         
+Big\.un1_WrEn                       Net           -        -       0.862     -           1         
+fifo_inst.wbin_num_next_cry_0_0     ALU           CIN      In      -         2.189       -         
+fifo_inst.wbin_num_next_cry_0_0     ALU           COUT     Out     0.035     2.224       -         
+wbin_num_next_cry_0                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_1_0     ALU           CIN      In      -         2.224       -         
+fifo_inst.wbin_num_next_cry_1_0     ALU           COUT     Out     0.035     2.259       -         
+wbin_num_next_cry_1                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_2_0     ALU           CIN      In      -         2.259       -         
+fifo_inst.wbin_num_next_cry_2_0     ALU           COUT     Out     0.035     2.294       -         
+wbin_num_next_cry_2                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_3_0     ALU           CIN      In      -         2.294       -         
+fifo_inst.wbin_num_next_cry_3_0     ALU           COUT     Out     0.035     2.329       -         
+wbin_num_next_cry_3                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_4_0     ALU           CIN      In      -         2.329       -         
+fifo_inst.wbin_num_next_cry_4_0     ALU           COUT     Out     0.035     2.364       -         
+wbin_num_next_cry_4                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_5_0     ALU           CIN      In      -         2.364       -         
+fifo_inst.wbin_num_next_cry_5_0     ALU           SUM      Out     0.470     2.834       -         
+wbin_num_next[5]                    Net           -        -       0.535     -           5         
+fifo_inst.wfull_val_3               LUT3          I1       In      -         3.369       -         
+fifo_inst.wfull_val_3               LUT3          F        Out     0.570     3.939       -         
+wfull_val_3                         Net           -        -       0.535     -           4         
+fifo_inst.wfull_val_NE_6_0_0        LUT4          I2       In      -         4.474       -         
+fifo_inst.wfull_val_NE_6_0_0        LUT4          F        Out     0.462     4.936       -         
+wfull_val_NE_6_0_0                  Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6_0          MUX2_LUT5     I0       In      -         4.936       -         
+fifo_inst.wfull_val_NE_6_0          MUX2_LUT5     O        Out     0.105     5.041       -         
+wfull_val_NE_6_0                    Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     I0       In      -         5.041       -         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     O        Out     0.105     5.146       -         
+wfull_val_NE_6                      Net           -        -       0.535     -           1         
+fifo_inst.wfull_val_NE_i            LUT4          I3       In      -         5.681       -         
+fifo_inst.wfull_val_NE_i            LUT4          F        Out     0.371     6.052       -         
+wfull_val_NE_i                      Net           -        -       0.000     -           1         
+fifo_inst.Full                      DFFC          D        In      -         6.052       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 6.113 is 3.111(50.9%) logic and 3.002(49.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.196
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.135
+
+    - Propagation time:                      6.052
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.917
+
+    Number of logic level(s):                12
+    Starting point:                          fifo_inst.Full / Q
+    Ending point:                            fifo_inst.Full / D
+    The start point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+fifo_inst.Full                      DFFC          Q        Out     0.243     0.243       -         
+Full                                Net           -        -       0.535     -           3         
+fifo_inst.Big\.un1_WrEn             LUT2          I0       In      -         0.778       -         
+fifo_inst.Big\.un1_WrEn             LUT2          F        Out     0.549     1.327       -         
+Big\.un1_WrEn                       Net           -        -       0.862     -           1         
+fifo_inst.wbin_num_next_cry_0_0     ALU           CIN      In      -         2.189       -         
+fifo_inst.wbin_num_next_cry_0_0     ALU           COUT     Out     0.035     2.224       -         
+wbin_num_next_cry_0                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_1_0     ALU           CIN      In      -         2.224       -         
+fifo_inst.wbin_num_next_cry_1_0     ALU           COUT     Out     0.035     2.259       -         
+wbin_num_next_cry_1                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_2_0     ALU           CIN      In      -         2.259       -         
+fifo_inst.wbin_num_next_cry_2_0     ALU           COUT     Out     0.035     2.294       -         
+wbin_num_next_cry_2                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_3_0     ALU           CIN      In      -         2.294       -         
+fifo_inst.wbin_num_next_cry_3_0     ALU           COUT     Out     0.035     2.329       -         
+wbin_num_next_cry_3                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_4_0     ALU           CIN      In      -         2.329       -         
+fifo_inst.wbin_num_next_cry_4_0     ALU           COUT     Out     0.035     2.364       -         
+wbin_num_next_cry_4                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_5_0     ALU           CIN      In      -         2.364       -         
+fifo_inst.wbin_num_next_cry_5_0     ALU           SUM      Out     0.470     2.834       -         
+wbin_num_next[5]                    Net           -        -       0.535     -           5         
+fifo_inst.wfull_val_3               LUT3          I1       In      -         3.369       -         
+fifo_inst.wfull_val_3               LUT3          F        Out     0.570     3.939       -         
+wfull_val_3                         Net           -        -       0.535     -           4         
+fifo_inst.wfull_val_NE_6_0_1        LUT4          I2       In      -         4.474       -         
+fifo_inst.wfull_val_NE_6_0_1        LUT4          F        Out     0.462     4.936       -         
+wfull_val_NE_6_0_1                  Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6_0          MUX2_LUT5     I1       In      -         4.936       -         
+fifo_inst.wfull_val_NE_6_0          MUX2_LUT5     O        Out     0.105     5.041       -         
+wfull_val_NE_6_0                    Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     I0       In      -         5.041       -         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     O        Out     0.105     5.146       -         
+wfull_val_NE_6                      Net           -        -       0.535     -           1         
+fifo_inst.wfull_val_NE_i            LUT4          I3       In      -         5.681       -         
+fifo_inst.wfull_val_NE_i            LUT4          F        Out     0.371     6.052       -         
+wfull_val_NE_i                      Net           -        -       0.000     -           1         
+fifo_inst.Full                      DFFC          D        In      -         6.052       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 6.113 is 3.111(50.9%) logic and 3.002(49.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.196
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.135
+
+    - Propagation time:                      6.052
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.917
+
+    Number of logic level(s):                12
+    Starting point:                          fifo_inst.Full / Q
+    Ending point:                            fifo_inst.Full / D
+    The start point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+fifo_inst.Full                      DFFC          Q        Out     0.243     0.243       -         
+Full                                Net           -        -       0.535     -           3         
+fifo_inst.Big\.un1_WrEn             LUT2          I0       In      -         0.778       -         
+fifo_inst.Big\.un1_WrEn             LUT2          F        Out     0.549     1.327       -         
+Big\.un1_WrEn                       Net           -        -       0.862     -           1         
+fifo_inst.wbin_num_next_cry_0_0     ALU           CIN      In      -         2.189       -         
+fifo_inst.wbin_num_next_cry_0_0     ALU           COUT     Out     0.035     2.224       -         
+wbin_num_next_cry_0                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_1_0     ALU           CIN      In      -         2.224       -         
+fifo_inst.wbin_num_next_cry_1_0     ALU           COUT     Out     0.035     2.259       -         
+wbin_num_next_cry_1                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_2_0     ALU           CIN      In      -         2.259       -         
+fifo_inst.wbin_num_next_cry_2_0     ALU           COUT     Out     0.035     2.294       -         
+wbin_num_next_cry_2                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_3_0     ALU           CIN      In      -         2.294       -         
+fifo_inst.wbin_num_next_cry_3_0     ALU           COUT     Out     0.035     2.329       -         
+wbin_num_next_cry_3                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_4_0     ALU           CIN      In      -         2.329       -         
+fifo_inst.wbin_num_next_cry_4_0     ALU           COUT     Out     0.035     2.364       -         
+wbin_num_next_cry_4                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_5_0     ALU           CIN      In      -         2.364       -         
+fifo_inst.wbin_num_next_cry_5_0     ALU           SUM      Out     0.470     2.834       -         
+wbin_num_next[5]                    Net           -        -       0.535     -           5         
+fifo_inst.wfull_val_3               LUT3          I1       In      -         3.369       -         
+fifo_inst.wfull_val_3               LUT3          F        Out     0.570     3.939       -         
+wfull_val_3                         Net           -        -       0.535     -           4         
+fifo_inst.wfull_val_NE_6_1_1        LUT4          I2       In      -         4.474       -         
+fifo_inst.wfull_val_NE_6_1_1        LUT4          F        Out     0.462     4.936       -         
+wfull_val_NE_6_1_1                  Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6_1          MUX2_LUT5     I1       In      -         4.936       -         
+fifo_inst.wfull_val_NE_6_1          MUX2_LUT5     O        Out     0.105     5.041       -         
+wfull_val_NE_6_1                    Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     I1       In      -         5.041       -         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     O        Out     0.105     5.146       -         
+wfull_val_NE_6                      Net           -        -       0.535     -           1         
+fifo_inst.wfull_val_NE_i            LUT4          I3       In      -         5.681       -         
+fifo_inst.wfull_val_NE_i            LUT4          F        Out     0.371     6.052       -         
+wfull_val_NE_i                      Net           -        -       0.000     -           1         
+fifo_inst.Full                      DFFC          D        In      -         6.052       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 6.113 is 3.111(50.9%) logic and 3.002(49.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.196
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.135
+
+    - Propagation time:                      6.052
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.917
+
+    Number of logic level(s):                12
+    Starting point:                          fifo_inst.Full / Q
+    Ending point:                            fifo_inst.Full / D
+    The start point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+fifo_inst.Full                      DFFC          Q        Out     0.243     0.243       -         
+Full                                Net           -        -       0.535     -           3         
+fifo_inst.Big\.un1_WrEn             LUT2          I0       In      -         0.778       -         
+fifo_inst.Big\.un1_WrEn             LUT2          F        Out     0.549     1.327       -         
+Big\.un1_WrEn                       Net           -        -       0.862     -           1         
+fifo_inst.wbin_num_next_cry_0_0     ALU           CIN      In      -         2.189       -         
+fifo_inst.wbin_num_next_cry_0_0     ALU           COUT     Out     0.035     2.224       -         
+wbin_num_next_cry_0                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_1_0     ALU           CIN      In      -         2.224       -         
+fifo_inst.wbin_num_next_cry_1_0     ALU           COUT     Out     0.035     2.259       -         
+wbin_num_next_cry_1                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_2_0     ALU           CIN      In      -         2.259       -         
+fifo_inst.wbin_num_next_cry_2_0     ALU           COUT     Out     0.035     2.294       -         
+wbin_num_next_cry_2                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_3_0     ALU           CIN      In      -         2.294       -         
+fifo_inst.wbin_num_next_cry_3_0     ALU           COUT     Out     0.035     2.329       -         
+wbin_num_next_cry_3                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_4_0     ALU           CIN      In      -         2.329       -         
+fifo_inst.wbin_num_next_cry_4_0     ALU           COUT     Out     0.035     2.364       -         
+wbin_num_next_cry_4                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_5_0     ALU           CIN      In      -         2.364       -         
+fifo_inst.wbin_num_next_cry_5_0     ALU           SUM      Out     0.470     2.834       -         
+wbin_num_next[5]                    Net           -        -       0.535     -           5         
+fifo_inst.wfull_val_3               LUT3          I1       In      -         3.369       -         
+fifo_inst.wfull_val_3               LUT3          F        Out     0.570     3.939       -         
+wfull_val_3                         Net           -        -       0.535     -           4         
+fifo_inst.wfull_val_NE_6_1_0        LUT4          I2       In      -         4.474       -         
+fifo_inst.wfull_val_NE_6_1_0        LUT4          F        Out     0.462     4.936       -         
+wfull_val_NE_6_1_0                  Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6_1          MUX2_LUT5     I0       In      -         4.936       -         
+fifo_inst.wfull_val_NE_6_1          MUX2_LUT5     O        Out     0.105     5.041       -         
+wfull_val_NE_6_1                    Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     I1       In      -         5.041       -         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     O        Out     0.105     5.146       -         
+wfull_val_NE_6                      Net           -        -       0.535     -           1         
+fifo_inst.wfull_val_NE_i            LUT4          I3       In      -         5.681       -         
+fifo_inst.wfull_val_NE_i            LUT4          F        Out     0.371     6.052       -         
+wfull_val_NE_i                      Net           -        -       0.000     -           1         
+fifo_inst.Full                      DFFC          D        In      -         6.052       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 6.113 is 3.111(50.9%) logic and 3.002(49.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.196
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.135
+
+    - Propagation time:                      5.996
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.861
+
+    Number of logic level(s):                13
+    Starting point:                          fifo_inst.Full / Q
+    Ending point:                            fifo_inst.Full / D
+    The start point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+    The end   point is clocked by            fifo_dma_write|WrClk [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+fifo_inst.Full                      DFFC          Q        Out     0.243     0.243       -         
+Full                                Net           -        -       0.535     -           3         
+fifo_inst.Big\.un1_WrEn             LUT2          I0       In      -         0.778       -         
+fifo_inst.Big\.un1_WrEn             LUT2          F        Out     0.549     1.327       -         
+Big\.un1_WrEn                       Net           -        -       0.862     -           1         
+fifo_inst.wbin_num_next_cry_0_0     ALU           CIN      In      -         2.189       -         
+fifo_inst.wbin_num_next_cry_0_0     ALU           COUT     Out     0.035     2.224       -         
+wbin_num_next_cry_0                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_1_0     ALU           CIN      In      -         2.224       -         
+fifo_inst.wbin_num_next_cry_1_0     ALU           COUT     Out     0.035     2.259       -         
+wbin_num_next_cry_1                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_2_0     ALU           CIN      In      -         2.259       -         
+fifo_inst.wbin_num_next_cry_2_0     ALU           COUT     Out     0.035     2.294       -         
+wbin_num_next_cry_2                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_3_0     ALU           CIN      In      -         2.294       -         
+fifo_inst.wbin_num_next_cry_3_0     ALU           COUT     Out     0.035     2.329       -         
+wbin_num_next_cry_3                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_4_0     ALU           CIN      In      -         2.329       -         
+fifo_inst.wbin_num_next_cry_4_0     ALU           COUT     Out     0.035     2.364       -         
+wbin_num_next_cry_4                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_5_0     ALU           CIN      In      -         2.364       -         
+fifo_inst.wbin_num_next_cry_5_0     ALU           COUT     Out     0.035     2.399       -         
+wbin_num_next_cry_5                 Net           -        -       0.000     -           1         
+fifo_inst.wbin_num_next_cry_6_0     ALU           CIN      In      -         2.399       -         
+fifo_inst.wbin_num_next_cry_6_0     ALU           SUM      Out     0.470     2.869       -         
+wbin_num_next[6]                    Net           -        -       0.535     -           5         
+fifo_inst.wfull_val_4               LUT3          I1       In      -         3.404       -         
+fifo_inst.wfull_val_4               LUT3          F        Out     0.570     3.974       -         
+wfull_val_4                         Net           -        -       0.535     -           4         
+fifo_inst.wfull_val_NE_6_0_0        LUT4          I3       In      -         4.509       -         
+fifo_inst.wfull_val_NE_6_0_0        LUT4          F        Out     0.371     4.880       -         
+wfull_val_NE_6_0_0                  Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6_0          MUX2_LUT5     I0       In      -         4.880       -         
+fifo_inst.wfull_val_NE_6_0          MUX2_LUT5     O        Out     0.105     4.985       -         
+wfull_val_NE_6_0                    Net           -        -       0.000     -           1         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     I0       In      -         4.985       -         
+fifo_inst.wfull_val_NE_6            MUX2_LUT6     O        Out     0.105     5.090       -         
+wfull_val_NE_6                      Net           -        -       0.535     -           1         
+fifo_inst.wfull_val_NE_i            LUT4          I3       In      -         5.625       -         
+fifo_inst.wfull_val_NE_i            LUT4          F        Out     0.371     5.996       -         
+wfull_val_NE_i                      Net           -        -       0.000     -           1         
+fifo_inst.Full                      DFFC          D        In      -         5.996       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 6.057 is 3.055(50.4%) logic and 3.002(49.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                                    Arrival          
+Instance                               Reference     Type     Pin     Net                          Time        Slack
+                                       Clock                                                                        
+--------------------------------------------------------------------------------------------------------------------
+fifo_inst.rbin_num_RNI2J6D[0]          System        INV      O       rcnt_sub_1                   0.000       1.281
+fifo_inst.rcnt_sub_1_cry_1_0_RNO       System        INV      O       rbin_num_i[1]                0.000       2.327
+fifo_inst.rcnt_sub_1_cry_2_0_RNO       System        INV      O       rcnt_sub_b_D0_0_i[2]         0.000       2.362
+fifo_inst.rcnt_sub_1_cry_3_0_RNO       System        INV      O       rbin_num_i[3]                0.000       2.397
+fifo_inst.rcnt_sub_1_cry_4_0_RNO       System        INV      O       rbin_num_i[4]                0.000       2.432
+fifo_inst.rcnt_sub_1_cry_5_0_RNO       System        INV      O       rbin_num_i[5]                0.000       2.467
+fifo_inst.rcnt_sub_1_cry_6_0_RNO       System        INV      O       Big\.rq2_wptr_i[6]           0.000       2.502
+fifo_inst.rcnt_sub_1_cry_3_0_RNO_1     System        INV      O       rcnt_sub_1_cry_3_0_RNO_1     0.000       2.575
+fifo_inst.Full_RNIJKO                  System        INV      O       Full_i                       0.000       4.562
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                       Required          
+Instance              Reference     Type     Pin     Net             Time         Slack
+                      Clock                                                            
+---------------------------------------------------------------------------------------
+fifo_inst.Rnum[9]     System        DFFC     D       rcnt_sub[9]     5.123        1.281
+fifo_inst.Rnum[8]     System        DFFC     D       rcnt_sub[8]     5.123        1.316
+fifo_inst.Rnum[7]     System        DFFC     D       rcnt_sub[7]     5.123        1.351
+fifo_inst.Rnum[6]     System        DFFC     D       rcnt_sub[6]     5.123        1.386
+fifo_inst.Rnum[5]     System        DFFC     D       rcnt_sub[5]     5.123        1.421
+fifo_inst.Rnum[4]     System        DFFC     D       rcnt_sub[4]     5.123        1.456
+fifo_inst.Rnum[3]     System        DFFC     D       rcnt_sub[3]     5.123        1.491
+fifo_inst.Rnum[2]     System        DFFC     D       rcnt_sub[2]     5.123        1.526
+fifo_inst.Rnum[1]     System        DFFC     D       rcnt_sub[1]     5.123        1.561
+fifo_inst.Rnum[0]     System        DFFC     D       rcnt_sub[0]     5.123        2.031
+=======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.184
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.123
+
+    - Propagation time:                      3.842
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.281
+
+    Number of logic level(s):                13
+    Starting point:                          fifo_inst.rbin_num_RNI2J6D[0] / O
+    Ending point:                            fifo_inst.Rnum[9] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            fifo_dma_write|RdClk [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                 Type          Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+fifo_inst.rbin_num_RNI2J6D[0]        INV           O        Out     0.000     0.000       -         
+rcnt_sub_1                           Net           -        -       0.535     -           2         
+fifo_inst.rcnt_sub_1_axb_0_lfx_0     LUT4          I3       In      -         0.535       -         
+fifo_inst.rcnt_sub_1_axb_0_lfx_0     LUT4          F        Out     0.371     0.906       -         
+rcnt_sub_1_axb_0_lfx_0               Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_axb_0_lfx       MUX2_LUT5     I0       In      -         0.906       -         
+fifo_inst.rcnt_sub_1_axb_0_lfx       MUX2_LUT5     O        Out     0.105     1.011       -         
+rcnt_sub_1_axb_0_lfx                 Net           -        -       0.535     -           1         
+fifo_inst.rcnt_sub_1_cry_0_0         ALU           I0       In      -         1.546       -         
+fifo_inst.rcnt_sub_1_cry_0_0         ALU           COUT     Out     0.549     2.095       -         
+rcnt_sub_1_cry_0                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_1_0         ALU           CIN      In      -         2.095       -         
+fifo_inst.rcnt_sub_1_cry_1_0         ALU           COUT     Out     0.035     2.130       -         
+rcnt_sub_1_cry_1                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_2_0         ALU           CIN      In      -         2.130       -         
+fifo_inst.rcnt_sub_1_cry_2_0         ALU           COUT     Out     0.035     2.165       -         
+rcnt_sub_1_cry_2                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_3_0         ALU           CIN      In      -         2.165       -         
+fifo_inst.rcnt_sub_1_cry_3_0         ALU           COUT     Out     0.035     2.200       -         
+rcnt_sub_1_cry_3                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_4_0         ALU           CIN      In      -         2.200       -         
+fifo_inst.rcnt_sub_1_cry_4_0         ALU           COUT     Out     0.035     2.235       -         
+rcnt_sub_1_cry_4                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_5_0         ALU           CIN      In      -         2.235       -         
+fifo_inst.rcnt_sub_1_cry_5_0         ALU           COUT     Out     0.035     2.270       -         
+rcnt_sub_1_cry_5                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_6_0         ALU           CIN      In      -         2.270       -         
+fifo_inst.rcnt_sub_1_cry_6_0         ALU           COUT     Out     0.035     2.305       -         
+rcnt_sub_1_cry_6                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_7_0         ALU           CIN      In      -         2.305       -         
+fifo_inst.rcnt_sub_1_cry_7_0         ALU           COUT     Out     0.035     2.340       -         
+rcnt_sub_1_cry_7                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_cry_8_0         ALU           CIN      In      -         2.340       -         
+fifo_inst.rcnt_sub_1_cry_8_0         ALU           COUT     Out     0.035     2.375       -         
+rcnt_sub_1_cry_8                     Net           -        -       0.000     -           1         
+fifo_inst.rcnt_sub_1_s_9_0           ALU           CIN      In      -         2.375       -         
+fifo_inst.rcnt_sub_1_s_9_0           ALU           SUM      Out     0.470     2.845       -         
+rcnt_sub1[9]                         Net           -        -       0.535     -           1         
+fifo_inst.rcnt_sub_m[9]              LUT4          I2       In      -         3.380       -         
+fifo_inst.rcnt_sub_m[9]              LUT4          F        Out     0.462     3.842       -         
+rcnt_sub[9]                          Net           -        -       0.000     -           1         
+fifo_inst.Rnum[9]                    DFFC          D        In      -         3.842       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 3.903 is 2.298(58.9%) logic and 1.605(41.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 192MB peak: 195MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 192MB peak: 195MB)
+
+---------------------------------------
+Resource Usage Report for fifo_dma_write 
+
+Mapping to part: gw2a_18pbga256-8
+Cell usage:
+ALU             42 uses
+DFFC            91 uses
+DFFE            9 uses
+DFFNP           4 uses
+DFFP            1 use
+GSR             1 use
+INV             9 uses
+MUX2_LUT5       5 uses
+MUX2_LUT6       1 use
+SDPX9           16 uses
+LUT2            33 uses
+LUT3            17 uses
+LUT4            31 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   105 of 15552 (0%)
+
+RAM/ROM usage summary
+Block Rams : 16 of 46 (34%)
+
+Total load per clock:
+   fifo_dma_write|WrClk: 60
+   fifo_dma_write|RdClk: 77
+
+@S |Mapping Summary:
+Total  LUTs: 81 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 41MB peak: 195MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:08s cputime
+# Wed May 22 17:17:30 2019
+
+###########################################################]

@@ -1,0 +1,64 @@
+#--  Synopsys, Inc.
+#--  Version P-2019.03G-Beta4
+#--  Project file E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\rev_1\scratchproject.prs
+
+#project files
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2/temp/gao/ao_control/gw_con_parameter.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2/temp/gao/ao_control/gw_con_top_define.v"
+add_file -verilog "E:/Gowin/Gowin_V1.9.2Beta/IDE/data/ipcores/GAO/GW_CON/gw_con_top.v"
+
+
+
+#implementation: "rev_1"
+impl -add E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\rev_1 -type fpga
+
+#device options
+set_option -technology GOWIN-GW2AR
+set_option -part GW2AR_18
+set_option -package eLQFP144
+set_option -speed_grade -8
+set_option -part_companion ""
+
+#compilation/mapping options
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# GOWIN-GW2AR
+set_option -maxfan 10000
+set_option -rw_check_on_ram 1
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -run_prop_extract 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "E:/gowin_projects/myproj/myproj_blue2/temp/gao/ao_control/rev_1/ao_control.vm"
+impl -active "rev_1"

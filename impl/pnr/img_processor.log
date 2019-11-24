@@ -1,0 +1,20 @@
+Info    (PA0001) : "E:/gowin_projects/myproj/myproj_blue2_ircon/impl/synthesize/rev_1/img_processor.vm" | Reading netlist file.
+Info    (PA0004) : Parsing netlist file 'E:/gowin_projects/myproj/myproj_blue2_ircon/impl/synthesize/rev_1/img_processor.vm' completed.
+Info    (PA0006) : Processing netlist completed.
+Info    (CT0002) : Physical Constraint parsed completed.
+Info    (PR0001) : Placement in progress......
+Info    (PR0005) : Routing in progress......
+Warning (PR1014) : Generic routing resource will be used to clock signal 'I_clk_50m_c' by the specified constraint. And then it may lead to the excessive delay or skew.
+Warning (PR1014) : Generic routing resource will be used to clock signal 'cmos_pclk0_c' by the specified constraint. And then it may lead to the excessive delay or skew.
+Info    (PR0002) : Placement and routing completed.
+Info    (TA0001) : Timing analysis completed.
+Info    (FS0001) : Bitstream generation in progress......
+Info    (FS0002) : Bitstream generation completed.
+Info    (PW0001) : Power analysis completed.
+Info    (CM0008) : Generate 'E:\gowin_projects\myproj\myproj_blue2_ircon\impl\pnr\img_processor.power.html' file completed.
+Info    (CM0008) : Generate 'E:\gowin_projects\myproj\myproj_blue2_ircon\impl\pnr\img_processor.pin.html' file completed.
+Info    (CM0008) : Generate 'E:\gowin_projects\myproj\myproj_blue2_ircon\impl\pnr\img_processor.rpt.html' file completed.
+Info    (CM0008) : Generate 'E:\gowin_projects\myproj\myproj_blue2_ircon\impl\pnr\img_processor.rpt.txt' file completed.
+Info    (CM0008) : Generate 'E:\gowin_projects\myproj\myproj_blue2_ircon\impl\pnr\img_processor.tr.html' file completed.
+Info    (CM0001) : Fri Nov 22 14:23:19 2019
+

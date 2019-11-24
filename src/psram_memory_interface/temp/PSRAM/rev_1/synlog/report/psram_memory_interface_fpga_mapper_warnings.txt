@@ -1,0 +1,9 @@
+@W: MT453 |clock period is too long for clock _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0], changing period from 66667.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 33333.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0], changing period from 66667.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 33333.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1], changing period from 66667.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 33333.5 ns to 10000.0 ns. 
+@W: MT246 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_code.v":2395:8:2395:13|Blackbox CLKDIV is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_code.v":2387:7:2387:20|Blackbox DHCEN is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_code.v":2375:2:2375:6|Blackbox DLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock with period 5.18ns. Please declare a user-defined clock on net u_psram_top.clk_outz.
+@W: MT420 |Found inferred clock PSRAM_Memory_Interface_Top|clk with period 3.30ns. Please declare a user-defined clock on port clk.
+@W: MT420 |Found inferred clock _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock with period 6.67ns. Please declare a user-defined clock on net u_psram_top.clk_x2p.

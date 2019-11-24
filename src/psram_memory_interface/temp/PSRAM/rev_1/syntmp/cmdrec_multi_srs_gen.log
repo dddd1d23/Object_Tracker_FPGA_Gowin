@@ -1,0 +1,7 @@
+D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\synwork\psram_memory_interface_comp.srs  -osyn  D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\synwork\psram_memory_interface_mult.srs  -log  D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\synlog\psram_memory_interface_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\psram_memory_interface_comp.srs -osyn ..\synwork\psram_memory_interface_mult.srs -log ..\synlog\psram_memory_interface_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\psram_memory_interface_comp.srs|io:i|time:1568100292|size:250339|exec:0|csum:1AED4A3B341E49CB2A5B9B8CDCFEDD7F
+file:..\synwork\psram_memory_interface_mult.srs|io:o|time:1568100294|size:4412|exec:0|csum:
+file:..\synlog\psram_memory_interface_multi_srs_gen.srr|io:o|time:1568100294|size:1384|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1552407354|size:8810496|exec:1|csum:F052DADC0B944B3FC13DEB1D4FAB2C93

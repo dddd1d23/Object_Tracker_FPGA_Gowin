@@ -1,0 +1,102 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, myproj_top, 0h:00m:00s,    133 MB
+work, img_processor2, 0h:00m:00s,    133 MB
+work, vga_mark_out_top, 0h:00m:00s,    133 MB
+work, vga_mark_out, 0h:00m:00s,    133 MB
+work, box_calculator, 0h:00m:00s,    133 MB
+work, sqrt_1, 0h:00m:00s,    133 MB
+work, div223, 0h:00m:00s,    134 MB
+work, erode_dilate, 0h:00m:00s,    134 MB
+work, img_dilation, 0h:00m:00s,    134 MB
+work, img_erosion, 0h:00m:00s,    134 MB
+work, img_matrix_3_3_1_964_420, 0h:00m:00s,    134 MB
+work, Shift_RAM_1Bit_800, 0h:00m:00s,    134 MB
+work, SR_800_1, 0h:00m:00s,    134 MB
+work, \~RAM_based_shift_reg.SR_800_1_ , 0h:00m:00s,    134 MB
+work, rgb24_16, 0h:00m:00s,    134 MB
+work, hist_v, 0h:00m:00s,    134 MB
+work, hsv2rgb, 0h:00m:00s,    134 MB
+work, div225, 0h:00m:03s,    150 MB
+work, histogram_equalized_top, 0h:00m:00s,    150 MB
+work, histogram_equalized, 0h:00m:00s,    150 MB
+work, sdp_256_8, 0h:00m:00s,    150 MB
+work, sdp00, 0h:00m:00s,    150 MB
+work, SDP, 0h:00m:00s,    150 MB
+work, div227, 0h:00m:05s,    163 MB
+work, rgb2hsv_top, 0h:00m:00s,    163 MB
+work, div222, 0h:00m:01s,    163 MB
+work, rgb16_24, 0h:00m:00s,    163 MB
+work, gauss_filter_5_5, 0h:00m:00s,    163 MB
+work, rgb888_565, 0h:00m:00s,    163 MB
+work, rgb565_888, 0h:00m:00s,    163 MB
+work, img_matrix_5_5_16, 0h:00m:00s,    163 MB
+work, Shift_RAM_16Bit_800_L5, 0h:00m:00s,    163 MB
+work, SR_800_16, 0h:00m:00s,    163 MB
+work, \~RAM_based_shift_reg.SR_800_16_ , 0h:00m:00s,    163 MB
+work, SP, 0h:00m:00s,    163 MB
+work, syn_gen, 0h:00m:00s,    163 MB
+work, PSRAM_Memory_Interface_Top, 0h:00m:00s,    163 MB
+work, \~psram_top.PSRAM_Memory_Interface_Top_ , 0h:00m:00s,    163 MB
+work, \~psram_sync.PSRAM_Memory_Interface_Top_ , 0h:00m:00s,    163 MB
+work, DFFPE, 0h:00m:00s,    163 MB
+work, \~psram_init.PSRAM_Memory_Interface_Top_ , 0h:00m:00s,    163 MB
+work, \~psram_wd.PSRAM_Memory_Interface_Top_ , 0h:00m:00s,    163 MB
+work, \~psram_lane.PSRAM_Memory_Interface_Top__Z1 , 0h:00m:00s,    163 MB
+work, \~psram_lane.PSRAM_Memory_Interface_Top__Z2 , 0h:00m:00s,    163 MB
+work, IDES4, 0h:00m:00s,    163 MB
+work, OSER4, 0h:00m:00s,    163 MB
+work, IODELAY, 0h:00m:00s,    163 MB
+work, ELVDS_OBUF, 0h:00m:00s,    163 MB
+work, IOBUF, 0h:00m:00s,    163 MB
+work, OBUF, 0h:00m:00s,    163 MB
+work, DLL, 0h:00m:00s,    163 MB
+work, DHCEN, 0h:00m:00s,    163 MB
+work, CLKDIV, 0h:00m:00s,    163 MB
+work, gw_pll, 0h:00m:00s,    163 MB
+work, vfb_top_1048576_256s_256s_21s_64s_16s, 0h:00m:00s,    163 MB
+work, dma_bus_arbiter_21s_64s_1_2_4_8, 0h:00m:00s,    163 MB
+work, dma_frame_buffer_1048576_256s_256s_21s_64s_16s, 0h:00m:00s,    163 MB
+work, dma_frame_ctrl_1048576_21s, 0h:00m:00s,    163 MB
+work, dma_read_ctrl_256s_21s_64s_16s_32s_64s_5s_2s, 0h:00m:00s,    163 MB
+work, fifo_dma_read_64_32, 0h:00m:00s,    163 MB
+work, \~fifo.fifo_dma_read_64_32_ , 0h:00m:00s,    163 MB
+work, MUX2_LUT6, 0h:00m:00s,    163 MB
+work, dma_32b_16b, 0h:00m:00s,    163 MB
+work, dma_write_ctrl_256s_21s_64s_16s_32s_32s_5s_7s_2s, 0h:00m:00s,    163 MB
+work, fifo_dma_write_32_64, 0h:00m:00s,    163 MB
+work, \~fifo.fifo_dma_write_32_64_ , 0h:00m:00s,    163 MB
+work, VCC, 0h:00m:00s,    163 MB
+work, GND, 0h:00m:00s,    163 MB
+work, ALU, 0h:00m:00s,    163 MB
+work, SDPX9, 0h:00m:00s,    163 MB
+work, DFFNP, 0h:00m:00s,    163 MB
+work, DFFCE, 0h:00m:00s,    163 MB
+work, DFFC, 0h:00m:00s,    163 MB
+work, DFFP, 0h:00m:00s,    163 MB
+work, MUX2_LUT5, 0h:00m:00s,    163 MB
+work, LUT2, 0h:00m:00s,    163 MB
+work, LUT3, 0h:00m:00s,    163 MB
+work, LUT4, 0h:00m:00s,    163 MB
+work, INV, 0h:00m:00s,    163 MB
+work, GSR, 0h:00m:00s,    163 MB
+work, dma_16b_32b, 0h:00m:00s,    163 MB
+work, pwm_ctrl, 0h:00m:00s,    163 MB
+work, pwm_out2, 0h:00m:00s,    163 MB
+work, esp8266_send_top, 0h:00m:00s,    163 MB
+work, uart_byte_tx, 0h:00m:00s,    163 MB
+work, datatest, 0h:00m:00s,    163 MB
+work, CMOS_Capture_RGB565_10_0_800_0_600_48000000s, 0h:00m:00s,    163 MB
+work, pll_24M, 0h:00m:00s,    163 MB
+work, pll_36m, 0h:00m:00s,    163 MB
+work, pll_100M, 0h:00m:00s,    163 MB
+work, PLL, 0h:00m:00s,    163 MB
+work, power_ctrl, 0h:00m:00s,    163 MB
+work, threshold_set, 0h:00m:00s,    163 MB
+work, uart_byte_rx, 0h:00m:00s,    163 MB
+work, key_debounce, 0h:00m:00s,    163 MB
+work, I2C_OV5640_Init_RGB565, 0h:00m:00s,    163 MB
+work, I2C_OV5640_RGB565_Config, 0h:00m:00s,    163 MB
+work, I2C_Controller, 0h:00m:00s,    163 MB
+work, key_filter, 0h:00m:00s,    163 MB
+work, ir_to_sw, 0h:00m:00s,    163 MB
+work, ir_decoder, 0h:00m:00s,    163 MB

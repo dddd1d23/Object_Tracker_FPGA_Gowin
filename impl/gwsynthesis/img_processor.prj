@@ -1,0 +1,48 @@
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>Beta</Version>
+    <Device id="GW2AR-18" package="eLQFP144" speed="8"/>
+    <FileList>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\datatest.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\key_debounce.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\led_test.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\testpattern.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_16b_32b.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_24b_32b.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_32b_16b.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_32b_24b.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_defines.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_top.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\cmos_capture\CMOS_Capture_RGB565.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\sccb\I2C_Controller.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\sccb\I2C_OV5640_Init_RGB565.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\sccb\I2C_OV5640_RGB565_Config.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\esp8266_send\esp8266_send_top.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\esp8266_send\uart_byte_tx.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\gw_pll\gw_pll.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\gw_pll\pix_pll.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\pll_75m\pll_75m.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\pll_100M\pll_100M.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\pll_24M\pll_24M.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\pll_25m\pll_25m.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\syn_code\syn_gen.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_bus_arbiter.vp"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_frame_buffer.vp"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_frame_ctrl.vp"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_read_ctrl.vp"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_write_ctrl.vp"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\vfb_test.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_write_32_64.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\pix2_pll\pix2_pll.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\myproj_top.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\img_processor2.v"/>
+        <File type="verilog"  path="E:\gowin_projects\myproj\img_processor\src\SR_640_16\SR_640_16.v"/>
+    </FileList>
+    <OptionList>
+        <Option type="top_module"  value="myproj_top"/>
+        <Option type="include_path"  value="E:/gowin_projects/myproj/img_processor/src/frame_buffer"/>
+        <Option type="output_file"  value="E:\gowin_projects\myproj\img_processor\impl\gwsynthesis\img_processor.vg"/>
+    </OptionList>
+</Project>

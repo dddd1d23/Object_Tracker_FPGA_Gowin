@@ -1,0 +1,3 @@
+module pwm_ctrl(
+input [18:0] pwm_cnt,;
+endmodule

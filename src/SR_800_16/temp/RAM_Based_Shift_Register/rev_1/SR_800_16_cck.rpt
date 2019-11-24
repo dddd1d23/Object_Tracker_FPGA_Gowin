@@ -1,0 +1,106 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+
+# Written on Sat Nov 16 17:31:13 2019
+
+##### DESIGN INFO #######################################################
+
+Top View:                "SR_800_16"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting          Ending            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------
+SR_800_16|clk     SR_800_16|clk     |     2.459            |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:Din[0]
+p:Din[1]
+p:Din[2]
+p:Din[3]
+p:Din[4]
+p:Din[5]
+p:Din[6]
+p:Din[7]
+p:Din[8]
+p:Din[9]
+p:Din[10]
+p:Din[11]
+p:Din[12]
+p:Din[13]
+p:Din[14]
+p:Din[15]
+p:Q[0]
+p:Q[1]
+p:Q[2]
+p:Q[3]
+p:Q[4]
+p:Q[5]
+p:Q[6]
+p:Q[7]
+p:Q[8]
+p:Q[9]
+p:Q[10]
+p:Q[11]
+p:Q[12]
+p:Q[13]
+p:Q[14]
+p:Q[15]
+p:Reset
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

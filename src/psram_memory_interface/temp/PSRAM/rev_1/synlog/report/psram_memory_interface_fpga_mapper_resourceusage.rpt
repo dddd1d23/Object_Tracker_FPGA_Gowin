@@ -1,0 +1,41 @@
+---------------------------------------
+Resource Usage Report for PSRAM_Memory_Interface_Top 
+
+Mapping to part: gw2ar_18elqfp144-8
+Cell usage:
+ALU             143 uses
+CLKDIV          1 use
+DFFC            297 uses
+DFFCE           168 uses
+DFFP            1 use
+DFFPE           1 use
+DHCEN           1 use
+DLL             1 use
+GSR             1 use
+IDES4           16 uses
+INV             10 uses
+IODELAY         18 uses
+MUX2_LUT5       12 uses
+MUX2_LUT6       3 uses
+OSER4           22 uses
+SDPX9           2 uses
+LUT2            335 uses
+LUT3            155 uses
+LUT4            250 uses
+
+I/O ports: 192
+I/O primitives: 22
+ELVDS_OBUF     2 uses
+IOBUF          18 uses
+OBUF           2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   467 of 15552 (3%)
+
+RAM/ROM usage summary
+Block Rams : 2 of 46 (4%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 740 (3%)
+

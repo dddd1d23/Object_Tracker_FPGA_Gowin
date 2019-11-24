@@ -1,0 +1,1555 @@
+#Build: Synplify Pro (R) O-2018.09G-SP1-1-Beta1, Build 141R, Mar 12 2019
+#install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: DESKTOP
+
+# Tue Sep 10 15:24:50 2019
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\generic\gw2a.v" (library work)
+@I::"D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v" (library work)
+@I:"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v":"D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\psram_define.v" (library work)
+@I:"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v":"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_local_define.v" (library work)
+@I:"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v":"D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\psram_param.v" (library work)
+@I:"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v":"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_local_param.v" (library work)
+@I::"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v" (library work)
+@N: CG346 :"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v":2004:34:2004:42|Read full_case directive.
+@N: CG347 :"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v":2004:44:2004:56|Read a parallel_case directive.
+@W: CG286 :"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v":2004:2:2004:5|Case statement has both a full_case directive and a default clause -- ignoring full_case directive.
+Verilog syntax check successful!
+Selecting top level module PSRAM_Memory_Interface_Top
+Running optimization stage 1 on OSER4 .......
+Running optimization stage 1 on IDES4 .......
+Running optimization stage 1 on \~psram_lane.PSRAM_Memory_Interface_Top _Z1 .......
+Running optimization stage 1 on \~psram_lane.PSRAM_Memory_Interface_Top _Z2 .......
+Running optimization stage 1 on IOBUF .......
+Running optimization stage 1 on IODELAY .......
+Running optimization stage 1 on ELVDS_OBUF .......
+Running optimization stage 1 on OBUF .......
+Running optimization stage 1 on \~psram_wd.PSRAM_Memory_Interface_Top  .......
+Running optimization stage 1 on \~psram_init.PSRAM_Memory_Interface_Top  .......
+Running optimization stage 1 on \~psram_sync.PSRAM_Memory_Interface_Top  .......
+Running optimization stage 1 on DLL .......
+Running optimization stage 1 on DHCEN .......
+Running optimization stage 1 on CLKDIV .......
+Running optimization stage 1 on \~psram_top.PSRAM_Memory_Interface_Top  .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v":5:25:5:25|Synthesizing module PSRAM_Memory_Interface_Top in library work.
+Running optimization stage 1 on PSRAM_Memory_Interface_Top .......
+Running optimization stage 2 on PSRAM_Memory_Interface_Top .......
+Running optimization stage 2 on \~psram_top.PSRAM_Memory_Interface_Top  .......
+Running optimization stage 2 on CLKDIV .......
+Running optimization stage 2 on DHCEN .......
+Running optimization stage 2 on DLL .......
+Running optimization stage 2 on \~psram_sync.PSRAM_Memory_Interface_Top  .......
+Extracted state machine for register flag
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on \~psram_init.PSRAM_Memory_Interface_Top  .......
+Running optimization stage 2 on OBUF .......
+Running optimization stage 2 on ELVDS_OBUF .......
+Running optimization stage 2 on IODELAY .......
+Running optimization stage 2 on IOBUF .......
+Running optimization stage 2 on \~psram_lane.PSRAM_Memory_Interface_Top _Z2 .......
+Running optimization stage 2 on \~psram_lane.PSRAM_Memory_Interface_Top _Z1 .......
+Running optimization stage 2 on IDES4 .......
+Running optimization stage 2 on OSER4 .......
+Running optimization stage 2 on \~psram_wd.PSRAM_Memory_Interface_Top  .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 10 15:24:52 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: NF107 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_top.v":5:25:5:25|Selected library: work cell: PSRAM_Memory_Interface_Top view verilog as top level
+@N: NF107 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_top.v":5:25:5:25|Selected library: work cell: PSRAM_Memory_Interface_Top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 10 15:24:52 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 10 15:24:52 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: NF107 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_top.v":5:25:5:25|Selected library: work cell: PSRAM_Memory_Interface_Top view verilog as top level
+@N: NF107 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_top.v":5:25:5:25|Selected library: work cell: PSRAM_Memory_Interface_Top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 10 15:24:54 2019
+
+###########################################################]
+Premap Report
+
+# Tue Sep 10 15:24:55 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2018q4p1, Build 001R, Built Mar 29 2019 09:46:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\psram_memory_interface_scck.rpt 
+Printing clock  summary report in "D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\psram_memory_interface_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 105MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 119MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+Encoding state machine flag[2:0] (in view: work.\\\~psram_sync\.PSRAM_Memory_Interface_Top\ (verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                                     Requested     Requested     Clock                                                                             Clock                     Clock
+Level     Clock                                                                                     Frequency     Period        Type                                                                              Group                     Load 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                                    150.0 MHz     6.667         system                                                                            system_clkgroup           0    
+                                                                                                                                                                                                                                                 
+0 -       _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                            187.2 MHz     5.341         inferred                                                                          Autoconstr_clkgroup_0     1165 
+1 .         _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]     187.2 MHz     5.341         derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0     8    
+1 .         _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]     187.2 MHz     5.341         derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0     8    
+1 .         _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0]                            187.2 MHz     5.341         derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0     2    
+                                                                                                                                                                                                                                                 
+0 -       _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock                            150.0 MHz     6.667         inferred                                                                          Autoconstr_clkgroup_2     38   
+                                                                                                                                                                                                                                                 
+0 -       PSRAM_Memory_Interface_Top|clk                                                            302.5 MHz     3.306         inferred                                                                          Autoconstr_clkgroup_1     27   
+=================================================================================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                                        Clock     Source                                                                  Clock Pin                                                                    Non-clock Pin                                                                              Non-clock Pin
+Clock                                                                                   Load      Pin                                                                     Seq Example                                                                  Seq Example                                                                                Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                                  0         -                                                                       -                                                                            -                                                                                          -            
+                                                                                                                                                                                                                                                                                                                                                               
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                          1165      u_psram_top.clkdiv.CLKOUT(CLKDIV)                                       u_psram_top.rd_data_valid_d.C                                                u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.iserdes_gen\[6\]\.u_ides4.PCLK     -            
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]     8         u_psram_top.u_psram_init.read_calibration\[0\]\.VALUE[0].Q[0](dffr)     u_psram_top.u_psram_wd.dq_iodelay_gen0\[0\]\.genblk1\[4\]\.iodelay.VALUE     -                                                                                          -            
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]     8         u_psram_top.u_psram_init.read_calibration\[1\]\.VALUE[1].Q[0](dffr)     u_psram_top.u_psram_wd.dq_iodelay_gen0\[1\]\.genblk1\[0\]\.iodelay.VALUE     -                                                                                          -            
+_~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0]                            2         u_psram_top.u_psram_wd.step[8:0].Q[0](dffr)                             u_psram_top.u_psram_wd.ck_delay\[1\]\.iodelay.VALUE                          -                                                                                          -            
+                                                                                                                                                                                                                                                                                                                                                               
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock                          38        u_psram_top.u_dqce_clk_x2p.CLKOUT(DHCEN)                                u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mask_oser4.FCLK      -                                                                                          -            
+                                                                                                                                                                                                                                                                                                                                                               
+PSRAM_Memory_Interface_Top|clk                                                          27        clk(port)                                                               u_psram_top.u_psram_sync.dll_rst.C                                           -                                                                                          -            
+===============================================================================================================================================================================================================================================================================================================================================================
+
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 27 clock pin(s) of sequential element(s)
+5 gated/generated clock tree(s) driving 1137 clock pin(s) of sequential element(s)
+0 instances converted, 1137 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 Unconstrained_port     27         ENCRYPTED      
+=======================================================================================
+============================================================= Gated/Generated Clocks =============================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                               
+--------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_2       ENCRYPTED           CLKDIV                 1081                   ENCRYPTED           Black box on clock path                   
+@KP:ckid0_3       ENCRYPTED           DHCEN                  38                     ENCRYPTED           Black box on clock path                   
+@KP:ckid0_4       ENCRYPTED           dffr                   2                      ENCRYPTED           Derived clock on input (not legal for GCC)
+@KP:ckid0_6       ENCRYPTED           dffr                   8                      ENCRYPTED           Derived clock on input (not legal for GCC)
+@KP:ckid0_8       ENCRYPTED           dffr                   8                      ENCRYPTED           Derived clock on input (not legal for GCC)
+==================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\psram_memory_interface.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 195MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 195MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 196MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 196MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Tue Sep 10 15:24:57 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Sep 10 15:24:58 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw2018q4p1, Build 001R, Built Mar 29 2019 09:46:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 194MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 194MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 196MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 201MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 201MB peak: 202MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 203MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 202MB peak: 203MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 201MB peak: 203MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 202MB peak: 203MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 209MB peak: 211MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -2.35ns		 827 /       444
+   2		0h:00m:02s		    -2.35ns		 825 /       444
+   3		0h:00m:02s		    -2.10ns		 828 /       444
+   4		0h:00m:02s		    -2.35ns		 828 /       444
+Timing driven replication report
+Added 3 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   5		0h:00m:03s		    -2.35ns		 832 /       447
+   6		0h:00m:03s		    -2.10ns		 833 /       447
+   7		0h:00m:03s		    -1.54ns		 835 /       447
+   8		0h:00m:03s		    -1.68ns		 835 /       447
+   9		0h:00m:03s		    -1.68ns		 835 /       447
+Timing driven replication report
+Added 17 Registers via timing driven replication
+Added 15 LUTs via timing driven replication
+
+Timing driven replication report
+Added 3 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+  10		0h:00m:03s		    -1.41ns		 853 /       467
+  11		0h:00m:03s		    -1.60ns		 854 /       467
+  12		0h:00m:03s		    -1.54ns		 854 /       467
+  13		0h:00m:03s		    -1.54ns		 854 /       467
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 211MB peak: 212MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: MT453 |clock period is too long for clock _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0], changing period from 66667.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 33333.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0], changing period from 66667.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 33333.5 ns to 10000.0 ns. 
+@W: MT453 |clock period is too long for clock _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1], changing period from 66667.0 to 20000.0 ns, rise from 0.0 ns to 0.0 ns, and fall from 33333.5 ns to 10000.0 ns. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 211MB peak: 212MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 137MB peak: 212MB)
+
+Writing Analyst data base D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\synwork\psram_memory_interface_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 209MB peak: 212MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 210MB peak: 212MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 208MB peak: 212MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 209MB peak: 212MB)
+
+@W: MT246 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_code.v":2395:8:2395:13|Blackbox CLKDIV is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_code.v":2387:7:2387:20|Blackbox DHCEN is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\gowin\gowin_v1.9.1.01beta\ide\ipcore\psram\data\psram_code.v":2375:2:2375:6|Blackbox DLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock with period 5.18ns. Please declare a user-defined clock on net u_psram_top.clk_outz.
+@W: MT420 |Found inferred clock PSRAM_Memory_Interface_Top|clk with period 3.30ns. Please declare a user-defined clock on port clk.
+@W: MT420 |Found inferred clock _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock with period 6.67ns. Please declare a user-defined clock on net u_psram_top.clk_x2p.
+@N: MT615 |Found clock _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0] with period 20000.00ns 
+@N: MT615 |Found clock _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0] with period 20000.00ns 
+@N: MT615 |Found clock _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1] with period 20000.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Sep 10 15:25:04 2019
+#
+
+
+Top view:               PSRAM_Memory_Interface_Top
+Requested Frequency:    0.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.914
+
+                                                                                        Requested      Estimated      Requested     Estimated                Clock                                                                             Clock                
+Starting Clock                                                                          Frequency      Frequency      Period        Period        Slack      Type                                                                              Group                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PSRAM_Memory_Interface_Top|clk                                                          302.6 MHz      257.2 MHz      3.305         3.888         -0.583     inferred                                                                          Autoconstr_clkgroup_1
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]     0.1 MHz        0.2 MHz        20000.000     5195.758      3.832      derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]     0.1 MHz        0.2 MHz        20000.000     5195.758      3.832      derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                          193.2 MHz      164.2 MHz      5.177         6.090         -0.914     inferred                                                                          Autoconstr_clkgroup_0
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock                          150.0 MHz      NA             6.667         NA            NA         inferred                                                                          Autoconstr_clkgroup_2
+_~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0]                            0.1 MHz        NA             20000.000     NA            NA         derived (from _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock)     Autoconstr_clkgroup_0
+System                                                                                  1638.5 MHz     1392.8 MHz     0.610         0.718         -0.108     system                                                                            system_clkgroup      
+====================================================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                               |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                                             Ending                                                          |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                               System                                                          |  0.610       -0.108  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                                               _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock  |  5.177       1.695   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                                               PSRAM_Memory_Interface_Top|clk                                  |  3.305       2.160   |  No paths    -      |  No paths    -      |  No paths    -    
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                       System                                                          |  5.177       4.399   |  No paths    -      |  No paths    -      |  No paths    -    
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                       _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock  |  5.177       -0.914  |  No paths    -      |  No paths    -      |  No paths    -    
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                       PSRAM_Memory_Interface_Top|clk                                  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                       _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+PSRAM_Memory_Interface_Top|clk                                                       System                                                          |  3.305       1.422   |  No paths    -      |  No paths    -      |  No paths    -    
+PSRAM_Memory_Interface_Top|clk                                                       PSRAM_Memory_Interface_Top|clk                                  |  3.305       -0.583  |  No paths    -      |  No paths    -      |  No paths    -    
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock  |  5.177       3.832   |  No paths    -      |  No paths    -      |  No paths    -    
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock  |  5.177       3.832   |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: PSRAM_Memory_Interface_Top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                             Arrival           
+Instance                                 Reference                          Type      Pin     Net             Time        Slack 
+                                         Clock                                                                                  
+--------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_sync.lock_syn[1]     PSRAM_Memory_Interface_Top|clk     DFFC      Q       lock_cnt        0.243       -0.583
+u_psram_top.u_psram_sync.lock_cnt[0]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[0]     0.243       -0.543
+u_psram_top.u_psram_sync.lock_cnt[1]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[1]     0.243       -0.508
+u_psram_top.u_psram_sync.lock_cnt[2]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[2]     0.243       -0.473
+u_psram_top.u_psram_sync.lock_cnt[3]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[3]     0.243       -0.438
+u_psram_top.u_psram_sync.lock_cnt[4]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[4]     0.243       -0.403
+u_psram_top.u_psram_sync.lock_cnt[5]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[5]     0.243       -0.368
+u_psram_top.u_psram_sync.lock_cnt[6]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[6]     0.243       -0.333
+u_psram_top.u_psram_sync.lock_cnt[7]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[7]     0.243       -0.298
+u_psram_top.u_psram_sync.lock_cnt[8]     PSRAM_Memory_Interface_Top|clk     DFFCE     Q       lock_cnt[8]     0.243       -0.263
+================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                                Required           
+Instance                                  Reference                          Type      Pin     Net                Time         Slack 
+                                          Clock                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_sync.lock_cnt[11]     PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[11]     3.244        -0.583
+u_psram_top.u_psram_sync.lock_cnt[10]     PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[10]     3.244        -0.548
+u_psram_top.u_psram_sync.lock_cnt[9]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[9]      3.244        -0.513
+u_psram_top.u_psram_sync.lock_cnt[8]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[8]      3.244        -0.478
+u_psram_top.u_psram_sync.lock_cnt[7]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[7]      3.244        -0.443
+u_psram_top.u_psram_sync.lock_cnt[6]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[6]      3.244        -0.408
+u_psram_top.u_psram_sync.lock_cnt[5]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[5]      3.244        -0.373
+u_psram_top.u_psram_sync.lock_cnt[4]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[4]      3.244        -0.338
+u_psram_top.u_psram_sync.lock_cnt[3]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[3]      3.244        -0.303
+u_psram_top.u_psram_sync.lock_cnt[2]      PSRAM_Memory_Interface_Top|clk     DFFCE     D       lock_cnt_s[2]      3.244        -0.268
+=====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.305
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.244
+
+    - Propagation time:                      3.827
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.583
+
+    Number of logic level(s):                13
+    Starting point:                          u_psram_top.u_psram_sync.lock_syn[1] / Q
+    Ending point:                            u_psram_top.u_psram_sync.lock_cnt[11] / D
+    The start point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+    The end   point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                               Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_sync.lock_syn[1]               DFFC      Q        Out     0.243     0.243       -         
+lock_cnt                                           Net       -        -       0.596     -           14        
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[0]     LUT2      I0       In      -         0.839       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[0]     LUT2      F        Out     0.549     1.388       -         
+lock_cnt_cry_0_RNO[0]                              Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[0]         ALU       I0       In      -         1.923       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[0]         ALU       COUT     Out     0.549     2.472       -         
+lock_cnt_cry[0]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       CIN      In      -         2.472       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       COUT     Out     0.035     2.507       -         
+lock_cnt_cry[1]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       CIN      In      -         2.507       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       COUT     Out     0.035     2.542       -         
+lock_cnt_cry[2]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       CIN      In      -         2.542       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       COUT     Out     0.035     2.577       -         
+lock_cnt_cry[3]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       CIN      In      -         2.577       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       COUT     Out     0.035     2.612       -         
+lock_cnt_cry[4]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       CIN      In      -         2.612       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       COUT     Out     0.035     2.647       -         
+lock_cnt_cry[5]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       CIN      In      -         2.647       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       COUT     Out     0.035     2.682       -         
+lock_cnt_cry[6]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       CIN      In      -         2.682       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       COUT     Out     0.035     2.717       -         
+lock_cnt_cry[7]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       CIN      In      -         2.717       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       COUT     Out     0.035     2.752       -         
+lock_cnt_cry[8]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       CIN      In      -         2.752       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       COUT     Out     0.035     2.787       -         
+lock_cnt_cry[9]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       CIN      In      -         2.787       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       COUT     Out     0.035     2.822       -         
+lock_cnt_cry[10]                                   Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       CIN      In      -         2.822       -         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       SUM      Out     0.470     3.292       -         
+lock_cnt_s[11]                                     Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt[11]              DFFCE     D        In      -         3.827       -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 3.888 is 2.222(57.2%) logic and 1.666(42.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      3.305
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.244
+
+    - Propagation time:                      3.792
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.548
+
+    Number of logic level(s):                12
+    Starting point:                          u_psram_top.u_psram_sync.lock_syn[1] / Q
+    Ending point:                            u_psram_top.u_psram_sync.lock_cnt[11] / D
+    The start point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+    The end   point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                               Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_sync.lock_syn[1]               DFFC      Q        Out     0.243     0.243       -         
+lock_cnt                                           Net       -        -       0.596     -           14        
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[1]     LUT2      I0       In      -         0.839       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[1]     LUT2      F        Out     0.549     1.388       -         
+lock_cnt_cry_0_RNO[1]                              Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       I0       In      -         1.923       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       COUT     Out     0.549     2.472       -         
+lock_cnt_cry[1]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       CIN      In      -         2.472       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       COUT     Out     0.035     2.507       -         
+lock_cnt_cry[2]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       CIN      In      -         2.507       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       COUT     Out     0.035     2.542       -         
+lock_cnt_cry[3]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       CIN      In      -         2.542       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       COUT     Out     0.035     2.577       -         
+lock_cnt_cry[4]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       CIN      In      -         2.577       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       COUT     Out     0.035     2.612       -         
+lock_cnt_cry[5]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       CIN      In      -         2.612       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       COUT     Out     0.035     2.647       -         
+lock_cnt_cry[6]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       CIN      In      -         2.647       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       COUT     Out     0.035     2.682       -         
+lock_cnt_cry[7]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       CIN      In      -         2.682       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       COUT     Out     0.035     2.717       -         
+lock_cnt_cry[8]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       CIN      In      -         2.717       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       COUT     Out     0.035     2.752       -         
+lock_cnt_cry[9]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       CIN      In      -         2.752       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       COUT     Out     0.035     2.787       -         
+lock_cnt_cry[10]                                   Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       CIN      In      -         2.787       -         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       SUM      Out     0.470     3.257       -         
+lock_cnt_s[11]                                     Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt[11]              DFFCE     D        In      -         3.792       -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 3.853 is 2.187(56.8%) logic and 1.666(43.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      3.305
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.244
+
+    - Propagation time:                      3.792
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.548
+
+    Number of logic level(s):                12
+    Starting point:                          u_psram_top.u_psram_sync.lock_syn[1] / Q
+    Ending point:                            u_psram_top.u_psram_sync.lock_cnt[10] / D
+    The start point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+    The end   point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                               Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_sync.lock_syn[1]               DFFC      Q        Out     0.243     0.243       -         
+lock_cnt                                           Net       -        -       0.596     -           14        
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[0]     LUT2      I0       In      -         0.839       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[0]     LUT2      F        Out     0.549     1.388       -         
+lock_cnt_cry_0_RNO[0]                              Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[0]         ALU       I0       In      -         1.923       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[0]         ALU       COUT     Out     0.549     2.472       -         
+lock_cnt_cry[0]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       CIN      In      -         2.472       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       COUT     Out     0.035     2.507       -         
+lock_cnt_cry[1]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       CIN      In      -         2.507       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       COUT     Out     0.035     2.542       -         
+lock_cnt_cry[2]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       CIN      In      -         2.542       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       COUT     Out     0.035     2.577       -         
+lock_cnt_cry[3]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       CIN      In      -         2.577       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       COUT     Out     0.035     2.612       -         
+lock_cnt_cry[4]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       CIN      In      -         2.612       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       COUT     Out     0.035     2.647       -         
+lock_cnt_cry[5]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       CIN      In      -         2.647       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       COUT     Out     0.035     2.682       -         
+lock_cnt_cry[6]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       CIN      In      -         2.682       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       COUT     Out     0.035     2.717       -         
+lock_cnt_cry[7]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       CIN      In      -         2.717       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       COUT     Out     0.035     2.752       -         
+lock_cnt_cry[8]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       CIN      In      -         2.752       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       COUT     Out     0.035     2.787       -         
+lock_cnt_cry[9]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       CIN      In      -         2.787       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       SUM      Out     0.470     3.257       -         
+lock_cnt_s[10]                                     Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt[10]              DFFCE     D        In      -         3.792       -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 3.853 is 2.187(56.8%) logic and 1.666(43.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      3.305
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.244
+
+    - Propagation time:                      3.787
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.543
+
+    Number of logic level(s):                13
+    Starting point:                          u_psram_top.u_psram_sync.lock_cnt[0] / Q
+    Ending point:                            u_psram_top.u_psram_sync.lock_cnt[11] / D
+    The start point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+    The end   point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                               Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_sync.lock_cnt[0]               DFFCE     Q        Out     0.243     0.243       -         
+lock_cnt[0]                                        Net       -        -       0.535     -           2         
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[0]     LUT2      I1       In      -         0.778       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[0]     LUT2      F        Out     0.570     1.348       -         
+lock_cnt_cry_0_RNO[0]                              Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[0]         ALU       I0       In      -         1.883       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[0]         ALU       COUT     Out     0.549     2.432       -         
+lock_cnt_cry[0]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       CIN      In      -         2.432       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[1]         ALU       COUT     Out     0.035     2.467       -         
+lock_cnt_cry[1]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       CIN      In      -         2.467       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       COUT     Out     0.035     2.502       -         
+lock_cnt_cry[2]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       CIN      In      -         2.502       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       COUT     Out     0.035     2.537       -         
+lock_cnt_cry[3]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       CIN      In      -         2.537       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       COUT     Out     0.035     2.572       -         
+lock_cnt_cry[4]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       CIN      In      -         2.572       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       COUT     Out     0.035     2.607       -         
+lock_cnt_cry[5]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       CIN      In      -         2.607       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       COUT     Out     0.035     2.642       -         
+lock_cnt_cry[6]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       CIN      In      -         2.642       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       COUT     Out     0.035     2.677       -         
+lock_cnt_cry[7]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       CIN      In      -         2.677       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       COUT     Out     0.035     2.712       -         
+lock_cnt_cry[8]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       CIN      In      -         2.712       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       COUT     Out     0.035     2.747       -         
+lock_cnt_cry[9]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       CIN      In      -         2.747       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       COUT     Out     0.035     2.782       -         
+lock_cnt_cry[10]                                   Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       CIN      In      -         2.782       -         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       SUM      Out     0.470     3.252       -         
+lock_cnt_s[11]                                     Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt[11]              DFFCE     D        In      -         3.787       -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 3.848 is 2.243(58.3%) logic and 1.605(41.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      3.305
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.244
+
+    - Propagation time:                      3.757
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.513
+
+    Number of logic level(s):                11
+    Starting point:                          u_psram_top.u_psram_sync.lock_syn[1] / Q
+    Ending point:                            u_psram_top.u_psram_sync.lock_cnt[11] / D
+    The start point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+    The end   point is clocked by            PSRAM_Memory_Interface_Top|clk [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                               Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_sync.lock_syn[1]               DFFC      Q        Out     0.243     0.243       -         
+lock_cnt                                           Net       -        -       0.596     -           14        
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[2]     LUT2      I0       In      -         0.839       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0_RNO[2]     LUT2      F        Out     0.549     1.388       -         
+lock_cnt_cry_0_RNO[2]                              Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       I0       In      -         1.923       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[2]         ALU       COUT     Out     0.549     2.472       -         
+lock_cnt_cry[2]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       CIN      In      -         2.472       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[3]         ALU       COUT     Out     0.035     2.507       -         
+lock_cnt_cry[3]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       CIN      In      -         2.507       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[4]         ALU       COUT     Out     0.035     2.542       -         
+lock_cnt_cry[4]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       CIN      In      -         2.542       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[5]         ALU       COUT     Out     0.035     2.577       -         
+lock_cnt_cry[5]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       CIN      In      -         2.577       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[6]         ALU       COUT     Out     0.035     2.612       -         
+lock_cnt_cry[6]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       CIN      In      -         2.612       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[7]         ALU       COUT     Out     0.035     2.647       -         
+lock_cnt_cry[7]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       CIN      In      -         2.647       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[8]         ALU       COUT     Out     0.035     2.682       -         
+lock_cnt_cry[8]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       CIN      In      -         2.682       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[9]         ALU       COUT     Out     0.035     2.717       -         
+lock_cnt_cry[9]                                    Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       CIN      In      -         2.717       -         
+u_psram_top.u_psram_sync.lock_cnt_cry_0[10]        ALU       COUT     Out     0.035     2.752       -         
+lock_cnt_cry[10]                                   Net       -        -       0.000     -           1         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       CIN      In      -         2.752       -         
+u_psram_top.u_psram_sync.lock_cnt_s_0[11]          ALU       SUM      Out     0.470     3.222       -         
+lock_cnt_s[11]                                     Net       -        -       0.535     -           1         
+u_psram_top.u_psram_sync.lock_cnt[11]              DFFCE     D        In      -         3.757       -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 3.818 is 2.152(56.4%) logic and 1.666(43.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]
+====================================
+
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                                                                                                Required          
+Instance                                                     Reference                                                                               Type     Pin     Net            Time         Slack
+                                                             Clock                                                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_init.read_calibration\[0\]\.calib[0]     _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]     DFFC     D       calib_6[0]     5.116        3.832
+=======================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+    No path found starting from clock: _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0].
+
+
+
+====================================
+Detailed Report for Clock: _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]
+====================================
+
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                                                                                                 Required          
+Instance                                                     Reference                                                                               Type     Pin     Net             Time         Slack
+                                                             Clock                                                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_init.read_calibration\[1\]\.calib[1]     _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]     DFFC     D       calib_16[1]     5.116        3.832
+========================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+    No path found starting from clock: _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1].
+
+
+
+====================================
+Detailed Report for Clock: _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                                                                   Arrival           
+Instance                           Reference                                                          Type     Pin     Net                    Time        Slack 
+                                   Clock                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.rd_data_d_fast[23]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[23]     0.243       -0.914
+u_psram_top.rd_data_d_fast[20]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[20]     0.243       -0.893
+u_psram_top.rd_data_d_fast[22]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[22]     0.243       -0.823
+u_psram_top.rd_data_d_fast[37]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[37]     0.243       -0.806
+u_psram_top.rd_data_d_fast[0]      _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[0]      0.243       -0.802
+u_psram_top.rd_data_d_fast[38]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[38]     0.243       -0.715
+u_psram_top.rd_data_d_fast[49]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[49]     0.243       -0.715
+u_psram_top.rd_data_d_fast[54]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[54]     0.243       -0.624
+u_psram_top.rd_data_d_fast[34]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d_fast[34]     0.243       -0.533
+u_psram_top.rd_data_d[52]          _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFC     Q       rd_data_d[52]          0.243       -0.511
+================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                 Starting                                                                                              Required           
+Instance                                                         Reference                                                          Type      Pin     Net              Time         Slack 
+                                                                 Clock                                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[1]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[2]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[3]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[4]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[5]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[6]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[7]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[8]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte       5.116        -0.914
+u_psram_top.u_psram_init.read_calibration\[1\]\.check_cnt[0]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     DFFCE     CE      check_cnte_0     5.116        -0.399
+==========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      6.029
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.914
+
+    Number of logic level(s):                7
+    Starting point:                          u_psram_top.rd_data_d_fast[23] / Q
+    Ending point:                            u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0] / CE
+    The start point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                              Type          Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.rd_data_d_fast[23]                                                    DFFC          Q        Out     0.243     0.243       -         
+rd_data_d_fast[23]                                                                Net           -        -       0.535     -           2         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          I1       In      -         0.778       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          F        Out     0.570     1.348       -         
+check_cntlde_0_a5_1_9_0                                                           Net           -        -       0.535     -           4         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0_0     LUT4          I2       In      -         1.883       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0_0     LUT4          F        Out     0.462     2.345       -         
+check_cntlde_0_a5_1_16_sx_0_0                                                     Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0       MUX2_LUT5     I0       In      -         2.345       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0       MUX2_LUT5     O        Out     0.105     2.450       -         
+check_cntlde_0_a5_1_16_sx_0                                                       Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     I0       In      -         2.450       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     O        Out     0.105     2.555       -         
+check_cntlde_0_a5_1_16_0                                                          Net           -        -       0.535     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          I1       In      -         3.090       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          F        Out     0.570     3.660       -         
+check_cntlde_0_a5_1_16                                                            Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          I2       In      -         4.061       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          F        Out     0.462     4.523       -         
+check_cntlde_0_1                                                                  Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          I1       In      -         4.924       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          F        Out     0.570     5.494       -         
+check_cnte                                                                        Net           -        -       0.535     -           9         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0]                      DFFCE         CE       In      -         6.029       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 6.090 is 3.148(51.7%) logic and 2.942(48.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      6.029
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.914
+
+    Number of logic level(s):                7
+    Starting point:                          u_psram_top.rd_data_d_fast[23] / Q
+    Ending point:                            u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0] / CE
+    The start point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                              Type          Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.rd_data_d_fast[23]                                                    DFFC          Q        Out     0.243     0.243       -         
+rd_data_d_fast[23]                                                                Net           -        -       0.535     -           2         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          I1       In      -         0.778       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          F        Out     0.570     1.348       -         
+check_cntlde_0_a5_1_9_0                                                           Net           -        -       0.535     -           4         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0_1     LUT4          I2       In      -         1.883       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0_1     LUT4          F        Out     0.462     2.345       -         
+check_cntlde_0_a5_1_16_sx_0_1                                                     Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0       MUX2_LUT5     I1       In      -         2.345       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0       MUX2_LUT5     O        Out     0.105     2.450       -         
+check_cntlde_0_a5_1_16_sx_0                                                       Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     I0       In      -         2.450       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     O        Out     0.105     2.555       -         
+check_cntlde_0_a5_1_16_0                                                          Net           -        -       0.535     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          I1       In      -         3.090       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          F        Out     0.570     3.660       -         
+check_cntlde_0_a5_1_16                                                            Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          I2       In      -         4.061       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          F        Out     0.462     4.523       -         
+check_cntlde_0_1                                                                  Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          I1       In      -         4.924       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          F        Out     0.570     5.494       -         
+check_cnte                                                                        Net           -        -       0.535     -           9         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0]                      DFFCE         CE       In      -         6.029       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 6.090 is 3.148(51.7%) logic and 2.942(48.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      6.029
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.914
+
+    Number of logic level(s):                7
+    Starting point:                          u_psram_top.rd_data_d_fast[23] / Q
+    Ending point:                            u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0] / CE
+    The start point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                              Type          Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.rd_data_d_fast[23]                                                    DFFC          Q        Out     0.243     0.243       -         
+rd_data_d_fast[23]                                                                Net           -        -       0.535     -           2         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          I1       In      -         0.778       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          F        Out     0.570     1.348       -         
+check_cntlde_0_a5_1_9_0                                                           Net           -        -       0.535     -           4         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1_1     LUT4          I2       In      -         1.883       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1_1     LUT4          F        Out     0.462     2.345       -         
+check_cntlde_0_a5_1_16_sx_1_1                                                     Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1       MUX2_LUT5     I1       In      -         2.345       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1       MUX2_LUT5     O        Out     0.105     2.450       -         
+check_cntlde_0_a5_1_16_sx_1                                                       Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     I1       In      -         2.450       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     O        Out     0.105     2.555       -         
+check_cntlde_0_a5_1_16_0                                                          Net           -        -       0.535     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          I1       In      -         3.090       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          F        Out     0.570     3.660       -         
+check_cntlde_0_a5_1_16                                                            Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          I2       In      -         4.061       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          F        Out     0.462     4.523       -         
+check_cntlde_0_1                                                                  Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          I1       In      -         4.924       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          F        Out     0.570     5.494       -         
+check_cnte                                                                        Net           -        -       0.535     -           9         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0]                      DFFCE         CE       In      -         6.029       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 6.090 is 3.148(51.7%) logic and 2.942(48.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      6.029
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.914
+
+    Number of logic level(s):                7
+    Starting point:                          u_psram_top.rd_data_d_fast[23] / Q
+    Ending point:                            u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0] / CE
+    The start point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                              Type          Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.rd_data_d_fast[23]                                                    DFFC          Q        Out     0.243     0.243       -         
+rd_data_d_fast[23]                                                                Net           -        -       0.535     -           2         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          I1       In      -         0.778       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          F        Out     0.570     1.348       -         
+check_cntlde_0_a5_1_9_0                                                           Net           -        -       0.535     -           4         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1_0     LUT4          I2       In      -         1.883       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1_0     LUT4          F        Out     0.462     2.345       -         
+check_cntlde_0_a5_1_16_sx_1_0                                                     Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1       MUX2_LUT5     I0       In      -         2.345       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_1       MUX2_LUT5     O        Out     0.105     2.450       -         
+check_cntlde_0_a5_1_16_sx_1                                                       Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     I1       In      -         2.450       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     O        Out     0.105     2.555       -         
+check_cntlde_0_a5_1_16_0                                                          Net           -        -       0.535     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          I1       In      -         3.090       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          F        Out     0.570     3.660       -         
+check_cntlde_0_a5_1_16                                                            Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          I2       In      -         4.061       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          F        Out     0.462     4.523       -         
+check_cntlde_0_1                                                                  Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          I1       In      -         4.924       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          F        Out     0.570     5.494       -         
+check_cnte                                                                        Net           -        -       0.535     -           9         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[0]                      DFFCE         CE       In      -         6.029       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 6.090 is 3.148(51.7%) logic and 2.942(48.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      6.029
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.914
+
+    Number of logic level(s):                7
+    Starting point:                          u_psram_top.rd_data_d_fast[23] / Q
+    Ending point:                            u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[1] / CE
+    The start point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                              Type          Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.rd_data_d_fast[23]                                                    DFFC          Q        Out     0.243     0.243       -         
+rd_data_d_fast[23]                                                                Net           -        -       0.535     -           2         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          I1       In      -         0.778       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_9             LUT4          F        Out     0.570     1.348       -         
+check_cntlde_0_a5_1_9_0                                                           Net           -        -       0.535     -           4         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0_0     LUT4          I2       In      -         1.883       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0_0     LUT4          F        Out     0.462     2.345       -         
+check_cntlde_0_a5_1_16_sx_0_0                                                     Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0       MUX2_LUT5     I0       In      -         2.345       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx_0       MUX2_LUT5     O        Out     0.105     2.450       -         
+check_cntlde_0_a5_1_16_sx_0                                                       Net           -        -       0.000     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     I0       In      -         2.450       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16_sx         MUX2_LUT6     O        Out     0.105     2.555       -         
+check_cntlde_0_a5_1_16_0                                                          Net           -        -       0.535     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          I1       In      -         3.090       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_a5_1_16            LUT4          F        Out     0.570     3.660       -         
+check_cntlde_0_a5_1_16                                                            Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          I2       In      -         4.061       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0_1_0                LUT4          F        Out     0.462     4.523       -         
+check_cntlde_0_1                                                                  Net           -        -       0.401     -           1         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          I1       In      -         4.924       -         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cntlde_0                    LUT4          F        Out     0.570     5.494       -         
+check_cnte                                                                        Net           -        -       0.535     -           9         
+u_psram_top.u_psram_init.read_calibration\[0\]\.check_cnt[1]                      DFFCE         CE       In      -         6.029       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 6.090 is 3.148(51.7%) logic and 2.942(48.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                      Starting                                                    Arrival           
+Instance                                                                              Reference     Type       Pin         Net                    Time        Slack 
+                                                                                      Clock                                                                         
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_dqce_clk_x2p                                                            System        DHCEN      CLKOUT      clk_x2p_i              0.000       -0.108
+u_psram_top.u_dll_RNO                                                                 System        INV        O           pll_lock_i             0.000       0.075 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO     System        INV        O           rd_data_ctrl_reg_i     0.000       1.695 
+u_psram_top.clkdiv                                                                    System        CLKDIV     CLKOUT      clk_out                0.000       1.698 
+u_psram_top.u_psram_wd.data_lane_gen\[1\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO     System        INV        O           rd_data_ctrl_reg_i     0.000       1.761 
+u_psram_top.u_dll                                                                     System        DLL        LOCK        dll_lock               0.000       2.160 
+u_psram_top.u_dll                                                                     System        DLL        STEP[0]     dll_step[0]            0.000       2.502 
+u_psram_top.u_dll                                                                     System        DLL        STEP[1]     dll_step[1]            0.000       2.537 
+u_psram_top.u_dll                                                                     System        DLL        STEP[2]     dll_step[2]            0.000       2.572 
+u_psram_top.u_dll                                                                     System        DLL        STEP[3]     dll_step[3]            0.000       2.607 
+====================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                            Starting                                                  Required           
+Instance                                                                                    Reference     Type      Pin        Net                    Time         Slack 
+                                                                                            Clock                                                                        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_dll                                                                           System        DLL       CLKIN      clk_x2p_i              0.610        -0.108
+u_psram_top.u_dll                                                                           System        DLL       STOP       pll_lock_i             0.610        0.075 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0               System        SDPX9     RESETB     rd_data_ctrl_reg_i     2.230        1.695 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4     System        OSER4     D0         wr_dq_1[3]             5.116        1.695 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4     System        OSER4     D1         wr_dq_1[2]             5.116        1.695 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4     System        OSER4     D2         wr_dq_1[1]             5.116        1.695 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4     System        OSER4     D3         wr_dq_1[0]             5.116        1.695 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[1\]\.dq_oser4     System        OSER4     D0         wr_dq_1[7]             5.116        1.695 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[1\]\.dq_oser4     System        OSER4     D2         wr_dq_1[5]             5.116        1.695 
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[1\]\.dq_oser4     System        OSER4     D3         wr_dq_1[4]             5.116        1.695 
+=========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      0.610
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         0.610
+
+    - Propagation time:                      0.718
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.108
+
+    Number of logic level(s):                0
+    Starting point:                          u_psram_top.u_dqce_clk_x2p / CLKOUT
+    Ending point:                            u_psram_top.u_dll / CLKIN
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                           Pin        Pin               Arrival     No. of    
+Name                           Type      Name       Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+u_psram_top.u_dqce_clk_x2p     DHCEN     CLKOUT     Out     0.000     0.000       -         
+clk_x2p_i                      Net       -          -       0.718     -           40        
+u_psram_top.u_dll              DLL       CLKIN      In      -         0.718       -         
+============================================================================================
+Total path delay (propagation time + setup) of 0.718 is 0.000(0.0%) logic and 0.718(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      0.610
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         0.610
+
+    - Propagation time:                      0.535
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.075
+
+    Number of logic level(s):                0
+    Starting point:                          u_psram_top.u_dll_RNO / O
+    Ending point:                            u_psram_top.u_dll / STOP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+u_psram_top.u_dll_RNO     INV      O        Out     0.000     0.000       -         
+pll_lock_i                Net      -        -       0.535     -           1         
+u_psram_top.u_dll         DLL      STOP     In      -         0.535       -         
+====================================================================================
+Total path delay (propagation time + setup) of 0.535 is 0.000(0.0%) logic and 0.535(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      3.421
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.695
+
+    Number of logic level(s):                3
+    Starting point:                          u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO / O
+    Ending point:                            u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[7\]\.dq_oser4 / D0
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin PCLK
+
+Instance / Net                                                                                        Pin        Pin               Arrival     No. of    
+Name                                                                                        Type      Name       Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO           INV       O          Out     0.000     0.000       -         
+rd_data_ctrl_reg_i                                                                          Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0               SDPX9     RESETB     In      -         0.535       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0               SDPX9     DO[35]     Out     0.317     0.852       -         
+mem_mask_mem_mask_0_0_DO_0[35]                                                              Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1_RNO[31]                     LUT2      I0         In      -         1.387       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1_RNO[31]                     LUT2      F          Out     0.549     1.936       -         
+wr_data_d[31]                                                                               Net       -          -       0.401     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1[31]                         LUT4      I0         In      -         2.337       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1[31]                         LUT4      F          Out     0.549     2.886       -         
+wr_dq_1[31]                                                                                 Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[7\]\.dq_oser4     OSER4     D0         In      -         3.421       -         
+=========================================================================================================================================================
+Total path delay (propagation time + setup) of 3.482 is 1.476(42.4%) logic and 2.006(57.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      3.421
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.695
+
+    Number of logic level(s):                3
+    Starting point:                          u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO / O
+    Ending point:                            u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4 / D3
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin PCLK
+
+Instance / Net                                                                                        Pin        Pin               Arrival     No. of    
+Name                                                                                        Type      Name       Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO           INV       O          Out     0.000     0.000       -         
+rd_data_ctrl_reg_i                                                                          Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0               SDPX9     RESETB     In      -         0.535       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0               SDPX9     DO[4]      Out     0.317     0.852       -         
+mem_mask_mem_mask_0_0_DO_0[4]                                                               Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1_RNO[0]                      LUT2      I0         In      -         1.387       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1_RNO[0]                      LUT2      F          Out     0.549     1.936       -         
+wr_data_d[0]                                                                                Net       -          -       0.401     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1[0]                          LUT4      I0         In      -         2.337       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1[0]                          LUT4      F          Out     0.549     2.886       -         
+wr_dq_1[0]                                                                                  Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4     OSER4     D3         In      -         3.421       -         
+=========================================================================================================================================================
+Total path delay (propagation time + setup) of 3.482 is 1.476(42.4%) logic and 2.006(57.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.177
+    - Setup time:                            0.061
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.116
+
+    - Propagation time:                      3.421
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.695
+
+    Number of logic level(s):                3
+    Starting point:                          u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO / O
+    Ending point:                            u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4 / D2
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock [rising] on pin PCLK
+
+Instance / Net                                                                                        Pin        Pin               Arrival     No. of    
+Name                                                                                        Type      Name       Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0_RNO           INV       O          Out     0.000     0.000       -         
+rd_data_ctrl_reg_i                                                                          Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0               SDPX9     RESETB     In      -         0.535       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.mem_mask_mem_mask_0_0               SDPX9     DO[5]      Out     0.317     0.852       -         
+mem_mask_mem_mask_0_0_DO_0[5]                                                               Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1_0[1]                        LUT4      I0         In      -         1.387       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1_0[1]                        LUT4      F          Out     0.549     1.936       -         
+N_222                                                                                       Net       -          -       0.401     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1[1]                          LUT3      I0         In      -         2.337       -         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.wr_dq_1[1]                          LUT3      F          Out     0.549     2.886       -         
+wr_dq_1[1]                                                                                  Net       -          -       0.535     -           1         
+u_psram_top.u_psram_wd.data_lane_gen\[0\]\.u_psram_lane.oserdes_data_gen\[0\]\.dq_oser4     OSER4     D2         In      -         3.421       -         
+=========================================================================================================================================================
+Total path delay (propagation time + setup) of 3.482 is 1.476(42.4%) logic and 2.006(57.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 209MB peak: 212MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 209MB peak: 212MB)
+
+---------------------------------------
+Resource Usage Report for PSRAM_Memory_Interface_Top 
+
+Mapping to part: gw2ar_18elqfp144-8
+Cell usage:
+ALU             143 uses
+CLKDIV          1 use
+DFFC            297 uses
+DFFCE           168 uses
+DFFP            1 use
+DFFPE           1 use
+DHCEN           1 use
+DLL             1 use
+GSR             1 use
+IDES4           16 uses
+INV             10 uses
+IODELAY         18 uses
+MUX2_LUT5       12 uses
+MUX2_LUT6       3 uses
+OSER4           22 uses
+SDPX9           2 uses
+LUT2            335 uses
+LUT3            155 uses
+LUT4            250 uses
+
+I/O ports: 192
+I/O primitives: 22
+ELVDS_OBUF     2 uses
+IOBUF          18 uses
+OBUF           2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   467 of 15552 (3%)
+
+RAM/ROM usage summary
+Block Rams : 2 of 46 (4%)
+
+Total load per clock:
+   PSRAM_Memory_Interface_Top|clk: 27
+
+@S |Mapping Summary:
+Total  LUTs: 740 (3%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 46MB peak: 212MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Tue Sep 10 15:25:05 2019
+
+###########################################################]

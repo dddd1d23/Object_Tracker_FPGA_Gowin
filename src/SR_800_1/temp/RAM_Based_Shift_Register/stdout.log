@@ -1,0 +1,78 @@
+One matching license found for this product: synplifypro_gowin
+NOTE:  This version of the software is not a production release. No warranty is made as to the general availability of features and functionality included in this version or described in the accompanying documentation. The final contents of a production release and its timing remain at the sole discretion of Synopsys.
+
+Starting:    E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+Hostname:    SKY-20180728DOH
+Date:        Thu Nov  7 22:20:05 2019
+Version:     P-2019.03G-Beta4
+
+Arguments:   -product synplify_pro -batch E:/gowin_projects/myproj/img_processor_800_600/src/SR_800_1/temp/RAM_Based_Shift_Register/RAM_Based_Shift_Register.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+Running in Vendor Mode
+
+auto_infer_blackbox is not supported in current product.
+log file: "E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\SR_800_1.srr"
+Running: rev_1 in foreground
+
+Running RAM_Based_Shift_Register|rev_1
+
+Running Flow: compile (Compile) on RAM_Based_Shift_Register|rev_1
+# Thu Nov  7 22:20:05 2019
+
+Running Flow: compile_flow (Compile Process) on RAM_Based_Shift_Register|rev_1
+# Thu Nov  7 22:20:05 2019
+
+Running: compiler (Compile Input) on RAM_Based_Shift_Register|rev_1
+# Thu Nov  7 22:20:05 2019
+Copied E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\synwork\SR_800_1_comp.srs to E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\SR_800_1.srs
+
+compiler completed
+# Thu Nov  7 22:20:11 2019
+
+Return Code: 0
+Run Time:00h:00m:06s
+
+Running: multi_srs_gen (Multi-srs Generator) on RAM_Based_Shift_Register|rev_1
+# Thu Nov  7 22:20:11 2019
+
+multi_srs_gen completed
+# Thu Nov  7 22:20:11 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\synwork\SR_800_1_mult.srs to E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\SR_800_1.srs
+Complete: Compile Process on RAM_Based_Shift_Register|rev_1
+
+Running: premap (Premap) on RAM_Based_Shift_Register|rev_1
+# Thu Nov  7 22:20:11 2019
+
+premap completed
+# Thu Nov  7 22:20:15 2019
+
+Return Code: 0
+Run Time:00h:00m:04s
+Complete: Compile on RAM_Based_Shift_Register|rev_1
+
+Running Flow: map (Map) on RAM_Based_Shift_Register|rev_1
+# Thu Nov  7 22:20:15 2019
+
+Running: fpga_mapper (Map & Optimize) on RAM_Based_Shift_Register|rev_1
+# Thu Nov  7 22:20:15 2019
+Copied E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\synwork\SR_800_1_m.srm to E:\gowin_projects\myproj\img_processor_800_600\src\SR_800_1\temp\RAM_Based_Shift_Register\rev_1\SR_800_1.srm
+
+fpga_mapper completed with warnings
+# Thu Nov  7 22:20:21 2019
+
+Return Code: 1
+Run Time:00h:00m:06s
+Complete: Map on RAM_Based_Shift_Register|rev_1
+Complete: Logic Synthesis on RAM_Based_Shift_Register|rev_1
+exit status=0
+exit status=0
+License checkin: synplifypro_gowin

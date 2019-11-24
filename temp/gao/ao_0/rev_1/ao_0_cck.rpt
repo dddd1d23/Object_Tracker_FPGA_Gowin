@@ -1,0 +1,166 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+
+# Written on Sun Nov 17 13:25:01 2019
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ao_top_0"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                Ending                  |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ao_top_0|clk_i          ao_top_0|clk_i          |     4.207            |     4.207            |     No paths         |     2.103                            
+ao_top_0|clk_i          ao_top_0|control[0]     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
+ao_top_0|control[0]     ao_top_0|clk_i          |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ao_top_0|control[0]     ao_top_0|control[0]     |     5.362            |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:control[1]
+p:control[2]
+p:control[3]
+p:control[4]
+p:control[5]
+p:control[6]
+p:control[7]
+p:control[8]
+p:control[9]
+p:data_i[0]
+p:data_i[1]
+p:data_i[2]
+p:data_i[3]
+p:data_i[4]
+p:data_i[5]
+p:data_i[6]
+p:data_i[7]
+p:data_i[8]
+p:data_i[9]
+p:data_i[10]
+p:data_i[11]
+p:data_i[12]
+p:data_i[13]
+p:data_i[14]
+p:data_i[15]
+p:data_i[16]
+p:data_i[17]
+p:data_i[18]
+p:data_i[19]
+p:data_i[20]
+p:data_i[21]
+p:data_i[22]
+p:data_i[23]
+p:data_i[24]
+p:data_i[25]
+p:data_i[26]
+p:data_i[27]
+p:data_i[28]
+p:data_i[29]
+p:data_i[30]
+p:data_i[31]
+p:data_i[32]
+p:data_i[33]
+p:data_i[34]
+p:data_i[35]
+p:data_i[36]
+p:data_i[37]
+p:data_i[38]
+p:data_i[39]
+p:data_i[40]
+p:data_i[41]
+p:data_i[42]
+p:data_i[43]
+p:data_i[44]
+p:data_i[45]
+p:data_i[46]
+p:data_i[47]
+p:data_i[48]
+p:data_i[49]
+p:data_i[50]
+p:data_i[51]
+p:data_i[52]
+p:data_i[53]
+p:data_i[54]
+p:data_i[55]
+p:data_i[56]
+p:data_i[57]
+p:data_i[58]
+p:data_i[59]
+p:data_i[60]
+p:data_i[61]
+p:data_i[62]
+p:data_i[63]
+p:data_i[64]
+p:data_i[65]
+p:data_i[66]
+p:data_i[67]
+p:data_i[68]
+p:data_i[69]
+p:data_i[70]
+p:data_i[71]
+p:data_i[72]
+p:data_i[73]
+p:data_i[74]
+p:data_i[75]
+p:data_i[76]
+p:data_i[77]
+p:data_i[78]
+p:data_i[79]
+p:trig0_i[0]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

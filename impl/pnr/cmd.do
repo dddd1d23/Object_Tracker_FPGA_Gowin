@@ -1,0 +1,10 @@
+-d E:/gowin_projects/myproj/myproj_blue2_ircon/impl/synthesize/rev_1/img_processor.vm
+-p GW2AR-18-eLQFP144-8
+-pn GW2AR-LV18EQ144PC8/I7
+-cst E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor.cst
+-cfg E:\gowin_projects\myproj\myproj_blue2_ircon\impl\pnr\device.cfg
+-sdc E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor.sdc
+-bit
+-tr
+-ph
+-timing

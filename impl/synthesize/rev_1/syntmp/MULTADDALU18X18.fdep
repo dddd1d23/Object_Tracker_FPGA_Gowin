@@ -1,0 +1,20 @@
+#OPTIONS:"|-modgen|-top|MULTADDALU18X18|-I|E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib|-devicelib|E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\xilinx\\unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\impl\\synthesize\\rev_1\\syntmp\\MULTADDALU18X18.param"
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\bin64\\c_ver.exe":1564765222
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\hypermods.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\umr_capim.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1564764854
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\impl\\synthesize\\rev_1\\syntmp\\MULTADDALU18X18.v":1564767964
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2_ircon\\impl\\synthesize\\rev_1\\syntmp\\MULTADDALU18X18.param":1574403611
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work MULTADDALU18X18 0
+module work ALU54D 0
+module work PADD18 0
+module work PADD9 0

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\rev_1\synlog\psram_memory_interface_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>PSRAM_Memory_Interface_Top|clk</data>
+<data>302.6 MHz</data>
+<data>257.2 MHz</data>
+<data>-0.583</data>
+</row>
+<row>
+<data>_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]</data>
+<data>0.1 MHz</data>
+<data>0.2 MHz</data>
+<data>3.832</data>
+</row>
+<row>
+<data>_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]</data>
+<data>0.1 MHz</data>
+<data>0.2 MHz</data>
+<data>3.832</data>
+</row>
+<row>
+<data>_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock</data>
+<data>193.2 MHz</data>
+<data>164.2 MHz</data>
+<data>-0.914</data>
+</row>
+<row>
+<data>_~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0]</data>
+<data>0.1 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>1638.5 MHz</data>
+<data>1392.8 MHz</data>
+<data>-0.108</data>
+</row>
+</report_table>

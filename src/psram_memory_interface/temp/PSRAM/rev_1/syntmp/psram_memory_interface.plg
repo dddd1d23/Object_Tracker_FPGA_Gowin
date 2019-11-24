@@ -1,0 +1,43 @@
+@P:  Worst Slack : -0.914
+@P:  PSRAM_Memory_Interface_Top|clk - Estimated Frequency : 257.2 MHz
+@P:  PSRAM_Memory_Interface_Top|clk - Requested Frequency : 302.6 MHz
+@P:  PSRAM_Memory_Interface_Top|clk - Estimated Period : 3.888
+@P:  PSRAM_Memory_Interface_Top|clk - Requested Period : 3.305
+@P:  PSRAM_Memory_Interface_Top|clk - Slack : -0.583
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0] - Estimated Frequency : 0.2 MHz
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0] - Requested Frequency : 0.1 MHz
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0] - Estimated Period : 5195.758
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0] - Requested Period : 20000.000
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0] - Slack : 3.832
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1] - Estimated Frequency : 0.2 MHz
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1] - Requested Frequency : 0.1 MHz
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1] - Estimated Period : 5195.758
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1] - Requested Period : 20000.000
+@P:  _~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1] - Slack : 3.832
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock - Estimated Frequency : 164.2 MHz
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock - Requested Frequency : 193.2 MHz
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock - Estimated Period : 6.090
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock - Requested Period : 5.177
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock - Slack : -0.914
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock - Estimated Frequency : NA
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock - Estimated Period : NA
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock - Requested Period : 6.667
+@P:  _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock - Slack : NA
+@P:  _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0] - Estimated Frequency : NA
+@P:  _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0] - Requested Frequency : 0.1 MHz
+@P:  _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0] - Estimated Period : NA
+@P:  _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0] - Requested Period : 20000.000
+@P:  _~psram_wd.PSRAM_Memory_Interface_Top_|step_derived_clock[0] - Slack : NA
+@P:  System - Estimated Frequency : 1392.8 MHz
+@P:  System - Requested Frequency : 1638.5 MHz
+@P:  System - Estimated Period : 0.718
+@P:  System - Requested Period : 0.610
+@P:  System - Slack : -0.108
+@P: PSRAM_Memory_Interface_Top Part : gw2ar_18elqfp144-8
+@P: PSRAM_Memory_Interface_Top I/O primitives : 22
+@P: PSRAM_Memory_Interface_Top I/O Register bits : 0
+@P: PSRAM_Memory_Interface_Top Register bits (Non I/O) : 467 (3%)
+@P: PSRAM_Memory_Interface_Top Block Rams : 2 of 46 (4%)
+@P: PSRAM_Memory_Interface_Top Total Luts : 740 of 800 (3%)
+@P:  CPU Time : 0h:00m:06s

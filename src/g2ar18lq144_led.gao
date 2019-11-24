@@ -1,0 +1,244 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" device="GW2AR-18" sample_clock="sdrc_clk" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" trigger_pos="64">
+        <SignalList>
+            <Signal>vfb_top_inst/dma0_wr_req</Signal>
+            <Signal>vfb_top_inst/dma0_wr_end</Signal>
+            <Bus name="vfb_top_inst/dma0_wr_addr[20:2]">
+                <Signal>vfb_top_inst/dma0_wr_addr[20]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[19]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[18]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[17]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[16]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[15]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[14]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[13]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[12]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[11]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[10]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[9]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[8]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[7]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[6]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[5]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[4]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[3]</Signal>
+                <Signal>vfb_top_inst/dma0_wr_addr[2]</Signal>
+            </Bus>
+            <Signal>vfb_top_inst/dma0_rd_req</Signal>
+            <Signal>vfb_top_inst/dma0_rd_grant</Signal>
+            <Signal>vfb_top_inst/dma0_rd_end</Signal>
+            <Bus name="vfb_top_inst/dma0_rd_addr[20:2]">
+                <Signal>vfb_top_inst/dma0_rd_addr[20]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[19]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[18]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[17]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[16]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[15]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[14]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[13]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[12]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[11]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[10]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[9]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[8]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[7]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[6]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[5]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[4]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[3]</Signal>
+                <Signal>vfb_top_inst/dma0_rd_addr[2]</Signal>
+            </Bus>
+            <Signal>sdrc_busy_n</Signal>
+            <Signal>sdrc_rd_n</Signal>
+            <Signal>sdrc_wr_n</Signal>
+            <Bus name="sdrc_addr[20:2]">
+                <Signal>sdrc_addr[20]</Signal>
+                <Signal>sdrc_addr[19]</Signal>
+                <Signal>sdrc_addr[18]</Signal>
+                <Signal>sdrc_addr[17]</Signal>
+                <Signal>sdrc_addr[16]</Signal>
+                <Signal>sdrc_addr[15]</Signal>
+                <Signal>sdrc_addr[14]</Signal>
+                <Signal>sdrc_addr[13]</Signal>
+                <Signal>sdrc_addr[12]</Signal>
+                <Signal>sdrc_addr[11]</Signal>
+                <Signal>sdrc_addr[10]</Signal>
+                <Signal>sdrc_addr[9]</Signal>
+                <Signal>sdrc_addr[8]</Signal>
+                <Signal>sdrc_addr[7]</Signal>
+                <Signal>sdrc_addr[6]</Signal>
+                <Signal>sdrc_addr[5]</Signal>
+                <Signal>sdrc_addr[4]</Signal>
+                <Signal>sdrc_addr[3]</Signal>
+                <Signal>sdrc_addr[2]</Signal>
+            </Bus>
+            <Bus name="sdrc_data[31:0]">
+                <Signal>sdrc_data[31]</Signal>
+                <Signal>sdrc_data[30]</Signal>
+                <Signal>sdrc_data[29]</Signal>
+                <Signal>sdrc_data[28]</Signal>
+                <Signal>sdrc_data[27]</Signal>
+                <Signal>sdrc_data[26]</Signal>
+                <Signal>sdrc_data[25]</Signal>
+                <Signal>sdrc_data[24]</Signal>
+                <Signal>sdrc_data[23]</Signal>
+                <Signal>sdrc_data[22]</Signal>
+                <Signal>sdrc_data[21]</Signal>
+                <Signal>sdrc_data[20]</Signal>
+                <Signal>sdrc_data[19]</Signal>
+                <Signal>sdrc_data[18]</Signal>
+                <Signal>sdrc_data[17]</Signal>
+                <Signal>sdrc_data[16]</Signal>
+                <Signal>sdrc_data[15]</Signal>
+                <Signal>sdrc_data[14]</Signal>
+                <Signal>sdrc_data[13]</Signal>
+                <Signal>sdrc_data[12]</Signal>
+                <Signal>sdrc_data[11]</Signal>
+                <Signal>sdrc_data[10]</Signal>
+                <Signal>sdrc_data[9]</Signal>
+                <Signal>sdrc_data[8]</Signal>
+                <Signal>sdrc_data[7]</Signal>
+                <Signal>sdrc_data[6]</Signal>
+                <Signal>sdrc_data[5]</Signal>
+                <Signal>sdrc_data[4]</Signal>
+                <Signal>sdrc_data[3]</Signal>
+                <Signal>sdrc_data[2]</Signal>
+                <Signal>sdrc_data[1]</Signal>
+                <Signal>sdrc_data[0]</Signal>
+            </Bus>
+            <Signal>sdrc_rd_valid</Signal>
+            <Bus name="sdrc_data_out[31:0]">
+                <Signal>sdrc_data_out[31]</Signal>
+                <Signal>sdrc_data_out[30]</Signal>
+                <Signal>sdrc_data_out[29]</Signal>
+                <Signal>sdrc_data_out[28]</Signal>
+                <Signal>sdrc_data_out[27]</Signal>
+                <Signal>sdrc_data_out[26]</Signal>
+                <Signal>sdrc_data_out[25]</Signal>
+                <Signal>sdrc_data_out[24]</Signal>
+                <Signal>sdrc_data_out[23]</Signal>
+                <Signal>sdrc_data_out[22]</Signal>
+                <Signal>sdrc_data_out[21]</Signal>
+                <Signal>sdrc_data_out[20]</Signal>
+                <Signal>sdrc_data_out[19]</Signal>
+                <Signal>sdrc_data_out[18]</Signal>
+                <Signal>sdrc_data_out[17]</Signal>
+                <Signal>sdrc_data_out[16]</Signal>
+                <Signal>sdrc_data_out[15]</Signal>
+                <Signal>sdrc_data_out[14]</Signal>
+                <Signal>sdrc_data_out[13]</Signal>
+                <Signal>sdrc_data_out[12]</Signal>
+                <Signal>sdrc_data_out[11]</Signal>
+                <Signal>sdrc_data_out[10]</Signal>
+                <Signal>sdrc_data_out[9]</Signal>
+                <Signal>sdrc_data_out[8]</Signal>
+                <Signal>sdrc_data_out[7]</Signal>
+                <Signal>sdrc_data_out[6]</Signal>
+                <Signal>sdrc_data_out[5]</Signal>
+                <Signal>sdrc_data_out[4]</Signal>
+                <Signal>sdrc_data_out[3]</Signal>
+                <Signal>sdrc_data_out[2]</Signal>
+                <Signal>sdrc_data_out[1]</Signal>
+                <Signal>sdrc_data_out[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>vfb_top_inst/dma0_wr_end</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Bus name="vfb_top_inst/dma0_wr_addr[20:2]">
+                        <Signal>vfb_top_inst/dma0_wr_addr[20]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[19]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[18]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[17]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[16]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[15]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[14]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[13]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[12]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[11]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[10]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[9]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[8]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[7]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[6]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[5]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[4]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[3]</Signal>
+                        <Signal>vfb_top_inst/dma0_wr_addr[2]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Signal>vfb_top_inst/dma0_rd_end</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3">
+                <SignalList>
+                    <Bus name="vfb_top_inst/dma0_rd_addr[20:2]">
+                        <Signal>vfb_top_inst/dma0_rd_addr[20]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[19]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[18]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[17]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[16]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[15]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[14]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[13]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[12]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[11]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[10]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[9]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[8]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[7]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[6]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[5]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[4]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[3]</Signal>
+                        <Signal>vfb_top_inst/dma0_rd_addr[2]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="F" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0000000000000000000" value1="0000000000000000000" trigger="1"/>
+            <MatchUnit index="2" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="F" value1="0" trigger="2"/>
+            <MatchUnit index="3" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0000000000000000000" value1="0000000000000000000" trigger="3"/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions>
+            <Expression>M2&amp;M3</Expression>
+        </Expressions>
+    </AoCore>
+</GAO_CONFIG>

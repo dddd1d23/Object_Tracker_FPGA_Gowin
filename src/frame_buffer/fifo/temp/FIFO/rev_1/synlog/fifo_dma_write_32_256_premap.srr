@@ -1,0 +1,132 @@
+# Thu May 30 10:42:19 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.0.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2018q4p1, Build 001R, Built Mar 29 2019 09:46:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: D:\proj\gw2a_proj\fifo_test\src\fifo\temp\FIFO\rev_1\fifo_dma_write_32_256_scck.rpt 
+Printing clock  summary report in "D:\proj\gw2a_proj\fifo_test\src\fifo\temp\FIFO\rev_1\fifo_dma_write_32_256_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 116MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 191MB peak: 192MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 192MB peak: 195MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 192MB peak: 195MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 193MB peak: 195MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 192MB peak: 195MB)
+
+
+
+Clock Summary
+******************
+
+          Start                           Requested     Requested     Clock        Clock                     Clock
+Level     Clock                           Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------------------
+0 -       fifo_dma_write_32_256|RdClk     214.1 MHz     4.671         inferred     Autoconstr_clkgroup_1     311  
+                                                                                                                  
+0 -       fifo_dma_write_32_256|WrClk     246.1 MHz     4.064         inferred     Autoconstr_clkgroup_0     297  
+==================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                Clock     Source          Clock Pin                          Non-clock Pin     Non-clock Pin                
+Clock                           Load      Pin             Seq Example                        Seq Example       Comb Example                 
+--------------------------------------------------------------------------------------------------------------------------------------------
+fifo_dma_write_32_256|RdClk     311       RdClk(port)     fifo_inst.Big\.rq2_wptr[8:0].C     -                 fifo_inst.un1_RdClk.I[0](inv)
+                                                                                                                                            
+fifo_dma_write_32_256|WrClk     297       WrClk(port)     fifo_inst.Big\.wq2_rptr[8:0].C     -                 fifo_inst.un1_WrClk.I[0](inv)
+============================================================================================================================================
+
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 360 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       RdClk               Unconstrained_port     311        ENCRYPTED      
+@KP:ckid0_1       WrClk               Unconstrained_port     49         ENCRYPTED      
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\proj\gw2a_proj\fifo_test\src\fifo\temp\FIFO\rev_1\fifo_dma_write_32_256.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 195MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 191MB peak: 195MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 191MB peak: 195MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 106MB peak: 195MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Thu May 30 10:42:24 2019
+
+###########################################################]

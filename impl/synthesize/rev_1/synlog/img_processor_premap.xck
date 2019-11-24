@@ -1,0 +1,12 @@
+ckid0_0:@|S:I_clk_50m@|E:inst0.setup_state[1]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:pll_36m_u0.pll_inst.CLKOUT@|E:syn_gen_inst.V_cnt[15:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
+ckid0_3:@|S:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
+ckid0_4:@|S:img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4
+ckid0_5:@|S:img_processor_u0.gauss_filter_5_5_u0.ut01.u010.uclk_clkw.OUT@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_5==1@|M:ClockId_0_5
+ckid0_7:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_7==1@|M:ClockId_0_7
+ckid0_8:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_8==1@|M:ClockId_0_8
+ckid0_9:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_9==1@|M:ClockId_0_9
+ckid0_11:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_11==1@|M:ClockId_0_11
+ckid0_13:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_13==1@|M:ClockId_0_13
+ckid0_15:@|S:cmos_pclk2.Q[0]@|E:vfb_top_inst.u0_dma_frame_buffer.u_dma_write_ctrl.u_dma_16b_32b.allian_cnt[1:0]@|F:@syn_dgcc_clockid0_15==1@|M:ClockId_0_15
+ckid0_17:@|S:cmos_pclk0@|E:cmos_pclk2@|F:@syn_dgcc_clockid0_17==1@|M:ClockId_0_17

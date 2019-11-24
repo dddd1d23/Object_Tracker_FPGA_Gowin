@@ -1,0 +1,3 @@
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":194:9:194:18|Net capture_dr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":208:9:208:22|Net enable_i_delay is not declared.
+

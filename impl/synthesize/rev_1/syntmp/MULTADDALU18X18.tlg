@@ -1,0 +1,40 @@
+Selecting top level module MULTADDALU18X18
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":7:7:7:21|Synthesizing module MULTADDALU18X18 in library work.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":50:79:50:87|Object absign0_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":50:89:50:97|Object absign1_0 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MULTADDALU18X18 .......
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":829:4:829:9|Pruning unused register out_sync[54:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":816:4:816:9|Pruning unused register out_async[54:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":714:4:714:9|Pruning unused register out1_reg_sync[35:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":714:4:714:9|Pruning unused register absign_1_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":680:4:680:9|Pruning unused register out0_reg_sync[35:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":680:4:680:9|Pruning unused register absign_0_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":663:4:663:9|Pruning unused register out0_reg_async[35:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":663:4:663:9|Pruning unused register absign_0_reg_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":582:4:582:9|Pruning unused register accload1_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":568:4:568:9|Pruning unused register accload1_reg_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":543:4:543:9|Pruning unused register accload0_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":529:4:529:9|Pruning unused register accload0_reg_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":491:4:491:9|Pruning unused register bsign1_0_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":477:4:477:9|Pruning unused register bsign1_0_reg_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":463:4:463:9|Pruning unused register bsign0_0_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":449:4:449:9|Pruning unused register bsign0_0_reg_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":412:4:412:9|Pruning unused register asign1_0_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":398:4:398:9|Pruning unused register asign1_0_reg_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":384:4:384:9|Pruning unused register asign0_0_reg_sync. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":370:4:370:9|Pruning unused register asign0_0_reg_async. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":322:4:322:9|Pruning unused register inc_reg_sync[53:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":308:4:308:9|Pruning unused register inc_reg_async[53:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":294:4:294:9|Pruning unused register inb1_reg_sync[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":280:4:280:9|Pruning unused register inb1_reg_async[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":256:4:256:9|Pruning unused register inb0_reg_sync[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":242:4:242:9|Pruning unused register inb0_reg_async[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":180:4:180:9|Pruning unused register ina1_reg_sync[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":180:4:180:9|Pruning unused register ina2_reg_sync[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":163:4:163:9|Pruning unused register ina1_reg_async[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":163:4:163:9|Pruning unused register ina2_reg_async[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":139:4:139:9|Pruning unused register ina0_reg_sync[17:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":125:4:125:9|Pruning unused register ina0_reg_async[17:0]. Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on MULTADDALU18X18 .......
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":17:13:17:16|Input CASI is unused.
+@N: CL159 :"E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\syntmp\MULTADDALU18X18.v":21:6:21:12|Input ACCLOAD is unused.

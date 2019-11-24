@@ -1,0 +1,147 @@
+#--  Synopsys, Inc.
+#--  Version P-2019.03G-Beta4
+#--  Project file E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\scratchproject.prs
+
+#project files
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/datatest.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/key_debounce.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/led_test.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/testpattern.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_16b_32b.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_24b_32b.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_32b_16b.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_32b_24b.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/vfb_defines.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/vfb_top.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/cmos_capture/CMOS_Capture_RGB565.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/sccb/I2C_Controller.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/sccb/I2C_OV5640_Init_RGB565.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/sccb/I2C_OV5640_RGB565_Config.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/psram_memory_interface/psram_memory_interface.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/esp8266_send/esp8266_send_top.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/esp8266_send/uart_byte_tx.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/gw_pll/gw_pll.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/gw_pll/pix_pll.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/pll_75m/pll_75m.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/pll_100M/pll_100M.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/pll_24M/pll_24M.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/pll_25m/pll_25m.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/syn_code/syn_gen.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_bus_arbiter.vp"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_frame_buffer.vp"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_frame_ctrl.vp"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_read_ctrl.vp"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/dma_write_ctrl.vp"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/vfb_test.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/fifo/fifo_dma_read_64_32.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer/fifo/fifo_dma_write_32_64.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/pix2_pll/pix2_pll.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/myproj_top.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_processor2.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/SR_640_16/SR_640_16.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/img_matrix_5_5_16.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/Shift_RAM_16Bit_1280_L5.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/SR_1280_16.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/gauss_filter_5_5.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/rgb565_888.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/rgb888_565.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/vga_out/vga_mark_out.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/div222.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/rgb2hsv_top.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/uart_threshold_set/threshold_set.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/uart_threshold_set/uart_byte_rx.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/img_matrix_3_3_16.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/Shift_RAM_16Bit_1280_L3.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/img_matrix_median_3_3.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/median_filter_3_3.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/cmos_capture/power_ctrl.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/pll_36m/pll_36m.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/RGB565_YCbCr_gray.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/rgb16_24.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/rgb24_16.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/SR_800_1/SR_800_1.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/SHIFT_RAM_1Bit_1280.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/img_matrix_3_3_1.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/img_dilation.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/img_erosion.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/box_calculator.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/math_module/div223.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/math_module/sqrt_1.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/vga_out/vga_mark_out_top.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/erode_dilate.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/servo/pwm_ctrl.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/servo/pwm_out.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/sdp00/sdp00.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/sdp01/sdp01.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/sdp_256_8/sdp_256_8.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/dp_256_32/dp_256_32.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/math_module/div225.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/math_module/div227.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/hist_v/hist_v.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/hist_v/histogram_equalized.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/hist_v/histogram_equalized_top.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/img_filter/hsv2rgb.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/SR_800_16/SR_800_16.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/line_buffer/Shift_RAM_16Bit_800_L5.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/key_filter.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/servo/pwm_out2.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/irda/ir_decoder.v"
+add_file -verilog "E:/gowin_projects/myproj/myproj_blue2_ircon/src/irda/ir_to_sw.v"
+
+
+
+#implementation: "rev_1"
+impl -add E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1 -type fpga
+set_option -include_path {E:/gowin_projects/myproj/myproj_blue2_ircon/src/frame_buffer}
+
+#device options
+set_option -technology GOWIN-GW2AR
+set_option -part GW2AR_18
+set_option -package eLQFP144
+set_option -speed_grade -8
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "myproj_top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# GOWIN-GW2AR
+set_option -maxfan 10000
+set_option -rw_check_on_ram 1
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -run_prop_extract 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "E:/gowin_projects/myproj/myproj_blue2_ircon/impl/synthesize/rev_1/img_processor.vm"
+impl -active "rev_1"

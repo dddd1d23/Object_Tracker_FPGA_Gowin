@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\ipcore\RAMBasedShiftRegister\data\RAM_based_shift_reg_top.v":6:30:6:30|Synthesizing module SR_640_16 in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"e:\gowin\gowin_v1.9.2beta\ide\ipcore\rambasedshiftregister\data\ram_based_shift_reg_top.v":6:30:6:30|Selected library: work cell: SR_640_16 view verilog as top level
+@N: NF107 :"e:\gowin\gowin_v1.9.2beta\ide\ipcore\rambasedshiftregister\data\ram_based_shift_reg_top.v":6:30:6:30|Selected library: work cell: SR_640_16 view verilog as top level
+

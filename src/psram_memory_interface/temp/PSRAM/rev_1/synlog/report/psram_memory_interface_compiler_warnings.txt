@@ -1,0 +1,2 @@
+@W: CG286 :"D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v":2004:2:2004:5|Case statement has both a full_case directive and a default clause -- ignoring full_case directive.
+

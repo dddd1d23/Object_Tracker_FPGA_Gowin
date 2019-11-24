@@ -1,0 +1,160 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_top_define.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_expression.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v" (library work)
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":109:9:109:26|Net match_m0_en_reg_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":110:9:110:26|Net match_m1_en_reg_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":111:9:111:26|Net match_m2_en_reg_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":112:9:112:27|Net match_ctl_en_reg_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":113:9:113:24|Net match_cnt_reg_wr is not declared.
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v" (library work)
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":122:9:122:27|Net capture_length_zero is not declared.
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v" (library work)
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":500:9:500:20|Net start_reg_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":503:9:503:29|Net trig_level_max_reg_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":504:9:504:31|Net capture_mem_addr_max_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":505:9:505:31|Net capture_mem_addr_rem_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":506:9:506:30|Net capture_windows_num_wr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1717:9:1717:18|Net match_en_0 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1718:9:1718:18|Net match_en_1 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1719:9:1719:18|Net match_en_2 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1720:9:1720:18|Net match_en_3 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1721:9:1721:18|Net match_en_4 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1722:9:1722:18|Net match_en_5 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1723:9:1723:18|Net match_en_6 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1724:9:1724:18|Net match_en_7 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1725:9:1725:18|Net match_en_8 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1726:9:1726:18|Net match_en_9 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1727:9:1727:19|Net match_en_10 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1728:9:1728:19|Net match_en_11 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1729:9:1729:19|Net match_en_12 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1730:9:1730:19|Net match_en_13 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1731:9:1731:19|Net match_en_14 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":1732:9:1732:19|Net match_en_15 is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2213:9:2213:16|Net stop_reg is not declared.
+Verilog syntax check successful!
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v":1:0:1:8|Synthesizing module work_E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v_unit in library work.
+Selecting top level module ao_top_0
+Running optimization stage 1 on ao_mem_ctrl_0_1024s_81s_10s .......
+Running optimization stage 1 on ao_crc32_0 .......
+Running optimization stage 1 on ao_match_0_0s_1s_81s_0_1_0_1_2_3_4 .......
+Running optimization stage 1 on ao_top_0 .......
+Running optimization stage 2 on ao_match_0_0s_1s_81s_0_1_0_1_2_3_4 .......
+Running optimization stage 2 on ao_top_0 .......
+Extracted state machine for register module_state
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1001
+   1010
+   1011
+Running optimization stage 2 on ao_crc32_0 .......
+Running optimization stage 2 on ao_mem_ctrl_0_1024s_81s_10s .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 101MB peak: 111MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sun Nov 17 13:24:56 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 17 13:24:56 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\rev_1\synwork\ao_0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Sun Nov 17 13:24:56 2019
+
+###########################################################]

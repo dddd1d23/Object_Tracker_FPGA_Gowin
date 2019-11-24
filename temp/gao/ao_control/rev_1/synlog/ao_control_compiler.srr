@@ -1,0 +1,112 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\gw_con_parameter.v" (library work)
+@I::"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\gw_con_top_define.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v" (library work)
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":194:9:194:18|Net capture_dr is not declared.
+@W: CG1337 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":208:9:208:22|Net enable_i_delay is not declared.
+Verilog syntax check successful!
+@N: CG364 :"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\gw_con_parameter.v":1:0:1:8|Synthesizing module work_E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\gw_con_parameter.v_unit in library work.
+Selecting top level module gw_con_top
+Running optimization stage 1 on MUX16 .......
+Running optimization stage 1 on gw_con_top .......
+Running optimization stage 2 on gw_con_top .......
+Running optimization stage 2 on MUX16 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 17 13:24:37 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 17 13:24:37 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_control\rev_1\synwork\ao_control_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 17 13:24:37 2019
+
+###########################################################]

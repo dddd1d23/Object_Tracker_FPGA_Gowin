@@ -1,0 +1,36 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 553 clock pin(s) of sequential element(s)
+10 gated/generated clock tree(s) driving 12904 clock pin(s) of sequential element(s)
+0 instances converted, 12904 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     
+--------------------------------------------------------------------------------------------
+@KP:ckid0_0       I_clk_50m           port                   492        inst0.setup_state[1]
+@KP:ckid0_17      cmos_pclk0          port                   61         cmos_pclk2          
+============================================================================================
+=========================================================================================================================================== Gated/Generated Clocks ===========================================================================================================================================
+Clock Tree ID     Driving Element                                                                                                 Drive Element Type     Unconverted Fanout     Sample Instance                                                                     Explanation                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_2       pll_36m_u0.pll_inst.CLKOUT                                                                                      PLL                    11863                  syn_gen_inst.V_cnt[15:0]                                                            Black box on clock path                   
+@KP:ckid0_3       img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT     and                    33                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_4       img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT      and                    33                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_5       img_processor_u0.gauss_filter_5_5_u0.ut01.u010.uclk_clkw.OUT                                                    and                    55                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_7       ENCRYPTED                                                                                                       CLKDIV                 728                    ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_8       ENCRYPTED                                                                                                       DHCEN                  38                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_9       ENCRYPTED                                                                                                       DFFC                   8                      ENCRYPTED                                                                           Derived clock on input (not legal for GCC)
+@KP:ckid0_11      ENCRYPTED                                                                                                       DFFC                   8                      ENCRYPTED                                                                           Derived clock on input (not legal for GCC)
+@KP:ckid0_13      ENCRYPTED                                                                                                       DFFCE                  2                      ENCRYPTED                                                                           Derived clock on input (not legal for GCC)
+@KP:ckid0_15      cmos_pclk2.Q[0]                                                                                                 dffs                   136                    vfb_top_inst.u0_dma_frame_buffer.u_dma_write_ctrl.u_dma_16b_32b.allian_cnt[1:0]     Derived clock on input (not legal for GCC)
+==============================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

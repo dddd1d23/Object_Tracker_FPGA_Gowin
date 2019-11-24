@@ -1,0 +1,114 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\ipcore\RAMBasedShiftRegister\data\RAM_based_shift_reg_top.v" (library work)
+@I:"E:\Gowin\Gowin_V1.9.2Beta\IDE\ipcore\RAMBasedShiftRegister\data\RAM_based_shift_reg_top.v":"E:\gowin_projects\myproj\img_processor\src\SR_640_16\temp\RAM_Based_Shift_Register\shift_reg_name.v" (library work)
+@I:"E:\Gowin\Gowin_V1.9.2Beta\IDE\ipcore\RAMBasedShiftRegister\data\RAM_based_shift_reg_top.v":"E:\gowin_projects\myproj\img_processor\src\SR_640_16\temp\RAM_Based_Shift_Register\shift_reg_define.v" (library work)
+@I:"E:\Gowin\Gowin_V1.9.2Beta\IDE\ipcore\RAMBasedShiftRegister\data\RAM_based_shift_reg_top.v":"E:\gowin_projects\myproj\img_processor\src\SR_640_16\temp\RAM_Based_Shift_Register\shift_reg_parameter.v" (library work)
+@I::"E:\Gowin\Gowin_V1.9.2Beta\IDE\ipcore\RAMBasedShiftRegister\data\RAM_based_shift_reg.v" (library work)
+Verilog syntax check successful!
+Selecting top level module SR_640_16
+Running optimization stage 1 on \~RAM_based_shift_reg.SR_640_16  .......
+@N: CG364 :"E:\Gowin\Gowin_V1.9.2Beta\IDE\ipcore\RAMBasedShiftRegister\data\RAM_based_shift_reg_top.v":6:30:6:30|Synthesizing module SR_640_16 in library work.
+Running optimization stage 1 on SR_640_16 .......
+Running optimization stage 2 on SR_640_16 .......
+Running optimization stage 2 on \~RAM_based_shift_reg.SR_640_16  .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\img_processor\src\SR_640_16\temp\RAM_Based_Shift_Register\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 27 16:53:09 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+@N|Running in 64-bit mode
+@N: NF107 :"e:\gowin\gowin_v1.9.2beta\ide\ipcore\rambasedshiftregister\data\ram_based_shift_reg_top.v":6:30:6:30|Selected library: work cell: SR_640_16 view verilog as top level
+@N: NF107 :"e:\gowin\gowin_v1.9.2beta\ide\ipcore\rambasedshiftregister\data\ram_based_shift_reg_top.v":6:30:6:30|Selected library: work cell: SR_640_16 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 88MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 27 16:53:09 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\gowin_projects\myproj\img_processor\src\SR_640_16\temp\RAM_Based_Shift_Register\rev_1\synwork\SR_640_16_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 27 16:53:09 2019
+
+###########################################################]

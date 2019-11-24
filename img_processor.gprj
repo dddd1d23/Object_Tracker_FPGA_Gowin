@@ -1,0 +1,98 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device>gw2ar18-022</Device>
+    <FileList>
+        <File path="src/datatest.v" type="file.verilog" enable="1"/>
+        <File path="src/key_debounce.v" type="file.verilog" enable="1"/>
+        <File path="src/led_test.v" type="file.verilog" enable="1"/>
+        <File path="src/led_test2.v" type="file.verilog" enable="0"/>
+        <File path="src/testpattern.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_16b_32b.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_24b_32b.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_32b_16b.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_32b_24b.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/vfb_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/vfb_top.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_capture/CMOS_Capture_RGB565.v" type="file.verilog" enable="1"/>
+        <File path="src/sccb/I2C_Controller.v" type="file.verilog" enable="1"/>
+        <File path="src/sccb/I2C_OV5640_Init_RGB565.v" type="file.verilog" enable="1"/>
+        <File path="src/sccb/I2C_OV5640_RGB565_Config.v" type="file.verilog" enable="1"/>
+        <File path="src/psram_memory_interface/psram_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/esp8266_send/esp8266_send_top.v" type="file.verilog" enable="1"/>
+        <File path="src/esp8266_send/uart_byte_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/gw_pll/gw_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gw_pll/pix_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_75m/pll_75m.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_100M/pll_100M.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_24M/pll_24M.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_25m/pll_25m.v" type="file.verilog" enable="1"/>
+        <File path="src/img_processor.cst" type="file.cst" enable="1"/>
+        <File path="src/img_processor.sdc" type="file.sdc" enable="1"/>
+        <File path="src/syn_code/syn_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_bus_arbiter.vp" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_frame_buffer.vp" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_frame_ctrl.vp" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_read_ctrl.vp" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/dma_write_ctrl.vp" type="file.verilog" enable="1"/>
+        <File path="src/vfb_test.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/fifo/fifo_dma_read_64_32.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/fifo/fifo_dma_write_32_64.v" type="file.verilog" enable="1"/>
+        <File path="src/pix2_pll/pix2_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/myproj_top.v" type="file.verilog" enable="1"/>
+        <File path="src/img_processor2.v" type="file.verilog" enable="1"/>
+        <File path="src/SR_640_16/SR_640_16.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/img_matrix_5_5_16.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/Shift_RAM_16Bit_1280_L5.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/SR_1280_16.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/gauss_filter_5_5.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/rgb565_888.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/rgb888_565.v" type="file.verilog" enable="1"/>
+        <File path="src/vga_out/vga_mark_out.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/div222.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/rgb2hsv_top.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_threshold_set/threshold_set.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_threshold_set/uart_byte_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/img_matrix_3_3_16.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/Shift_RAM_16Bit_1280_L3.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/img_matrix_median_3_3.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/median_filter_3_3.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_capture/power_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_36m/pll_36m.v" type="file.verilog" enable="1"/>
+        <File path="src/RGB565_YCbCr_gray.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/rgb16_24.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/rgb24_16.v" type="file.verilog" enable="1"/>
+        <File path="src/SR_800_1/SR_800_1.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/SHIFT_RAM_1Bit_1280.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/img_matrix_3_3_1.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/img_dilation.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/img_erosion.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/box_calculator.v" type="file.verilog" enable="1"/>
+        <File path="src/math_module/div223.v" type="file.verilog" enable="1"/>
+        <File path="src/math_module/sqrt_1.v" type="file.verilog" enable="1"/>
+        <File path="src/vga_out/vga_mark_out_top.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/erode_dilate.v" type="file.verilog" enable="1"/>
+        <File path="src/servo/pwm_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/servo/pwm_out.v" type="file.verilog" enable="1"/>
+        <File path="src/sdp00/sdp00.v" type="file.verilog" enable="1"/>
+        <File path="src/sdp01/sdp01.v" type="file.verilog" enable="1"/>
+        <File path="src/sdp_256_8/sdp_256_8.v" type="file.verilog" enable="1"/>
+        <File path="src/dp_256_32/dp_256_32.v" type="file.verilog" enable="1"/>
+        <File path="src/math_module/div225.v" type="file.verilog" enable="1"/>
+        <File path="src/math_module/div227.v" type="file.verilog" enable="1"/>
+        <File path="src/hist_v/hist_v.v" type="file.verilog" enable="1"/>
+        <File path="src/hist_v/histogram_equalized.v" type="file.verilog" enable="1"/>
+        <File path="src/hist_v/histogram_equalized_top.v" type="file.verilog" enable="1"/>
+        <File path="src/img_filter/hsv2rgb.v" type="file.verilog" enable="1"/>
+        <File path="src/img_processor.gao" type="file.gao" enable="0"/>
+        <File path="src/SR_800_16/SR_800_16.v" type="file.verilog" enable="1"/>
+        <File path="src/line_buffer/Shift_RAM_16Bit_800_L5.v" type="file.verilog" enable="1"/>
+        <File path="src/img_processor_2.gao" type="file.gao" enable="0"/>
+        <File path="src/key_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/servo/pwm_out2.v" type="file.verilog" enable="1"/>
+        <File path="src/irda/ir_decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/irda/ir_to_sw.v" type="file.verilog" enable="1"/>
+    </FileList>
+</Project>

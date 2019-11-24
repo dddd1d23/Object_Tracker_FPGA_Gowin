@@ -1,0 +1,292 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+
+# Written on Tue Sep 10 15:24:57 2019
+
+##### DESIGN INFO #######################################################
+
+Top View:                "PSRAM_Memory_Interface_Top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                                                Ending                                                             |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                                  System                                                             |     6.667            |     No paths         |     No paths         |     No paths                         
+System                                                                                  _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     |     5.341            |     No paths         |     No paths         |     No paths                         
+System                                                                                  PSRAM_Memory_Interface_Top|clk                                     |     3.306            |     No paths         |     No paths         |     No paths                         
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                          _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     |     5.341            |     No paths         |     No paths         |     No paths                         
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                          PSRAM_Memory_Interface_Top|clk                                     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+_~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock                          _~psram_top.PSRAM_Memory_Interface_Top_|clk_x2p_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+PSRAM_Memory_Interface_Top|clk                                                          System                                                             |     3.306            |     No paths         |     No paths         |     No paths                         
+PSRAM_Memory_Interface_Top|clk                                                          _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+PSRAM_Memory_Interface_Top|clk                                                          PSRAM_Memory_Interface_Top|clk                                     |     3.306            |     No paths         |     No paths         |     No paths                         
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[0].VALUE_derived_clock[0]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     |     5.341            |     No paths         |     No paths         |     No paths                         
+_~psram_init.PSRAM_Memory_Interface_Top_|read_calibration[1].VALUE_derived_clock[1]     _~psram_top.PSRAM_Memory_Interface_Top_|clk_out_inferred_clock     |     5.341            |     No paths         |     No paths         |     No paths                         
+======================================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:IO_psram_dq[0] (bidir end point)
+p:IO_psram_dq[0] (bidir start point)
+p:IO_psram_dq[1] (bidir end point)
+p:IO_psram_dq[1] (bidir start point)
+p:IO_psram_dq[2] (bidir end point)
+p:IO_psram_dq[2] (bidir start point)
+p:IO_psram_dq[3] (bidir end point)
+p:IO_psram_dq[3] (bidir start point)
+p:IO_psram_dq[4] (bidir end point)
+p:IO_psram_dq[4] (bidir start point)
+p:IO_psram_dq[5] (bidir end point)
+p:IO_psram_dq[5] (bidir start point)
+p:IO_psram_dq[6] (bidir end point)
+p:IO_psram_dq[6] (bidir start point)
+p:IO_psram_dq[7] (bidir end point)
+p:IO_psram_dq[7] (bidir start point)
+p:IO_psram_dq[8] (bidir end point)
+p:IO_psram_dq[8] (bidir start point)
+p:IO_psram_dq[9] (bidir end point)
+p:IO_psram_dq[9] (bidir start point)
+p:IO_psram_dq[10] (bidir end point)
+p:IO_psram_dq[10] (bidir start point)
+p:IO_psram_dq[11] (bidir end point)
+p:IO_psram_dq[11] (bidir start point)
+p:IO_psram_dq[12] (bidir end point)
+p:IO_psram_dq[12] (bidir start point)
+p:IO_psram_dq[13] (bidir end point)
+p:IO_psram_dq[13] (bidir start point)
+p:IO_psram_dq[14] (bidir end point)
+p:IO_psram_dq[14] (bidir start point)
+p:IO_psram_dq[15] (bidir end point)
+p:IO_psram_dq[15] (bidir start point)
+p:IO_psram_rwds[0] (bidir end point)
+p:IO_psram_rwds[0] (bidir start point)
+p:IO_psram_rwds[1] (bidir end point)
+p:IO_psram_rwds[1] (bidir start point)
+p:O_psram_ck[0]
+p:O_psram_ck[1]
+p:O_psram_ck_n[0]
+p:O_psram_ck_n[1]
+p:O_psram_cs_n[0]
+p:O_psram_cs_n[1]
+p:O_psram_reset_n[0]
+p:O_psram_reset_n[1]
+p:addr[0]
+p:addr[1]
+p:addr[2]
+p:addr[3]
+p:addr[4]
+p:addr[5]
+p:addr[6]
+p:addr[7]
+p:addr[8]
+p:addr[9]
+p:addr[10]
+p:addr[11]
+p:addr[12]
+p:addr[13]
+p:addr[14]
+p:addr[15]
+p:addr[16]
+p:addr[17]
+p:addr[18]
+p:addr[19]
+p:addr[20]
+p:clk_out
+p:cmd
+p:cmd_en
+p:data_mask[0]
+p:data_mask[1]
+p:data_mask[2]
+p:data_mask[3]
+p:data_mask[4]
+p:data_mask[5]
+p:data_mask[6]
+p:data_mask[7]
+p:init_calib
+p:memory_clk
+p:pll_lock
+p:rd_data[0]
+p:rd_data[1]
+p:rd_data[2]
+p:rd_data[3]
+p:rd_data[4]
+p:rd_data[5]
+p:rd_data[6]
+p:rd_data[7]
+p:rd_data[8]
+p:rd_data[9]
+p:rd_data[10]
+p:rd_data[11]
+p:rd_data[12]
+p:rd_data[13]
+p:rd_data[14]
+p:rd_data[15]
+p:rd_data[16]
+p:rd_data[17]
+p:rd_data[18]
+p:rd_data[19]
+p:rd_data[20]
+p:rd_data[21]
+p:rd_data[22]
+p:rd_data[23]
+p:rd_data[24]
+p:rd_data[25]
+p:rd_data[26]
+p:rd_data[27]
+p:rd_data[28]
+p:rd_data[29]
+p:rd_data[30]
+p:rd_data[31]
+p:rd_data[32]
+p:rd_data[33]
+p:rd_data[34]
+p:rd_data[35]
+p:rd_data[36]
+p:rd_data[37]
+p:rd_data[38]
+p:rd_data[39]
+p:rd_data[40]
+p:rd_data[41]
+p:rd_data[42]
+p:rd_data[43]
+p:rd_data[44]
+p:rd_data[45]
+p:rd_data[46]
+p:rd_data[47]
+p:rd_data[48]
+p:rd_data[49]
+p:rd_data[50]
+p:rd_data[51]
+p:rd_data[52]
+p:rd_data[53]
+p:rd_data[54]
+p:rd_data[55]
+p:rd_data[56]
+p:rd_data[57]
+p:rd_data[58]
+p:rd_data[59]
+p:rd_data[60]
+p:rd_data[61]
+p:rd_data[62]
+p:rd_data[63]
+p:rd_data_valid
+p:rst_n
+p:wr_data[0]
+p:wr_data[1]
+p:wr_data[2]
+p:wr_data[3]
+p:wr_data[4]
+p:wr_data[5]
+p:wr_data[6]
+p:wr_data[7]
+p:wr_data[8]
+p:wr_data[9]
+p:wr_data[10]
+p:wr_data[11]
+p:wr_data[12]
+p:wr_data[13]
+p:wr_data[14]
+p:wr_data[15]
+p:wr_data[16]
+p:wr_data[17]
+p:wr_data[18]
+p:wr_data[19]
+p:wr_data[20]
+p:wr_data[21]
+p:wr_data[22]
+p:wr_data[23]
+p:wr_data[24]
+p:wr_data[25]
+p:wr_data[26]
+p:wr_data[27]
+p:wr_data[28]
+p:wr_data[29]
+p:wr_data[30]
+p:wr_data[31]
+p:wr_data[32]
+p:wr_data[33]
+p:wr_data[34]
+p:wr_data[35]
+p:wr_data[36]
+p:wr_data[37]
+p:wr_data[38]
+p:wr_data[39]
+p:wr_data[40]
+p:wr_data[41]
+p:wr_data[42]
+p:wr_data[43]
+p:wr_data[44]
+p:wr_data[45]
+p:wr_data[46]
+p:wr_data[47]
+p:wr_data[48]
+p:wr_data[49]
+p:wr_data[50]
+p:wr_data[51]
+p:wr_data[52]
+p:wr_data[53]
+p:wr_data[54]
+p:wr_data[55]
+p:wr_data[56]
+p:wr_data[57]
+p:wr_data[58]
+p:wr_data[59]
+p:wr_data[60]
+p:wr_data[61]
+p:wr_data[62]
+p:wr_data[63]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

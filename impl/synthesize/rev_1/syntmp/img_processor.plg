@@ -1,0 +1,58 @@
+@P:  Worst Slack : -3.532
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[0] - Estimated Frequency : 0.3 MHz
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[0] - Requested Frequency : 0.1 MHz
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[0] - Estimated Period : 3137.894
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[0] - Requested Period : 16993.857
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[0] - Slack : 5.939
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[1] - Estimated Frequency : 0.3 MHz
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[1] - Requested Frequency : 0.1 MHz
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[1] - Estimated Period : 3137.894
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[1] - Requested Period : 16993.857
+@P:  _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[1] - Slack : 5.939
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock - Estimated Frequency : 118.4 MHz
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock - Requested Frequency : 137.3 MHz
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock - Estimated Period : 8.445
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock - Requested Period : 7.284
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock - Slack : -1.162
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_x2p_inferred_clock - Estimated Frequency : NA
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_x2p_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_x2p_inferred_clock - Estimated Period : NA
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_x2p_inferred_clock - Requested Period : 6.667
+@P:  _~psram_top_PSRAM_Memory_Interface_Top__|clk_x2p_inferred_clock - Slack : NA
+@P:  _~psram_wd_PSRAM_Memory_Interface_Top__|step_derived_clock[0] - Estimated Frequency : NA
+@P:  _~psram_wd_PSRAM_Memory_Interface_Top__|step_derived_clock[0] - Requested Frequency : 0.1 MHz
+@P:  _~psram_wd_PSRAM_Memory_Interface_Top__|step_derived_clock[0] - Estimated Period : NA
+@P:  _~psram_wd_PSRAM_Memory_Interface_Top__|step_derived_clock[0] - Requested Period : 16993.857
+@P:  _~psram_wd_PSRAM_Memory_Interface_Top__|step_derived_clock[0] - Slack : NA
+@P:  myproj_top|I_clk_50m - Estimated Frequency : 132.3 MHz
+@P:  myproj_top|I_clk_50m - Requested Frequency : 155.6 MHz
+@P:  myproj_top|I_clk_50m - Estimated Period : 7.560
+@P:  myproj_top|I_clk_50m - Requested Period : 6.426
+@P:  myproj_top|I_clk_50m - Slack : -1.134
+@P:  myproj_top|cmos_pclk0 - Estimated Frequency : 163.3 MHz
+@P:  myproj_top|cmos_pclk0 - Requested Frequency : 235.6 MHz
+@P:  myproj_top|cmos_pclk0 - Estimated Period : 6.125
+@P:  myproj_top|cmos_pclk0 - Requested Period : 4.244
+@P:  myproj_top|cmos_pclk0 - Slack : -0.941
+@P:  myproj_top|cmos_pclk2_derived_clock - Estimated Frequency : 0.1 MHz
+@P:  myproj_top|cmos_pclk2_derived_clock - Requested Frequency : 0.1 MHz
+@P:  myproj_top|cmos_pclk2_derived_clock - Estimated Period : 14290.522
+@P:  myproj_top|cmos_pclk2_derived_clock - Requested Period : 9902.123
+@P:  myproj_top|cmos_pclk2_derived_clock - Slack : 19797.216
+@P:  pll_36m|clkout_inferred_clock - Estimated Frequency : 84.0 MHz
+@P:  pll_36m|clkout_inferred_clock - Requested Frequency : 98.8 MHz
+@P:  pll_36m|clkout_inferred_clock - Estimated Period : 11.905
+@P:  pll_36m|clkout_inferred_clock - Requested Period : 10.119
+@P:  pll_36m|clkout_inferred_clock - Slack : -1.786
+@P:  System - Estimated Frequency : 310.4 MHz
+@P:  System - Requested Frequency : 365.1 MHz
+@P:  System - Estimated Period : 3.222
+@P:  System - Requested Period : 2.739
+@P:  System - Slack : -0.483
+@P: myproj_top Part : gw2ar_18elqfp144-8
+@P: myproj_top I/O primitives : 71
+@P: myproj_top I/O Register bits : 0
+@P: myproj_top Register bits (Non I/O) : 7263 (46%)
+@P: myproj_top Block Rams : 25 of 46 (54%)
+@P: myproj_top Total Luts : 7079 of 800 (34%)
+@P:  CPU Time : 0h:02m:21s

@@ -1,0 +1,272 @@
+# Fri Nov 22 14:17:42 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1429R, Built Aug 27 2019 09:36:45
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@A: MF827 |No constraint file specified.
+@L: E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor_scck.rpt 
+Printing clock  summary report in "E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 151MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 152MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 160MB peak: 160MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 173MB)
+
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d0.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d1.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d0.
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d0.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d1.
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d1.
+@N: FX493 |Applying initial value "0" on instance vin_vs_n_falling_r.
+@N: FX493 |Applying initial value "0" on instance vout_vs_n_falling_r.
+@N: FX493 |Applying initial value "1" on instance vin_vs_n_sync3.
+@N: FX493 |Applying initial value "1" on instance vout_vs_n_sync3.
+@W: BN132 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\i2c_ov5640_init_rgb565.v":102:0:102:5|Removing sequential instance inst0.i2c_data[35] because it is equivalent to instance inst0.i2c_data[32]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MO129 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":46:3:46:8|Sequential instance img_processor_u0.vga_mark_out_top_u0.box_calculator_u0.sqrt_1_u0.U[6].Q_q[6][0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v":14:0:14:5|Sequential instance img_processor_u0.hist_v_u0.histogram_equalized_top_u0.histogram_equalized_inst.div227_u0.temp_b[0][46] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":14:0:14:5|Sequential instance img_processor_u0.hist_v_u0.hsv2rgb_u0.div225_hsv2rgb_u1.temp_b[0][26] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v":14:0:14:5|Sequential instance img_processor_u0.hist_v_u0.hsv2rgb_u0.div225_hsv2rgb_u2.temp_b[0][26] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v":260:0:260:5|Removing sequential instance hist_equalized_dout_vld (in view: work.histogram_equalized(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance r[31:0] (in view: work.div223_1(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance done (in view: work.div223_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance r[31:0] (in view: work.div223_0(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v":23:0:23:5|Removing sequential instance done (in view: work.div223_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":77:0:77:5|Removing sequential instance o_vaild (in view: work.sqrt_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v":77:0:77:5|Removing sequential instance data_r[11:0] (in view: work.sqrt_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v":173:14:173:29|Removing instance threshold_set_u0 (in view: work.myproj_top(verilog)) of type view:work.threshold_set(verilog) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\cmos_capture_rgb565.v":150:1:150:6|Removing sequential instance cmos_fps_rate[7:0] (in view: work.CMOS_Capture_RGB565_10_0_800_0_600_48000000s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Removing sequential instance pre_img_r_CR23[23:0] (in view: work.rgb2hsv_top(verilog)) of type view:PrimLib.ram2(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c0[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c1[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c2[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c3[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c4[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c5[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v":27:0:27:5|Removing sequential instance pre_img_r\[1\][23:0] (in view: work.rgb2hsv_top(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c0_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c1_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c2_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c3_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c4_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance c5_t[7:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":21:0:21:5|Removing sequential instance state[10:0] (in view: work.threshold_set(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN115 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v":12:13:12:27|Removing instance uart_byte_rx_u0 (in view: work.threshold_set(verilog)) of type view:work.uart_byte_rx(verilog) because it does not drive other instances.
+@N: BN362 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v":124:1:124:6|Removing sequential instance data_byte[7:0] (in view: work.uart_byte_rx(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine state[3:0] (in view: work.ir_decoder(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v":62:0:62:5|There are no possible illegal states for state machine state[3:0] (in view: work.ir_decoder(verilog)); safe FSM implementation is not required.
+Encoding state machine state[9:0] (in view: work.esp8266_send_top(verilog))
+original code -> new code
+   0000 -> 0000
+   0001 -> 0001
+   0010 -> 0010
+   0011 -> 0011
+   0100 -> 0100
+   0101 -> 0101
+   0110 -> 0110
+   0111 -> 0111
+   1000 -> 1000
+   1001 -> 1001
+Encoding state machine state[5:0] (in view: work.pwm_out2(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+Encoding state machine wr_ptr[2:0] (in view: work.dma_frame_ctrl_1048576_21s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rd_ptr[2:0] (in view: work.dma_frame_ctrl_1048576_21s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine current_state[3:0] (in view: work.dma_bus_arbiter_21s_64s_1_2_4_8(verilog))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+Encoding state machine status[4:0] (in view: work.div223_1(verilog))
+original code -> new code
+   000000 -> 00001
+   000001 -> 00010
+   000010 -> 00100
+   000100 -> 01000
+   001000 -> 10000
+Encoding state machine status[4:0] (in view: work.div223_0(verilog))
+original code -> new code
+   000000 -> 00001
+   000001 -> 00010
+   000010 -> 00100
+   000100 -> 01000
+   001000 -> 10000
+Encoding state machine setup_state[2:0] (in view: work.I2C_OV5640_Init_RGB565(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 270MB peak: 270MB)
+
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 273MB peak: 273MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 273MB peak: 273MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 273MB peak: 273MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 273MB peak: 273MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                    Requested     Requested     Clock                                                                              Clock                     Clock
+Level     Clock                                                                    Frequency     Period        Type                                                                               Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                   150.0 MHz     6.667         system                                                                             system_clkgroup           0    
+                                                                                                                                                                                                                                 
+0 -       pll_36m|clkout_inferred_clock                                            131.8 MHz     7.590         inferred                                                                           Autoconstr_clkgroup_2     12047
+                                                                                                                                                                                                                                 
+0 -       _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock          139.5 MHz     7.169         inferred                                                                           Autoconstr_clkgroup_3     744  
+1 .         _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[0]     139.5 MHz     7.169         derived (from _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock)     Autoconstr_clkgroup_3     8    
+1 .         _~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[1]     139.5 MHz     7.169         derived (from _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock)     Autoconstr_clkgroup_3     8    
+1 .         _~psram_wd_PSRAM_Memory_Interface_Top__|step_derived_clock[0]          139.5 MHz     7.169         derived (from _~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock)     Autoconstr_clkgroup_3     2    
+                                                                                                                                                                                                                                 
+0 -       myproj_top|I_clk_50m                                                     189.6 MHz     5.274         inferred                                                                           Autoconstr_clkgroup_1     492  
+                                                                                                                                                                                                                                 
+0 -       myproj_top|cmos_pclk0                                                    308.7 MHz     3.239         inferred                                                                           Autoconstr_clkgroup_0     61   
+1 .         myproj_top|cmos_pclk2_derived_clock                                    308.7 MHz     3.239         derived (from myproj_top|cmos_pclk0)                                               Autoconstr_clkgroup_0     136  
+                                                                                                                                                                                                                                 
+0 -       _~psram_top_PSRAM_Memory_Interface_Top__|clk_x2p_inferred_clock          150.0 MHz     6.667         inferred                                                                           Autoconstr_clkgroup_4     38   
+=================================================================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                       Clock     Source                                                                                                   Clock Pin                                                                                                              Non-clock Pin                                                                                                                  Non-clock Pin                                                                                               
+Clock                                                                  Load      Pin                                                                                                      Seq Example                                                                                                            Seq Example                                                                                                                    Comb Example                                                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                 0         -                                                                                                        -                                                                                                                      -                                                                                                                              -                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+pll_36m|clkout_inferred_clock                                          12047     pll_36m_u0.pll_inst.CLKOUT(PLL)                                                                          img_processor_u0.vga_mark_out_top_u0.vga_mark_out_u0.pre_x[10:0].C                                                     -                                                                                                                              img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.clkw.I[0](and)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+_~psram_top_PSRAM_Memory_Interface_Top__|clk_out_inferred_clock        744       PSRAM_Memory_Interface_Top_inst.u_psram_top.clkdiv.CLKOUT(CLKDIV)                                        PSRAM_Memory_Interface_Top_inst.u_psram_top.\\rd_data_d_fast_Z\[2\].CLK                                                PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_wd.\\data_lane_gen\[0\]\.u_psram_lane.\\iserdes_gen\[7\]\.u_ides4.PCLK     -                                                                                                           
+_~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[0]     8         PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_init.\\read_calibration\[0\]\.VALUE\[0\].Q(DFFC)     PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_wd.\\dq_iodelay_gen0\[0\]\.genblk1\[0\]\.iodelay.VALUE             -                                                                                                                              -                                                                                                           
+_~psram_init_PSRAM_Memory_Interface_Top__|VALUE_1_derived_clock[1]     8         PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_init.\\read_calibration\[1\]\.VALUE\[1\].Q(DFFC)     PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_wd.\\dq_iodelay_gen0\[1\]\.genblk1\[5\]\.iodelay.VALUE             -                                                                                                                              -                                                                                                           
+_~psram_wd_PSRAM_Memory_Interface_Top__|step_derived_clock[0]          2         PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_wd.\\step_Z\[0\].Q(DFFCE)                            PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_wd.\\ck_delay\[0\]\.iodelay.VALUE                                  -                                                                                                                              -                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+myproj_top|I_clk_50m                                                   492       I_clk_50m(port)                                                                                          inst0.i2c_en_r0.C                                                                                                      -                                                                                                                              -                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+myproj_top|cmos_pclk0                                                  61        cmos_pclk0(port)                                                                                         cmos_pclk2.C                                                                                                           -                                                                                                                              cmos_pclk.I[0](inv)                                                                                         
+myproj_top|cmos_pclk2_derived_clock                                    136       cmos_pclk2.Q[0](dffs)                                                                                    vfb_top_inst.u0_dma_frame_buffer.u_dma_write_ctrl.video_vs_n.C                                                         -                                                                                                                              -                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+_~psram_top_PSRAM_Memory_Interface_Top__|clk_x2p_inferred_clock        38        PSRAM_Memory_Interface_Top_inst.u_psram_top.u_dqce_clk_x2p.CLKOUT(DHCEN)                                 PSRAM_Memory_Interface_Top_inst.u_psram_top.u_psram_wd.\\data_lane_gen\[0\]\.u_psram_lane.\\genblk1\.u_ck_gen.FCLK     -                                                                                                                              -                                                                                                           
+============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+@W: MT529 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\cmos_capture_rgb565.v":174:1:174:6|Found inferred clock myproj_top|cmos_pclk0 which controls 61 sequential elements including CMOS_Capture_RGB565_u0.vcnt[11:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v":62:0:62:5|Found inferred clock myproj_top|I_clk_50m which controls 492 sequential elements including ir_decoder0.state[1]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"e:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_16b.v":87:2:87:7|Found inferred clock pll_36m|clkout_inferred_clock which controls 12047 sequential elements including vfb_top_inst.u0_dma_frame_buffer.u_dma_read_ctrl.u_dma_32b_16b.dma_d_16b[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 553 clock pin(s) of sequential element(s)
+10 gated/generated clock tree(s) driving 12904 clock pin(s) of sequential element(s)
+0 instances converted, 12904 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     
+--------------------------------------------------------------------------------------------
+@KP:ckid0_0       I_clk_50m           port                   492        inst0.setup_state[1]
+@KP:ckid0_17      cmos_pclk0          port                   61         cmos_pclk2          
+============================================================================================
+=========================================================================================================================================== Gated/Generated Clocks ===========================================================================================================================================
+Clock Tree ID     Driving Element                                                                                                 Drive Element Type     Unconverted Fanout     Sample Instance                                                                     Explanation                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_2       pll_36m_u0.pll_inst.CLKOUT                                                                                      PLL                    11863                  syn_gen_inst.V_cnt[15:0]                                                            Black box on clock path                   
+@KP:ckid0_3       img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_dilation_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT     and                    33                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_4       img_processor_u0.vga_mark_out_top_u0.erode_dilate_u0.img_erosion_u0.u0.Shift_RAM_1Bit_800_u0.uclk_clkw.OUT      and                    33                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_5       img_processor_u0.gauss_filter_5_5_u0.ut01.u010.uclk_clkw.OUT                                                    and                    55                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_7       ENCRYPTED                                                                                                       CLKDIV                 728                    ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_8       ENCRYPTED                                                                                                       DHCEN                  38                     ENCRYPTED                                                                           Black box on clock path                   
+@KP:ckid0_9       ENCRYPTED                                                                                                       DFFC                   8                      ENCRYPTED                                                                           Derived clock on input (not legal for GCC)
+@KP:ckid0_11      ENCRYPTED                                                                                                       DFFC                   8                      ENCRYPTED                                                                           Derived clock on input (not legal for GCC)
+@KP:ckid0_13      ENCRYPTED                                                                                                       DFFCE                  2                      ENCRYPTED                                                                           Derived clock on input (not legal for GCC)
+@KP:ckid0_15      cmos_pclk2.Q[0]                                                                                                 dffs                   136                    vfb_top_inst.u0_dma_frame_buffer.u_dma_write_ctrl.u_dma_16b_32b.allian_cnt[1:0]     Derived clock on input (not legal for GCC)
+==============================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\gowin_projects\myproj\myproj_blue2_ircon\impl\synthesize\rev_1\img_processor.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 259MB peak: 274MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 274MB peak: 274MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 282MB peak: 282MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 189MB peak: 283MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+# Fri Nov 22 14:17:51 2019
+
+###########################################################]

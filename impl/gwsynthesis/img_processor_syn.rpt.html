@@ -1,0 +1,3527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>synthesis Report</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+div#main_wrapper{ width: 100%; }
+div#content { margin-left: 350px; margin-right: 30px; }
+div#catalog_wrapper {position: fixed; top: 30px; width: 350px; float: left; }
+div#catalog ul { list-style-type: none; }
+div#catalog li { text-align: left; list-style-type:circle; color: #0084ff; margin-top: 3px; margin-bottom: 3px; }
+div#catalog a { display:inline-block; text-decoration: none; color: #0084ff; font-weight: bold; padding: 3px; }
+div#catalog a:visited { color: #0084ff; }
+div#catalog a:hover { color: #fff; background: #0084ff; }
+hr { margin-top: 30px; margin-bottom: 30px; }
+h1, h3 { text-align: center; }
+h1 {margin-top: 50px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { padding: 5px 5px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table.summary_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.detail_table td.label { min-width: 100px; width: 8%;}
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="catalog_wrapper">
+<div id="catalog">
+<ul>
+<li><a href="#about" style=" font-size: 16px;">Synthesis Messages</a></li>
+<li><a href="#setting" style=" font-size: 16px;">Design Settings</a></li>
+<li><a href="#resource" style=" font-size: 16px;">Resource</a>
+<ul>
+<li><a href="#usage" style=" font-size: 14px;">Resource Usage Summary</a></li>
+<li><a href="#utilization" style=" font-size: 14px;">Resource Utilization Summary</a></li>
+</ul>
+</li>
+<li><a href="#timing" style=" font-size: 16px;">Timing</a>
+<ul>
+<li><a href="#clock" style=" font-size: 14px;">Clock Summary</a></li>
+<li><a href="#timing report" style=" font-size: 14px;">Timing Report</a></li>
+<li><a href="#performance" style=" font-size: 14px;">Performance Summary</a></li>
+<li><a href="#detail timing" style=" font-size: 14px;">Detail Timing Paths Informations</a></li>
+</ul>
+</li>
+<li><a href="#message" style=" font-size: 16px;">Message</a></li>
+<li><a href="#summary" style=" font-size: 16px;">Summary</a></li>
+</ul>
+</div><!-- catalog -->
+</div><!-- catalog_wrapper -->
+<div id="content">
+<h1><a name="about">Synthesis Messages</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Report Title</td>
+<td>GowinSynthesis Report</td>
+</tr>
+<tr>
+<td class="label">Design File</td>
+<td>E:/gowin_projects/myproj/img_processor/src/datatest.v<br>
+E:/gowin_projects/myproj/img_processor/src/key_debounce.v<br>
+E:/gowin_projects/myproj/img_processor/src/led_test.v<br>
+E:/gowin_projects/myproj/img_processor/src/testpattern.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_16b_32b.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_24b_32b.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_32b_16b.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_32b_24b.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/vfb_defines.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/vfb_top.v<br>
+E:/gowin_projects/myproj/img_processor/src/cmos_capture/CMOS_Capture_RGB565.v<br>
+E:/gowin_projects/myproj/img_processor/src/sccb/I2C_Controller.v<br>
+E:/gowin_projects/myproj/img_processor/src/sccb/I2C_OV5640_Init_RGB565.v<br>
+E:/gowin_projects/myproj/img_processor/src/sccb/I2C_OV5640_RGB565_Config.v<br>
+E:/gowin_projects/myproj/img_processor/src/psram_memory_interface/psram_memory_interface.v<br>
+E:/gowin_projects/myproj/img_processor/src/esp8266_send/esp8266_send_top.v<br>
+E:/gowin_projects/myproj/img_processor/src/esp8266_send/uart_byte_tx.v<br>
+E:/gowin_projects/myproj/img_processor/src/gw_pll/gw_pll.v<br>
+E:/gowin_projects/myproj/img_processor/src/gw_pll/pix_pll.v<br>
+E:/gowin_projects/myproj/img_processor/src/pll_75m/pll_75m.v<br>
+E:/gowin_projects/myproj/img_processor/src/pll_100M/pll_100M.v<br>
+E:/gowin_projects/myproj/img_processor/src/pll_24M/pll_24M.v<br>
+E:/gowin_projects/myproj/img_processor/src/pll_25m/pll_25m.v<br>
+E:/gowin_projects/myproj/img_processor/src/syn_code/syn_gen.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_bus_arbiter.vp<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_frame_buffer.vp<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_frame_ctrl.vp<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_read_ctrl.vp<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/dma_write_ctrl.vp<br>
+E:/gowin_projects/myproj/img_processor/src/vfb_test.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/fifo/fifo_dma_read_64_32.v<br>
+E:/gowin_projects/myproj/img_processor/src/frame_buffer/fifo/fifo_dma_write_32_64.v<br>
+E:/gowin_projects/myproj/img_processor/src/pix2_pll/pix2_pll.v<br>
+E:/gowin_projects/myproj/img_processor/src/myproj_top.v<br>
+E:/gowin_projects/myproj/img_processor/src/img_processor2.v<br>
+E:/gowin_projects/myproj/img_processor/src/SR_640_16/SR_640_16.v<br>
+</td>
+</tr>
+<tr>
+<td class="label">GowinSynthesis Constraints File</td>
+<td>---</td>
+</tr>
+<tr>
+<td class="label">GowinSynthesis Verision</td>
+<td>GowinSynthesis V1.9.2Beta</td>
+</tr>
+<tr>
+<td class="label">Created Time</td>
+<td>Sun Oct 27 17:48:31 2019
+</td>
+</tr>
+<tr>
+<td class="label">Legal Announcement</td>
+<td>Copyright (C)2014-2019 Gowin Semiconductor Corporation. ALL rights reserved.</td>
+</tr>
+</table>
+<h1><a name="setting">Design Settings</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Top Level Module:</td>
+<td>myproj_top</td>
+</tr>
+<tr>
+<td class="label">Design Language:</td>
+<td>verilog</td>
+</tr>
+<tr>
+<td class="label">Series:</td>
+<td>GW2AR</td>
+</tr>
+<tr>
+<td class="label">Device:</td>
+<td>GW2AR-18</td>
+</tr>
+<tr>
+<td class="label">Package:</td>
+<td>ELQFP144</td>
+</tr>
+<tr>
+<td class="label">Speed Grade:</td>
+<td>8</td>
+</tr>
+</table><br/>
+<h1><a name="resource">Resource</a></h1>
+<h2><a name="usage">Resource Usage Summary</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>IOPORT Usage:</b></td>
+<td>71</td>
+</tr>
+<tr>
+<td class="label"><b>IOBUF Usage:</b></td>
+<td>68</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIBUF</td>
+<td>14</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspOBUF</td>
+<td>33</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIOBUF</td>
+<td>19</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspELVDS_OBUF</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="label"><b>REG Usage:</b></td>
+<td>1198</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFF</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFE</td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFS</td>
+<td>8</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFSE</td>
+<td>3</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFR</td>
+<td>35</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFRE</td>
+<td>7</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFP</td>
+<td>19</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFPE</td>
+<td>13</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFC</td>
+<td>730</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFCE</td>
+<td>351</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFNP</td>
+<td>8</td>
+</tr>
+<tr>
+<td class="label"><b>LUT Usage:</b></td>
+<td>1937</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
+<td>595</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
+<td>532</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
+<td>810</td>
+</tr>
+<tr>
+<td class="label"><b>ALU Usage:</b></td>
+<td>233</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspALU</td>
+<td>233</td>
+</tr>
+<tr>
+<td class="label"><b>INV Usage:</b></td>
+<td>33</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspINV</td>
+<td>33</td>
+</tr>
+<tr>
+<td class="label"><b>IOLOGIC Usage:</b></td>
+<td>56</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIDES4</td>
+<td>16</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspOSER4</td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIODELAY</td>
+<td>18</td>
+</tr>
+<tr>
+<td class="label"><b>BSRAM Usage:</b></td>
+<td>26</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspSDPX9</td>
+<td>14</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspROMX9</td>
+<td>12</td>
+</tr>
+<tr>
+<td class="label"><b>CLOCK Usage:</b></td>
+<td>6</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspPLL</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDLL</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspCLKDIV</td>
+<td>1</td>
+</tr>
+</table><br/>
+<h2><a name="utilization">Resource Utilization Summary</a></h2>
+Target Device: GW2AR-18-ELQFP144
+<table class="summary_table">
+<tr>
+<td class="label">CFU Logics</td>
+<td>2203(1970 LUTs, 233 ALUs) / 20736</td>
+<td>11%</td>
+</tr>
+<tr>
+<td class="label">Registers</td>
+<td>1198 / 15552</td>
+<td>8%</td>
+</tr>
+<tr>
+<td class="label">BSRAMs</td>
+<td>26 / 46</td>
+<td>57%</td>
+</tr>
+<tr>
+<td class="label">DSP Macros</td>
+<td>0 / (12*2)</td>
+<td>0%</td>
+</tr>
+</table><br/><br/>
+<h1><a name="timing">Timing</a></h1>
+<h2><a name="clock">Clock Summary:</a></h2>
+<table class="summary_table">
+<tr>
+<th>Clock</th>
+<th>Type</th>
+<th>Frequency</th>
+<th>Period</th>
+<th>Rise</th>
+<th>Fall</th>
+<th>Source</th>
+<th>Master</th>
+<th>Object</th>
+</tr>
+<tr>
+<td>\pll_75m_u0/pll_inst /CLKIN.default_clk</td>
+<td>Base</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll_75m_u0/pll_inst /CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\pll_75m_u0/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll_75m_u0/pll_inst /CLKOUTP.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\pll_75m_u0/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll_75m_u0/pll_inst /CLKOUTD.default_gen_clk</td>
+<td>Generated</td>
+<td>50.0 MHz</td>
+<td>20.000</td>
+<td>0.000</td>
+<td>10.000</td>
+<td> </td>
+<td>\pll_75m_u0/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll_75m_u0/pll_inst /CLKOUTD3.default_gen_clk</td>
+<td>Generated</td>
+<td>33.3 MHz</td>
+<td>30.000</td>
+<td>0.000</td>
+<td>15.000</td>
+<td> </td>
+<td>\pll_75m_u0/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll5/pll_inst /CLKIN.default_clk</td>
+<td>Base</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll5/pll_inst /CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll5/pll_inst /CLKOUTP.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll5/pll_inst /CLKOUTD.default_gen_clk</td>
+<td>Generated</td>
+<td>50.0 MHz</td>
+<td>20.000</td>
+<td>0.000</td>
+<td>10.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll5/pll_inst /CLKOUTD3.default_gen_clk</td>
+<td>Generated</td>
+<td>33.3 MHz</td>
+<td>30.000</td>
+<td>0.000</td>
+<td>15.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll4/pll_inst /CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKOUT.default_gen_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll4/pll_inst /CLKOUTP.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKOUT.default_gen_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll4/pll_inst /CLKOUTD.default_gen_clk</td>
+<td>Generated</td>
+<td>50.0 MHz</td>
+<td>20.000</td>
+<td>0.000</td>
+<td>10.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKOUT.default_gen_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\pll4/pll_inst /CLKOUTD3.default_gen_clk</td>
+<td>Generated</td>
+<td>33.3 MHz</td>
+<td>30.000</td>
+<td>0.000</td>
+<td>15.000</td>
+<td> </td>
+<td>\pll5/pll_inst /CLKOUT.default_gen_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\gw_pll_inst/pll_inst /CLKIN.default_clk</td>
+<td>Base</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>\gw_pll_inst/pll_inst /CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\gw_pll_inst/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\gw_pll_inst/pll_inst /CLKOUTP.default_gen_clk</td>
+<td>Generated</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td>\gw_pll_inst/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\gw_pll_inst/pll_inst /CLKOUTD.default_gen_clk</td>
+<td>Generated</td>
+<td>50.0 MHz</td>
+<td>20.000</td>
+<td>0.000</td>
+<td>10.000</td>
+<td> </td>
+<td>\gw_pll_inst/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\gw_pll_inst/pll_inst /CLKOUTD3.default_gen_clk</td>
+<td>Generated</td>
+<td>33.3 MHz</td>
+<td>30.000</td>
+<td>0.000</td>
+<td>15.000</td>
+<td> </td>
+<td>\gw_pll_inst/pll_inst /CLKIN.default_clk</td>
+<td> </td>
+</tr>
+<tr>
+<td>\PSRAM_Memory_Interface_Top_inst/u_psram_top/clkdiv /CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>50.0 MHz</td>
+<td>20.000</td>
+<td>0.000</td>
+<td>10.000</td>
+<td> </td>
+<td>\gw_pll_inst/pll_inst /CLKOUT.default_gen_clk</td>
+<td> </td>
+</tr>
+</table><br/>
+<h2><a name="timing report">Timing Report:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Top View:</td>
+<td>myproj_top</td>
+</tr>
+<tr>
+<td class="label">Requested Frequency:</td>
+<td>33.3 MHz</td>
+</tr>
+<tr>
+<td class="label">Paths Requested:</td>
+<td>5</td>
+</tr>
+<tr>
+<td class="label">Constraint File(ignored):</td>
+<td></td>
+</tr>
+</table>
+<b>All time values displayed in nanoseconds(ns).</b><br/><br/>
+<h2><a name="performance">Performance Summary:</a></h2>
+Worst Slack in Design:&nbsp11.667<br/>
+<table class="summary_table">
+<tr>
+<th>Start Clock</th>
+<th>Slack</th>
+<th>Requested Frequency</th>
+<th>Estimated Frequency</th>
+<th>Requested Period</th>
+<th>Estimated Period</th>
+<th>Clock Type</th>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>\pll_75m_u0/pll_inst /CLKOUT.default_gen_clk</td>
+<td>2.979</td>
+<td>100.0 MHz</td>
+<td>142.4 MHz</td>
+<td>10.000</td>
+<td>7.021</td>
+<td>Generated</td>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>\PSRAM_Memory_Interface_Top_inst/u_psram_top/clkdiv /CLKOUT.default_gen_clk</td>
+<td>11.667</td>
+<td>50.0 MHz</td>
+<td>120.0 MHz</td>
+<td>20.000</td>
+<td>8.333</td>
+<td>Generated</td>
+</tr>
+</table><br/>
+<h2><a name="detail timing">Detail Timing Paths Information</a></h2>
+<b>Path information for path number&nbsp</b>1&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(critical):</td>
+<td>2.979</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.966</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>9.945</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>15</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>pll_75m_u0/pll_inst</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>vfb_top_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_64_32_inst/fifo_inst/Empty_Z</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>\pll_75m_u0/pll_inst /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>\pll_75m_u0/pll_inst /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>pll_inst_ins15313</td>
+<td>PLL</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.000</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clkout</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>143</td>
+</tr>
+<tr>
+<td>dma_de_32b_ins22296</td>
+<td>DFFC</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+</tr>
+<tr>
+<td>dma_de_32b_ins22296</td>
+<td>DFFC</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.232</td>
+<td>0.412</td>
+<td>-</td>
+</tr>
+<tr>
+<td>dma_de_32b_3</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>25</td>
+</tr>
+<tr>
+<td>\Small.wdata14_cZ_ins18394 </td>
+<td>LUT2</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>0.649</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\Small.wdata14_cZ_ins18394 </td>
+<td>LUT2</td>
+<td>F</td>
+<td>Out</td>
+<td>0.555</td>
+<td>1.204</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\Small.wdata14 </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_0_0_ins18606</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.441</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_0_0_ins18606</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>1.476</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_0_0_44</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_1_0_ins18605</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.713</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_1_0_ins18605</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>1.748</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_1_0_43</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_2_0_ins18604</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.985</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_2_0_ins18604</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.021</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_2_0_42</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_3_0_ins18603</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.258</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_3_0_ins18603</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.293</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_3_0_41</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_4_0_ins18602</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.530</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_4_0_ins18602</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.565</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_4_0_40</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_5_0_ins18601</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.802</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_5_0_ins18601</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.837</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_5_0_39</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_6_0_ins18600</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.074</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_6_0_ins18600</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.109</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_6_0_38</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_7_0_ins18599</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.346</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_7_0_ins18599</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_7_0_37</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_8_0_ins18598</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.619</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_8_0_ins18598</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.654</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_8_0_36</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_9_0_ins18597</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.891</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_9_0_ins18597</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.926</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_9_0_35</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_10_0_ins18596</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.163</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_10_0_ins18596</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.198</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_10</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_s_11_0_ins18595</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.435</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_s_11_0_ins18595</td>
+<td>ALU</td>
+<td>SUM</td>
+<td>Out</td>
+<td>0.470</td>
+<td>4.905</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\rbin_num_next[11] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>rempty_val_NE_5_1_cZ_ins18419</td>
+<td>LUT4</td>
+<td>I3</td>
+<td>In</td>
+<td>-</td>
+<td>5.142</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rempty_val_NE_5_1_cZ_ins18419</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>0.371</td>
+<td>5.513</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rempty_val_NE_5_1_1</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rempty_val_NE_i_1_cZ_ins18421</td>
+<td>LUT4</td>
+<td>I3</td>
+<td>In</td>
+<td>-</td>
+<td>5.750</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rempty_val_NE_i_1_cZ_ins18421</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>0.371</td>
+<td>6.121</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rempty_val_NE_i_1_1</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rempty_val_NE_i_cZ_ins18422</td>
+<td>LUT4</td>
+<td>I3</td>
+<td>In</td>
+<td>-</td>
+<td>6.358</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rempty_val_NE_i_cZ_ins18422</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>0.371</td>
+<td>6.729</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rempty_val_NE_i_1_33</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Empty_Z_ins18443</td>
+<td>DFFP</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.966</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.966<br/>
+<b>Logic Delay: </b>2.757(39.6%)<br/>
+<b>Route Delay: </b>4.209(60.4%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>2&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.272</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>3.483</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.716</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.199</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>17</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>gw_pll_inst/pll_inst</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>PSRAM_Memory_Interface_Top_inst/u_psram_top/u_psram_wd/step_Z[8]</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>\gw_pll_inst/pll_inst /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>\PSRAM_Memory_Interface_Top_inst/u_psram_top/clkdiv /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>pll_inst_ins19070</td>
+<td>PLL</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.000</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clkout_1_5</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>u_dqce_clk_x2p_ins19335</td>
+<td>DHCEN</td>
+<td>CLKIN</td>
+<td>In</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+</tr>
+<tr>
+<td>u_dqce_clk_x2p_ins19335</td>
+<td>DHCEN</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.182</td>
+<td>0.362</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_x2p</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>40</td>
+</tr>
+<tr>
+<td>u_dll_ins19336</td>
+<td>DLL</td>
+<td>CLKIN</td>
+<td>In</td>
+<td>-</td>
+<td>0.542</td>
+<td>-</td>
+</tr>
+<tr>
+<td>u_dll_ins19336</td>
+<td>DLL</td>
+<td>STEP</td>
+<td>Out</td>
+<td>0.393</td>
+<td>0.935</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\dll_step[0] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_1_0_ins19369</td>
+<td>ALU</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>1.172</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_1_0_ins19369</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.517</td>
+<td>1.689</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_1</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_2_0_ins19368</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.926</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_2_0_ins19368</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>1.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_2</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_3_0_ins19367</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.198</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_3_0_ins19367</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.233</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_3</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_4_0_ins19366</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.470</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_4_0_ins19366</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.506</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_4</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_5_0_ins19365</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.743</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_5_0_ins19365</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.778</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_5</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_6_0_ins19364</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.015</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_6_0_ins19364</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.050</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_6</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_7_0_ins19363</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.287</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_7_0_ins19363</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.322</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_7</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_8_0_ins19362</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.559</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_8_0_ins19362</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.594</td>
+<td>-</td>
+</tr>
+<tr>
+<td>step_scalar</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[0]_ins19361 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.831</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[0]_ins19361 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.867</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[0] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[1]_ins19360 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.104</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[1]_ins19360 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.139</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[1] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[2]_ins19359 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.376</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[2]_ins19359 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.411</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[2] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[3]_ins19358 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.648</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[3]_ins19358 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.683</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[3] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[4]_ins19357 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.920</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[4]_ins19357 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.955</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[4] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[5]_ins19356 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.192</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[5]_ins19356 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>5.228</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[5] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[6]_ins19355 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.465</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[6]_ins19355 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>5.500</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[6] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[7]_ins19354 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.737</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[7]_ins19354 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>5.772</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[7] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_s_0[8]_ins19353 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>6.009</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_s_0[8]_ins19353 </td>
+<td>ALU</td>
+<td>SUM</td>
+<td>Out</td>
+<td>0.470</td>
+<td>6.479</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_s[8] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_Z[8]_ins19342 </td>
+<td>DFFCE</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.716</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.716<br/>
+<b>Logic Delay: </b>2.090(31.1%)<br/>
+<b>Route Delay: </b>4.626(68.9%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>3&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.544</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>3.755</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.444</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.199</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>16</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>gw_pll_inst/pll_inst</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>PSRAM_Memory_Interface_Top_inst/u_psram_top/u_psram_wd/step_Z[7]</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>\gw_pll_inst/pll_inst /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>\PSRAM_Memory_Interface_Top_inst/u_psram_top/clkdiv /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>pll_inst_ins19070</td>
+<td>PLL</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.000</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clkout_1_5</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>u_dqce_clk_x2p_ins19335</td>
+<td>DHCEN</td>
+<td>CLKIN</td>
+<td>In</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+</tr>
+<tr>
+<td>u_dqce_clk_x2p_ins19335</td>
+<td>DHCEN</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.182</td>
+<td>0.362</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_x2p</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>40</td>
+</tr>
+<tr>
+<td>u_dll_ins19336</td>
+<td>DLL</td>
+<td>CLKIN</td>
+<td>In</td>
+<td>-</td>
+<td>0.542</td>
+<td>-</td>
+</tr>
+<tr>
+<td>u_dll_ins19336</td>
+<td>DLL</td>
+<td>STEP</td>
+<td>Out</td>
+<td>0.393</td>
+<td>0.935</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\dll_step[0] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_1_0_ins19369</td>
+<td>ALU</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>1.172</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_1_0_ins19369</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.517</td>
+<td>1.689</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_1</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_2_0_ins19368</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.926</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_2_0_ins19368</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>1.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_2</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_3_0_ins19367</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.198</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_3_0_ins19367</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.233</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_3</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_4_0_ins19366</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.470</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_4_0_ins19366</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.506</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_4</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_5_0_ins19365</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.743</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_5_0_ins19365</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.778</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_5</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_6_0_ins19364</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.015</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_6_0_ins19364</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.050</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_6</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_7_0_ins19363</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.287</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_7_0_ins19363</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.322</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_7</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_8_0_ins19362</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.559</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_8_0_ins19362</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.594</td>
+<td>-</td>
+</tr>
+<tr>
+<td>step_scalar</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[0]_ins19361 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.831</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[0]_ins19361 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.867</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[0] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[1]_ins19360 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.104</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[1]_ins19360 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.139</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[1] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[2]_ins19359 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.376</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[2]_ins19359 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.411</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[2] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[3]_ins19358 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.648</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[3]_ins19358 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.683</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[3] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[4]_ins19357 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.920</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[4]_ins19357 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.955</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[4] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[5]_ins19356 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.192</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[5]_ins19356 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>5.228</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[5] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[6]_ins19355 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.465</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[6]_ins19355 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>5.500</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[6] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[7]_ins19354 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.737</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[7]_ins19354 </td>
+<td>ALU</td>
+<td>SUM</td>
+<td>Out</td>
+<td>0.470</td>
+<td>6.207</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_s[7] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_Z[7]_ins19343 </td>
+<td>DFFCE</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.444</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.444<br/>
+<b>Logic Delay: </b>2.055(31.9%)<br/>
+<b>Route Delay: </b>4.389(68.1%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>4&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.544</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>4.011</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>5.934</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>9.945</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>13</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>pll_75m_u0/pll_inst</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>vfb_top_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_64_32_inst/fifo_inst/Small.rptr_Z[9]</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>\pll_75m_u0/pll_inst /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>\pll_75m_u0/pll_inst /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>pll_inst_ins15313</td>
+<td>PLL</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.000</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clkout</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>143</td>
+</tr>
+<tr>
+<td>dma_de_32b_ins22296</td>
+<td>DFFC</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+</tr>
+<tr>
+<td>dma_de_32b_ins22296</td>
+<td>DFFC</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.232</td>
+<td>0.412</td>
+<td>-</td>
+</tr>
+<tr>
+<td>dma_de_32b_3</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>25</td>
+</tr>
+<tr>
+<td>\Small.wdata14_cZ_ins18394 </td>
+<td>LUT2</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>0.649</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\Small.wdata14_cZ_ins18394 </td>
+<td>LUT2</td>
+<td>F</td>
+<td>Out</td>
+<td>0.555</td>
+<td>1.204</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\Small.wdata14 </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_0_0_ins18606</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.441</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_0_0_ins18606</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>1.476</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_0_0_44</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_1_0_ins18605</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.713</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_1_0_ins18605</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>1.748</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_1_0_43</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_2_0_ins18604</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.985</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_2_0_ins18604</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.021</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_2_0_42</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_3_0_ins18603</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.258</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_3_0_ins18603</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.293</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_3_0_41</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_4_0_ins18602</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.530</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_4_0_ins18602</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.565</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_4_0_40</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_5_0_ins18601</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.802</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_5_0_ins18601</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.837</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_5_0_39</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_6_0_ins18600</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.074</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_6_0_ins18600</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.109</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_6_0_38</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_7_0_ins18599</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.346</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_7_0_ins18599</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_7_0_37</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_8_0_ins18598</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.619</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_8_0_ins18598</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.654</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_8_0_36</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_9_0_ins18597</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.891</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_9_0_ins18597</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.926</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_9_0_35</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_10_0_ins18596</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.163</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_10_0_ins18596</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.198</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_cry_10</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>rbin_num_next_s_11_0_ins18595</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.435</td>
+<td>-</td>
+</tr>
+<tr>
+<td>rbin_num_next_s_11_0_ins18595</td>
+<td>ALU</td>
+<td>SUM</td>
+<td>Out</td>
+<td>0.470</td>
+<td>4.905</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\rbin_num_next[11] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\rgraynext_cZ[9]_ins18414 </td>
+<td>LUT2</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.142</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\rgraynext_cZ[9]_ins18414 </td>
+<td>LUT2</td>
+<td>F</td>
+<td>Out</td>
+<td>0.555</td>
+<td>5.697</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\rgraynext[9]_1 </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\Small.rptr_Z[9]_ins18503 </td>
+<td>DFFC</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>5.934</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>5.934<br/>
+<b>Logic Delay: </b>2.199(37.1%)<br/>
+<b>Route Delay: </b>3.735(62.9%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>5&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.816</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>4.027</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.172</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.199</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>15</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>gw_pll_inst/pll_inst</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>PSRAM_Memory_Interface_Top_inst/u_psram_top/u_psram_wd/step_Z[6]</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>\gw_pll_inst/pll_inst /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>\PSRAM_Memory_Interface_Top_inst/u_psram_top/clkdiv /CLKOUT.default_gen_clk[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>pll_inst_ins19070</td>
+<td>PLL</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.000</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clkout_1_5</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>u_dqce_clk_x2p_ins19335</td>
+<td>DHCEN</td>
+<td>CLKIN</td>
+<td>In</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+</tr>
+<tr>
+<td>u_dqce_clk_x2p_ins19335</td>
+<td>DHCEN</td>
+<td>CLKOUT</td>
+<td>Out</td>
+<td>0.182</td>
+<td>0.362</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_x2p</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.180</td>
+<td>-</td>
+<td>40</td>
+</tr>
+<tr>
+<td>u_dll_ins19336</td>
+<td>DLL</td>
+<td>CLKIN</td>
+<td>In</td>
+<td>-</td>
+<td>0.542</td>
+<td>-</td>
+</tr>
+<tr>
+<td>u_dll_ins19336</td>
+<td>DLL</td>
+<td>STEP</td>
+<td>Out</td>
+<td>0.393</td>
+<td>0.935</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\dll_step[0] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_1_0_ins19369</td>
+<td>ALU</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>1.172</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_1_0_ins19369</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.517</td>
+<td>1.689</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_1</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_2_0_ins19368</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>1.926</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_2_0_ins19368</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>1.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_2</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_3_0_ins19367</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.198</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_3_0_ins19367</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.233</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_3</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_4_0_ins19366</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.470</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_4_0_ins19366</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.506</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_4</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_5_0_ins19365</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>2.743</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_5_0_ins19365</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>2.778</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_5</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_6_0_ins19364</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.015</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_6_0_ins19364</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.050</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_6</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_7_0_ins19363</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.287</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_7_0_ins19363</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.322</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_7</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>un1_step_cry_8_0_ins19362</td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.559</td>
+<td>-</td>
+</tr>
+<tr>
+<td>un1_step_cry_8_0_ins19362</td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.594</td>
+<td>-</td>
+</tr>
+<tr>
+<td>step_scalar</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[0]_ins19361 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>3.831</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[0]_ins19361 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>3.867</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[0] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[1]_ins19360 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.104</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[1]_ins19360 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.139</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[1] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[2]_ins19359 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.376</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[2]_ins19359 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.411</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[2] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[3]_ins19358 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.648</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[3]_ins19358 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.683</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[3] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[4]_ins19357 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>4.920</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[4]_ins19357 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>4.955</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[4] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[5]_ins19356 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.192</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[5]_ins19356 </td>
+<td>ALU</td>
+<td>COUT</td>
+<td>Out</td>
+<td>0.035</td>
+<td>5.228</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry[5] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_cry_0[6]_ins19355 </td>
+<td>ALU</td>
+<td>CIN</td>
+<td>In</td>
+<td>-</td>
+<td>5.465</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_cry_0[6]_ins19355 </td>
+<td>ALU</td>
+<td>SUM</td>
+<td>Out</td>
+<td>0.470</td>
+<td>5.935</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\step_s[6] </td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.237</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\step_Z[6]_ins19344 </td>
+<td>DFFCE</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.172</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.172<br/>
+<b>Logic Delay: </b>2.020(32.7%)<br/>
+<b>Route Delay: </b>4.152(67.3%)<br/>
+<br/><br/>
+<h1><a name="message">Message</a></h1>
+<big>Info    (EXT0100) : Run analyzation & elaboration</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\datatest.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\key_debounce.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\led_test.v'</big><br/>
+<big>Info    (EXT1328) : Analyzing included file 'E:\gowin_projects\myproj\img_processor\src\vfb_defines.v'(E:\gowin_projects\myproj\img_processor\src\led_test.v:3)</big><br/>
+<big>Info    (EXT2320) : Back to file 'E:\gowin_projects\myproj\img_processor\src\led_test.v'(E:\gowin_projects\myproj\img_processor\src\led_test.v:3)</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\testpattern.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_16b_32b.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_24b_32b.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_32b_16b.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_32b_24b.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_defines.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_top.v'</big><br/>
+<big>Info    (EXT1328) : Analyzing included file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_defines.v'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_top.v:24)</big><br/>
+<big>Info    (EXT2320) : Back to file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_top.v'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_top.v:24)</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\cmos_capture\CMOS_Capture_RGB565.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\sccb\I2C_Controller.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\sccb\I2C_OV5640_Init_RGB565.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\sccb\I2C_OV5640_RGB565_Config.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\esp8266_send\esp8266_send_top.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\esp8266_send\uart_byte_tx.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\gw_pll\gw_pll.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\gw_pll\pix_pll.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\pll_75m\pll_75m.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\pll_100M\pll_100M.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\pll_24M\pll_24M.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\pll_25m\pll_25m.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\syn_code\syn_gen.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_bus_arbiter.vp'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_frame_buffer.vp'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_frame_ctrl.vp'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_read_ctrl.vp'</big><br/>
+<big>Info    (EXT1328) : Analyzing included file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_defines.v'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_read_ctrl.vp:193)</big><br/>
+<big>Info    (EXT2320) : Back to file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_read_ctrl.vp'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_read_ctrl.vp:193)</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_write_ctrl.vp'</big><br/>
+<big>Info    (EXT1328) : Analyzing included file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_defines.v'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_write_ctrl.vp:232)</big><br/>
+<big>Info    (EXT2320) : Back to file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_write_ctrl.vp'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_write_ctrl.vp:232)</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\vfb_test.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_write_32_64.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\pix2_pll\pix2_pll.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\myproj_top.v'</big><br/>
+<big>Info    (EXT1328) : Analyzing included file 'E:\gowin_projects\myproj\img_processor\src\vfb_defines.v'(E:\gowin_projects\myproj\img_processor\src\myproj_top.v:2)</big><br/>
+<big>Info    (EXT2320) : Back to file 'E:\gowin_projects\myproj\img_processor\src\myproj_top.v'(E:\gowin_projects\myproj\img_processor\src\myproj_top.v:2)</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\img_processor2.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'E:\gowin_projects\myproj\img_processor\src\SR_640_16\SR_640_16.v'</big><br/>
+<big>Info    (EXT1018) : Compiling module 'myproj_top'(E:\gowin_projects\myproj\img_processor\src\myproj_top.v:3)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'I2C_OV5640_Init_RGB565'(E:\gowin_projects\myproj\img_processor\src\sccb\I2C_OV5640_Init_RGB565.v:30)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'I2C_Controller'(E:\gowin_projects\myproj\img_processor\src\sccb\I2C_Controller.v:30)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'I2C_OV5640_RGB565_Config'(E:\gowin_projects\myproj\img_processor\src\sccb\I2C_OV5640_RGB565_Config.v:36)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'key_debounce'(E:\gowin_projects\myproj\img_processor\src\key_debounce.v:26)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'pll_75m'(E:\gowin_projects\myproj\img_processor\src\pll_75m\pll_75m.v:8)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'pll_100M'(E:\gowin_projects\myproj\img_processor\src\pll_100M\pll_100M.v:8)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'pll_24M'(E:\gowin_projects\myproj\img_processor\src\pll_24M\pll_24M.v:8)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'CMOS_Capture_RGB565'(E:\gowin_projects\myproj\img_processor\src\cmos_capture\CMOS_Capture_RGB565.v:2)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'datatest'(E:\gowin_projects\myproj\img_processor\src\datatest.v:1)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'esp8266_send_top'(E:\gowin_projects\myproj\img_processor\src\esp8266_send\esp8266_send_top.v:1)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'uart_byte_tx'(E:\gowin_projects\myproj\img_processor\src\esp8266_send\uart_byte_tx.v:1)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'vfb_top(IMAGE_SIZE=24'b0100000000000000000000,BURST_WRITE_LENGTH=256,BURST_READ_LENGTH=256,ADDR_WIDTH=21)'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_top.v:26)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'dma_frame_buffer(IMAGE_SIZE=24'b0100000000000000000000,BURST_WRITE_LENGTH=256,BURST_READ_LENGTH=256,ADDR_WIDTH=21,DATA_WIDTH=64)'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_frame_buffer.vp:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'dma_write_ctrl(BURST_WRITE_LENGTH=256,ADDR_WIDTH=21,DATA_WIDTH=64)'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_write_ctrl.vp:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'dma_16b_32b'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_16b_32b.v:15)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'fifo_dma_write_32_64'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_write_32_64.v:902)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~fifo.fifo_dma_write_32_64_'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_write_32_64.v:0)</big><br/>
+<big>Warning (EXT1209) : Expression size ** truncated to fit in target size **(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_write_ctrl.vp:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'dma_read_ctrl(BURST_READ_LENGTH=256,ADDR_WIDTH=21,DATA_WIDTH=64)'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_read_ctrl.vp:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'dma_32b_16b'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_32b_16b.v:15)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'fifo_dma_read_64_32'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:937)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~fifo.fifo_dma_read_64_32_'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (EXT1209) : Expression size ** truncated to fit in target size **(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_read_ctrl.vp:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'dma_frame_ctrl(IMAGE_SIZE=24'b0100000000000000000000,ADDR_WIDTH=21)'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_frame_ctrl.vp:0)</big><br/>
+<big>Warning (EXT1209) : Expression size ** truncated to fit in target size **(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_frame_ctrl.vp:0)</big><br/>
+<big>Warning (EXT1330) : Actual bit length 32 differs from formal bit length 21 for port 'dma_base_addr_i'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\vfb_top.v:129)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'dma_bus_arbiter(ADDR_WIDTH=21,DATA_WIDTH=64)'(E:\gowin_projects\myproj\img_processor\src\frame_buffer\dma_bus_arbiter.vp:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'gw_pll'(E:\gowin_projects\myproj\img_processor\src\gw_pll\gw_pll.v:8)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'PSRAM_Memory_Interface_Top'(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:4986)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~psram_top.PSRAM_Memory_Interface_Top_'(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~psram_wd.PSRAM_Memory_Interface_Top_'(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~psram_lane.PSRAM_Memory_Interface_Top__Z2'(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~psram_lane.PSRAM_Memory_Interface_Top__Z1'(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~psram_init.PSRAM_Memory_Interface_Top_'(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module '~psram_sync.PSRAM_Memory_Interface_Top_'(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:0)</big><br/>
+<big>Warning (EXT3002) : Net '**' does not have a driver(E:\gowin_projects\myproj\img_processor\src\psram_memory_interface\psram_memory_interface.v:0)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'syn_gen'(E:\gowin_projects\myproj\img_processor\src\syn_code\syn_gen.v:13)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'img_processor2'(E:\gowin_projects\myproj\img_processor\src\img_processor2.v:3)</big><br/>
+<big>Info    (EXT0101) : Current top module is "myproj_top"</big><br/>
+<big>Info    (CVT0001) : Run conversion</big><br/>
+<big>Warning (CVT0011) : Input "I_sw[0]" is unused(E:\gowin_projects\myproj\img_processor\src\myproj_top.v:7)</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (DIO0006) : Register and gate optimizing before inferencing</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\wcnt_sub_m[0]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\wcnt_sub_m[1]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\wcnt_sub_m[2]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\wcnt_sub_m[3]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\wcnt_sub_m[4]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\wcnt_sub_m[5]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\Wnum_Z[5]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\Wnum_Z[4]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\Wnum_Z[3]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\Wnum_Z[2]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\Wnum_Z[1]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Warning (NLT0001) : Sweep user defined dangling instance "vfb_top_inst\u0_dma_frame_buffer\u_dma_read_ctrl\fifo_dma_read_64_32_inst\fifo_inst\Wnum_Z[0]"(E:\gowin_projects\myproj\img_processor\src\frame_buffer\fifo\fifo_dma_read_64_32.v:0)</big><br/>
+<big>Info    (DSP0001) : DSP inferencing</big><br/>
+<big>Info    (RAM0001) : RAM inferencing</big><br/>
+<big>Info    (ATO0001) : Adder tree reduction</big><br/>
+<big>Info    (ATO0002) : Rebuild ALU instances from adder tree nodes</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (DIO0007) : Register and gate optimizing before mapping</big><br/>
+<big>Info    (MAP0001) : Run tech-mapping</big><br/>
+<big>Info    (MAP0003) : Run logic optimization</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (SYN0009) : Write post-map netlist to file: E:\gowin_projects\myproj\img_processor\impl\gwsynthesis\img_processor.vg</big><br/>
+<br/>
+<h1><a name="summary">Summary</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Total Errors:</b></td> 
+<td>0</td>
+</tr>
+<tr>
+<td class="label"><b>Total Warnings:</b></td> 
+<td>18</td>
+</tr>
+<tr>
+<td class="label"><b>Total Informations:</b></td> 
+<td>95</td>
+</tr>
+</table><br/>
+<b>Synthesis completed successfully!</b><br/>
+Process took 0h:0m:15s realtime, 0h:0m:12s cputime
+<br/>
+Memory peak: 381.0MB
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\rev_1\\synwork\\ao_0_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-nram|-divnmod|-nostructver|-gowin|-infer_seqShift|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-I|E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\|-I|E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib|-sysv|-devicelib|E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\generic\\gw2a.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\bin64\\c_ver.exe":1564765222
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\generic\\gw2a.v":1564767964
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\hypermods.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\umr_capim.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1564764854
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1564764854
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\gw_ao_parameter.v":1573968272
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\gw_ao_top_define.v":1573968272
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\gw_ao_expression.v":1573968272
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_crc32.v":1567144650
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_define.v":1567144650
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_match.v":1567144650
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_define.v":1567144650
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_mem_ctrl.v":1567144650
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_top.v":1567144650
+#CUR:"E:\\Gowin\\Gowin_V1.9.2Beta\\IDE\\data\\ipcores\\GAO\\GW_AO_0\\gw_ao_define.v":1567144650
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\gw_ao_top_define.v":1573968272
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\gw_ao_expression.v":1573968272
+#CUR:"E:\\gowin_projects\\myproj\\myproj_blue2\\temp\\gao\\ao_0\\gw_ao_parameter.v":1573968272
+0			"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_parameter.v" verilog
+1			"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_top_define.v" verilog
+2			"E:\gowin_projects\myproj\myproj_blue2\temp\gao\ao_0\gw_ao_expression.v" verilog
+3			"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v" verilog
+4			"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v" verilog
+5			"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v" verilog
+6			"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v" verilog
+7			"E:\Gowin\Gowin_V1.9.2Beta\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v" verilog
+#Dependency Lists(Uses List)
+0 0 2 1 4
+1 0 2 4
+2 0 1 4
+3 0
+4 0 2 1
+5 0 4
+6 0
+7 5 3 6 0 2 1 4
+#Dependency Lists(Users Of)
+0 6 5 3 7 4 2 1
+1 7 4 2 0
+2 7 4 1 0
+3 7
+4 7 5 2 1 0
+5 7
+6 7
+7 -1
+#Design Unit to File Association
+module work ao_top_0 7
+module work ao_mem_ctrl_0 6
+module work ao_match_0 5
+module work ao_crc32_0 3

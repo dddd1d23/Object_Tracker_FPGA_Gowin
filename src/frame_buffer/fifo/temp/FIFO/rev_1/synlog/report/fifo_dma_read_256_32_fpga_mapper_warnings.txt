@@ -1,0 +1,2 @@
+@W: MT420 |Found inferred clock fifo_dma_read_256_32|WrClk with period 4.82ns. Please declare a user-defined clock on port WrClk.
+@W: MT420 |Found inferred clock fifo_dma_read_256_32|RdClk with period 4.91ns. Please declare a user-defined clock on port RdClk.

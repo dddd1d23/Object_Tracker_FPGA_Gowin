@@ -1,0 +1,54 @@
+# Written by Synplify Pro version mapgw2018q4p1, Build 001R. Synopsys Run ID: sid1559183987 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 5.196 -waveform {0.000 2.598} -name {fifo_dma_write_32_128|WrClk} [get_ports {WrClk}] 
+create_clock -period 5.184 -waveform {0.000 2.592} -name {fifo_dma_write_32_128|RdClk} [get_ports {RdClk}] 
+
+# Virtual Clocks 
+
+# Generated Clocks 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+set Autoconstr_clkgroup_0 [list fifo_dma_write_32_128|WrClk]
+set Autoconstr_clkgroup_1 [list fifo_dma_write_32_128|RdClk]
+set_clock_groups -asynchronous -group $Autoconstr_clkgroup_0 -group $Autoconstr_clkgroup_1
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+
+# Block Path constraints 
+

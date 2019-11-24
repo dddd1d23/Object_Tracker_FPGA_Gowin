@@ -1,0 +1,2 @@
+@E: CS168 :"E:\gowin_projects\myproj\myproj_blue2\src\myproj_top.v":62:8:62:8|Port rst does not exist
+

@@ -1,0 +1,30 @@
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 17
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		img_processor_u0.hist_v_u0.histogram_equalized_top_u0.histogram_equalized_inst.address_b_r_CF4_ret[2]
+		img_processor_u0.hist_v_u0.histogram_equalized_top_u0.histogram_equalized_inst.address_b_r_CF4_ret[3]
+		img_processor_u0.hist_v_u0.histogram_equalized_top_u0.histogram_equalized_inst.address_b_r_CF4_ret[4]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.I_r_CF4_ret[0]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.I_r_CF4_ret[1]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.I_r_CF4_ret[2]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.I_r_CF4_ret[3]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.I_r_CF4_ret[4]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.hsv_r_CF4_ret[0]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.hsv_r_CF4_ret[1]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.hsv_r_CF4_ret[2]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.hsv_r_CF4_ret[3]
+		img_processor_u0.hist_v_u0.hsv2rgb_u0.hsv_r_CF4_ret[4]
+		img_processor_u0.hist_v_u0.rgb2hsv_top_u0.h_add_CF3_ret[0]
+		img_processor_u0.hist_v_u0.rgb2hsv_top_u0.h_add_CF3_ret[1]
+		img_processor_u0.hist_v_u0.rgb2hsv_top_u0.h_add_CF3_ret[2]
+		img_processor_u0.hist_v_u0.rgb2hsv_top_u0.h_add_CF3_ret[3]
+
+
+		#####   END RETIMING REPORT  #####
+

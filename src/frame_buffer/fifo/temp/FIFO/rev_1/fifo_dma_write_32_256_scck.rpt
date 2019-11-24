@@ -1,0 +1,51 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.0.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+
+# Written on Thu May 30 10:42:20 2019
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                           Requested     Requested     Clock        Clock                     Clock
+Level     Clock                           Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------------------
+0 -       fifo_dma_write_32_256|RdClk     214.1 MHz     4.671         inferred     Autoconstr_clkgroup_1     311  
+                                                                                                                  
+0 -       fifo_dma_write_32_256|WrClk     246.1 MHz     4.064         inferred     Autoconstr_clkgroup_0     297  
+==================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                Clock     Source          Clock Pin                          Non-clock Pin     Non-clock Pin                
+Clock                           Load      Pin             Seq Example                        Seq Example       Comb Example                 
+--------------------------------------------------------------------------------------------------------------------------------------------
+fifo_dma_write_32_256|RdClk     311       RdClk(port)     fifo_inst.Big\.rq2_wptr[8:0].C     -                 fifo_inst.un1_RdClk.I[0](inv)
+                                                                                                                                            
+fifo_dma_write_32_256|WrClk     297       WrClk(port)     fifo_inst.Big\.wq2_rptr[8:0].C     -                 fifo_inst.un1_WrClk.I[0](inv)
+============================================================================================================================================

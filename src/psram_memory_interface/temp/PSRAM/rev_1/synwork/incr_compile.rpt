@@ -1,0 +1,58 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+Modified Files: 11
+FID:  path (prevtimestamp, timestamp)
+0        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v (N/A, 2019-05-27 09:30:10)
+1        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v (N/A, 2019-06-24 11:40:30)
+2        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_local_define.v (N/A, 2019-05-27 09:30:10)
+3        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_local_param.v (N/A, 2019-05-27 09:30:10)
+4        D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\generic\gw2a.v (N/A, 2019-03-13 01:35:10)
+5        D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2019-03-13 00:06:40)
+6        D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2019-03-13 00:06:40)
+7        D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2019-03-13 00:06:40)
+8        D:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2019-03-13 00:06:40)
+9        D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\psram_define.v (N/A, 2019-09-10 15:24:49)
+10       D:\proj\g2ar18eq144_psram\src\psram_memory_interface\temp\PSRAM\psram_param.v (N/A, 2019-09-10 15:24:49)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 6
+MID:  lib.cell.view
+0        work.PSRAM_Memory_Interface_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v (N/A, 2019-05-27 09:30:10) <-- (module definition)
+1        work.\~psram_init.PSRAM_Memory_Interface_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v (N/A, 2019-05-27 09:30:10) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v (N/A, 2019-06-24 11:40:30) <-- (module definition)
+2        work.\~psram_lane.PSRAM_Memory_Interface_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v (N/A, 2019-05-27 09:30:10) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v (N/A, 2019-06-24 11:40:30) <-- (module definition)
+3        work.\~psram_sync.PSRAM_Memory_Interface_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v (N/A, 2019-05-27 09:30:10) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v (N/A, 2019-06-24 11:40:30) <-- (module definition)
+4        work.\~psram_top.PSRAM_Memory_Interface_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v (N/A, 2019-05-27 09:30:10) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v (N/A, 2019-06-24 11:40:30) <-- (module definition)
+5        work.\~psram_wd.PSRAM_Memory_Interface_Top.verilog may have changed because the following files changed:
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\PSRAM_TOP.v (N/A, 2019-05-27 09:30:10) <-- (may instantiate this module)
+                        D:\Gowin\Gowin_V1.9.1.01Beta\IDE\ipcore\PSRAM\data\psram_code.v (N/A, 2019-06-24 11:40:30) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

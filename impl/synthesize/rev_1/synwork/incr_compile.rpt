@@ -1,0 +1,216 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-Beta4
+Install: E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SKY-20180728DOH
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 231R, Built Aug  2 2019 09:58:27
+
+Modified Files: 2
+FID:  path (prevtimestamp, timestamp)
+653      E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v (2018-04-24 22:53:54, 2019-11-22 14:15:51)
+655      E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_RGB565_Config.v (2019-11-13 12:20:39, 2019-11-22 14:16:03)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 2
+MID:  lib.cell.view
+1        work.I2C_Controller.verilog may have changed because the following files changed:
+                        E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_Controller.v (2018-04-24 22:53:54, 2019-11-22 14:15:51) <-- (module definition)
+3        work.I2C_OV5640_RGB565_Config.verilog may have changed because the following files changed:
+                        E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_RGB565_Config.v (2019-11-13 12:20:39, 2019-11-22 14:16:03) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 88
+FID:  path (timestamp)
+0        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\generic\gw2a.v (2019-08-03 01:46:04)
+1        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\hypermods.v (2019-08-03 00:54:14)
+2        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_objects.v (2019-08-03 00:54:14)
+3        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (2019-08-03 00:54:14)
+4        E:\Gowin\Gowin_V1.9.2Beta\SynplifyPro\lib\vlog\umr_capim.v (2019-08-03 00:54:14)
+585      E:\gowin_projects\myproj\myproj_blue2_ircon\src\RGB565_YCbCr_gray.v (2019-11-11 17:54:49)
+586      E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_640_16\SR_640_16.v (2019-10-27 16:53:20)
+587      E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_16\SR_800_16.v (2019-11-16 17:31:22)
+588      E:\gowin_projects\myproj\myproj_blue2_ircon\src\SR_800_1\SR_800_1.v (2019-11-07 22:20:23)
+589      E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\CMOS_Capture_RGB565.v (2019-11-05 17:54:59)
+590      E:\gowin_projects\myproj\myproj_blue2_ircon\src\cmos_capture\power_ctrl.v (2019-11-02 10:42:16)
+591      E:\gowin_projects\myproj\myproj_blue2_ircon\src\datatest.v (2019-10-15 23:00:17)
+592      E:\gowin_projects\myproj\myproj_blue2_ircon\src\dp_256_32\dp_256_32.v (2019-11-14 22:05:17)
+593      E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\esp8266_send_top.v (2019-10-26 20:53:18)
+594      E:\gowin_projects\myproj\myproj_blue2_ircon\src\esp8266_send\uart_byte_tx.v (2019-10-13 23:10:09)
+595      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_16b_32b.v (2019-05-30 08:22:25)
+596      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_24b_32b.v (2019-05-27 14:41:12)
+597      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_16b.v (2019-05-30 08:22:32)
+598      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_32b_24b.v (2019-05-27 14:40:43)
+599      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_bus_arbiter.vp (2019-09-23 16:25:43)
+600      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_buffer.vp (2019-09-23 16:25:43)
+601      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_frame_ctrl.vp (2019-09-23 16:25:43)
+602      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_read_ctrl.vp (2019-09-23 16:25:43)
+603      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\dma_write_ctrl.vp (2019-09-23 16:25:43)
+604      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\fifo\fifo_dma_read_64_32.v (2019-07-31 11:15:14)
+605      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\fifo\fifo_dma_write_32_64.v (2019-07-31 11:06:58)
+606      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_defines.v (2019-09-10 12:04:10)
+607      E:\gowin_projects\myproj\myproj_blue2_ircon\src\frame_buffer\vfb_top.v (2019-10-22 21:22:39)
+608      E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\gw_pll.v (2019-09-10 15:24:32)
+609      E:\gowin_projects\myproj\myproj_blue2_ircon\src\gw_pll\pix_pll.v (2019-07-08 16:46:13)
+610      E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\hist_v.v (2019-11-15 20:19:35)
+611      E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized.v (2019-11-22 13:53:03)
+612      E:\gowin_projects\myproj\myproj_blue2_ircon\src\hist_v\histogram_equalized_top.v (2019-11-22 13:53:29)
+613      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\box_calculator.v (2019-11-07 22:37:41)
+614      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\div222.v (2019-10-06 10:33:25)
+615      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\erode_dilate.v (2019-11-16 15:43:53)
+616      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\gauss_filter_5_5.v (2019-11-16 17:41:13)
+617      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\hsv2rgb.v (2019-11-15 08:38:45)
+618      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_dilation.v (2019-10-11 20:15:33)
+619      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_erosion.v (2019-10-11 20:16:49)
+620      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\img_matrix_median_3_3.v (2019-11-01 17:53:47)
+621      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\median_filter_3_3.v (2019-11-01 17:34:03)
+622      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb16_24.v (2019-11-05 12:42:58)
+623      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb24_16.v (2019-11-05 13:51:45)
+624      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb2hsv_top.v (2019-11-15 09:19:46)
+625      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb565_888.v (2019-10-20 19:40:48)
+626      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_filter\rgb888_565.v (2019-10-20 20:55:27)
+627      E:\gowin_projects\myproj\myproj_blue2_ircon\src\img_processor2.v (2019-11-16 18:50:40)
+628      E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_decoder.v (2019-11-19 12:07:22)
+629      E:\gowin_projects\myproj\myproj_blue2_ircon\src\irda\ir_to_sw.v (2019-11-19 12:33:49)
+630      E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_debounce.v (2019-06-27 16:39:14)
+631      E:\gowin_projects\myproj\myproj_blue2_ircon\src\key_filter.v (2019-11-17 11:06:04)
+632      E:\gowin_projects\myproj\myproj_blue2_ircon\src\led_test.v (2019-10-23 20:58:27)
+633      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SHIFT_RAM_1Bit_1280.v (2019-11-07 22:20:47)
+634      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\SR_1280_16.v (2019-10-27 17:59:38)
+635      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_1280_L3.v (2019-11-01 17:02:59)
+636      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_1280_L5.v (2019-10-27 17:55:20)
+637      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\Shift_RAM_16Bit_800_L5.v (2019-10-20 19:27:15)
+638      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_1.v (2019-11-07 22:22:04)
+639      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_3_3_16.v (2019-11-01 17:09:07)
+640      E:\gowin_projects\myproj\myproj_blue2_ircon\src\line_buffer\img_matrix_5_5_16.v (2019-11-16 16:51:58)
+641      E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div223.v (2019-11-05 10:31:57)
+642      E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div225.v (2019-11-12 19:52:29)
+643      E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\div227.v (2019-11-14 17:25:28)
+644      E:\gowin_projects\myproj\myproj_blue2_ircon\src\math_module\sqrt_1.v (2019-11-05 11:28:36)
+645      E:\gowin_projects\myproj\myproj_blue2_ircon\src\myproj_top.v (2019-11-19 12:37:28)
+646      E:\gowin_projects\myproj\myproj_blue2_ircon\src\pix2_pll\pix2_pll.v (2019-10-12 22:29:50)
+647      E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_100M\pll_100M.v (2019-10-18 13:38:40)
+648      E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_24M\pll_24M.v (2019-10-13 08:30:07)
+649      E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_25m\pll_25m.v (2019-10-18 13:52:31)
+650      E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_36m\pll_36m.v (2019-11-05 17:44:55)
+651      E:\gowin_projects\myproj\myproj_blue2_ircon\src\pll_75m\pll_75m.v (2019-10-24 20:11:54)
+652      E:\gowin_projects\myproj\myproj_blue2_ircon\src\psram_memory_interface\psram_memory_interface.v (2019-09-10 15:25:05)
+654      E:\gowin_projects\myproj\myproj_blue2_ircon\src\sccb\I2C_OV5640_Init_RGB565.v (2019-10-27 10:52:53)
+656      E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp00\sdp00.v (2019-11-13 16:22:33)
+657      E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp01\sdp01.v (2019-11-13 19:28:19)
+658      E:\gowin_projects\myproj\myproj_blue2_ircon\src\sdp_256_8\sdp_256_8.v (2019-11-14 17:10:02)
+659      E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_ctrl.v (2019-11-11 17:11:03)
+660      E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out.v (2019-11-16 23:05:43)
+661      E:\gowin_projects\myproj\myproj_blue2_ircon\src\servo\pwm_out2.v (2019-11-17 17:23:51)
+662      E:\gowin_projects\myproj\myproj_blue2_ircon\src\syn_code\syn_gen.v (2019-07-17 15:01:06)
+663      E:\gowin_projects\myproj\myproj_blue2_ircon\src\testpattern.v (2019-07-06 12:15:08)
+664      E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\threshold_set.v (2019-10-29 09:16:50)
+665      E:\gowin_projects\myproj\myproj_blue2_ircon\src\uart_threshold_set\uart_byte_rx.v (2019-10-29 23:32:25)
+666      E:\gowin_projects\myproj\myproj_blue2_ircon\src\vfb_defines.v (2019-09-10 12:04:10)
+667      E:\gowin_projects\myproj\myproj_blue2_ircon\src\vfb_test.v (2019-11-12 10:40:03)
+668      E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out.v (2019-11-16 23:05:25)
+669      E:\gowin_projects\myproj\myproj_blue2_ircon\src\vga_out\vga_mark_out_top.v (2019-11-16 13:45:37)
+
+*******************************************************************
+Unchanged modules: 92
+MID:  lib.cell.view
+0        work.CMOS_Capture_RGB565.verilog
+2        work.I2C_OV5640_Init_RGB565.verilog
+4        work.PSRAM_Memory_Interface_Top.verilog
+68       work.RGB565_YCbCr_gray.verilog
+51       work.SR_1280_16.verilog
+49       work.SR_640_16.verilog
+71       work.SR_800_1.verilog
+94       work.SR_800_16.verilog
+62       work.Shift_RAM_16Bit_1280_L3.verilog
+52       work.Shift_RAM_16Bit_1280_L5.verilog
+95       work.Shift_RAM_16Bit_800_L5.verilog
+72       work.Shift_RAM_1Bit_800.verilog
+50       work.\~RAM_based_shift_reg.SR_640_16_.verilog
+96       work.\~RAM_based_shift_reg.SR_800_16_.verilog
+73       work.\~RAM_based_shift_reg.SR_800_1_.verilog
+42       work.\~fifo.fifo_dma_read_64_32_.verilog
+43       work.\~fifo.fifo_dma_write_32_64_.verilog
+5        work.\~psram_init.PSRAM_Memory_Interface_Top_.verilog
+6        work.\~psram_lane.PSRAM_Memory_Interface_Top__Z1.verilog
+7        work.\~psram_lane.PSRAM_Memory_Interface_Top__Z2.verilog
+8        work.\~psram_sync.PSRAM_Memory_Interface_Top_.verilog
+9        work.\~psram_top.PSRAM_Memory_Interface_Top_.verilog
+10       work.\~psram_wd.PSRAM_Memory_Interface_Top_.verilog
+74       work.box_calculator.verilog
+15       work.datatest.verilog
+58       work.div222.verilog
+75       work.div223.verilog
+84       work.div225.verilog
+85       work.div227.verilog
+16       work.dma_16b_32b.verilog
+17       work.dma_24b_32b.verilog
+18       work.dma_32b_16b.verilog
+19       work.dma_32b_24b.verilog
+36       work.dma_bus_arbiter.verilog
+37       work.dma_frame_buffer.verilog
+38       work.dma_frame_ctrl.verilog
+39       work.dma_read_ctrl.verilog
+40       work.dma_write_ctrl.verilog
+86       work.dp_256_32.verilog
+81       work.erode_dilate.verilog
+20       work.esp8266_send_top.verilog
+44       work.fifo_dma_read_64_32.verilog
+45       work.fifo_dma_write_32_64.verilog
+53       work.gauss_filter_5_5.verilog
+23       work.gw_pll.verilog
+87       work.hist_v.verilog
+88       work.histogram_equalized.verilog
+89       work.histogram_equalized_top.verilog
+93       work.hsv2rgb.verilog
+76       work.img_dilation.verilog
+77       work.img_erosion.verilog
+78       work.img_matrix_3_3_1.verilog
+63       work.img_matrix_3_3_16.verilog
+54       work.img_matrix_5_5_16.verilog
+64       work.img_matrix_median_3_3.verilog
+47       work.img_processor2.verilog
+99       work.ir_decoder.verilog
+100      work.ir_to_sw.verilog
+24       work.key_debounce.verilog
+97       work.key_filter.verilog
+25       work.led_test.verilog
+65       work.median_filter_3_3.verilog
+48       work.myproj_top.verilog
+46       work.pix2_pll.verilog
+27       work.pix_pll.verilog
+28       work.pll_100M.verilog
+29       work.pll_24M.verilog
+30       work.pll_25m.verilog
+67       work.pll_36m.verilog
+31       work.pll_75m.verilog
+66       work.power_ctrl.verilog
+82       work.pwm_ctrl.verilog
+83       work.pwm_out.verilog
+98       work.pwm_out2.verilog
+69       work.rgb16_24.verilog
+70       work.rgb24_16.verilog
+59       work.rgb2hsv_top.verilog
+55       work.rgb565_888.verilog
+56       work.rgb888_565.verilog
+90       work.sdp00.verilog
+91       work.sdp01.verilog
+92       work.sdp_256_8.verilog
+79       work.sqrt_1.verilog
+35       work.syn_gen.verilog
+32       work.testpattern.verilog
+60       work.threshold_set.verilog
+61       work.uart_byte_rx.verilog
+33       work.uart_byte_tx.verilog
+41       work.vfb_test.verilog
+34       work.vfb_top.verilog
+57       work.vga_mark_out.verilog
+80       work.vga_mark_out_top.verilog
